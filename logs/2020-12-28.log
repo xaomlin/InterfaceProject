@@ -1,0 +1,15 @@
+2020-12-28 22:41:49,605 接口测试 ERROR {'response': '请求发送失败，详细信息： url=https://sj.qq.com/myapp/searchAjax.htm?kw=UC浏览器极速版'}
+2020-12-28 22:53:55,170 接口测试 ERROR {'response': '请求发送失败，详细信息： url=https://sj.qq.com/myapp/searchAjax.htm?kw=UC浏览器极速版'}
+2020-12-28 22:54:36,334 接口测试 ERROR {'response': '请求发送失败，详细信息： url=https://sj.qq.com/myapp/searchAjax.htm?kw=UC浏览器极速版'}
+2020-12-28 22:55:32,932 接口测试 ERROR {'response': '请求发送失败，详细信息： url=https://sj.qq.com/myapp/searchAjax.htm'}
+2020-12-28 22:55:43,092 接口测试 ERROR {'response': '请求发送失败，详细信息： url=https://sj.qq.com/myapp/searchAjax.html'}
+2020-12-28 22:58:50,893 接口测试 ERROR {'response': '请求发送失败，详细信息： url=https://sj.qq.com/myapp/searchAjax.html'}
+2020-12-28 23:00:03,689 接口测试 ERROR {'response': '请求发送失败，详细信息： url=https://sj.qq.com/myapp/searchAjax.html?kw=UC浏览器极速版'}
+2020-12-28 23:01:29,466 接口测试 ERROR {'response': '请求发送失败，详细信息： url=https://sj.qq.com/myapp/searchAjax.html?kw=UC浏览器极速版'}
+2020-12-28 23:03:55,714 接口测试 ERROR {'response': '请求发送失败，详细信息： url=https://sj.qq.com/myapp/searchAjax.html?kw=UC浏览器极速版'}
+2020-12-28 23:06:42,102 接口测试 ERROR {'response': '请求发送失败，详细信息： url=https://sj.qq.com/myapp/searchAjax.html?kw=UC浏览器极速版'}
+2020-12-28 23:09:00,390 接口测试 ERROR {'response': '请求发送失败，详细信息： url=https://sj.qq.com/myapp/searchAjax.html?kw=UC浏览器极速版'}
+2020-12-28 23:10:50,361 接口测试 ERROR {'response': '请求发送失败，详细信息： url=https://sj.qq.com/myapp/searchAjax.html?kw=UC浏览器极速版'}
+2020-12-28 23:17:29,981 接口测试 ERROR {'response': '请求发送失败，详细信息： url=https://api.66mz8.com/api/garbage.php?name=鱼骨'}
+2020-12-28 23:23:02,850 接口测试 ERROR {'response': '请求发送失败，详细信息： url=https://api.66mz8.com/api/garbage.php?name=鱼骨'}
+2020-12-28 23:40:16,193 接口测试 ERROR {'response': '请求发送失败，详细信息： url=https://sj.qq.com/myapp/searchAjax.htm?kw=微信'}
