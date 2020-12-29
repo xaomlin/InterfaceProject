@@ -9,7 +9,7 @@ from settings import conf
 
 class ExcelHandler(object):
 
-    # @property
+    @property
     def get_excel_data(self):
         # 获取到book对象
         print(conf.TEST_CASE_PATH)
@@ -38,13 +38,16 @@ class ExcelHandler(object):
         :return: 执行的数据集
         '''
         request_data = []
-        excel_data = self.get_excel_data()
+        excel_data = self.get_excel_data
         for i in range(len(excel_data)):
             is_run = excel_data[i].get('case_run')
             if is_run == 'yes':
                 print(excel_data[i])
                 request_data.append(excel_data[i])
+        print(request_data)
         return request_data
+
+
 
 if __name__ == '__main__':
     e = ExcelHandler()
