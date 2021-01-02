@@ -35,7 +35,7 @@ class ExcelHandler(object):
     def get_request_data(self):
         '''
         EXCEL表中判断是否执行
-        :return: 执行的数据集
+        :return: 执行的数据集，以列表的形式
         '''
         request_data = []
         excel_data = self.get_excel_data
