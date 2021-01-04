@@ -14,37 +14,24 @@ class DependHandler(object):
     #     response = self.send_depend_request()
     #     return response
 
-    def send_depend_request(self,method,url,data = None):
+    def send_depend_request(self,url, method, data = None):
         """ 发请求 """
-        try:
-            response = requests.request(
-                method=method,
-                url=url,
-                data=data
+
+        response = requests.request(
+            method=method,
+            url=url,
+            data=data
             )
-            content_type = response.headers['Content-Type']
-            print(content_type)
-            content_type = content_type.split(";")[0].split('/')[-1] if ';' in content_type else \
-            content_type.split("/")[-1]
-            print(content_type)
-            # if hasattr(self, '_check_{}_response'.format(content_type)):
-            #     response = getattr(self, '_check_{}_response'.format(content_type))(response)
-            # else:
-            #     raise '返回类型为: {}, 无法解析'.format(content_type)
-        except:
-            logger().error({'response': "请求发送失败，详细信息： url={}".format(url)})
-            return {'response': "请求发送失败，详细信息： url={}".format(url)}
-        print(response.json())
-        print(response.json()['total'])
-        return response
+        response_data = response.json()
+        return response_data
 
 
 if __name__ == '__main__':
     d = DependHandler()
-    # method = 'GET'
-    # url = 'https://sj.qq.com/myapp/searchAjax.htm?kw=微信'
-    # # param = {'kw':'UC浏览器极速版'}
-    # d.send_depend_request(method,url)
+    method = 'GET'
+    url = 'https://sj.qq.com/myapp/searchAjax.htm?kw=微信'
+    # param = {'kw':'UC浏览器极速版'}
+    print(d.send_depend_request(method,url))
     test_json = {
     "obj": {
         "appDetails": [
@@ -91,4 +78,4 @@ if __name__ == '__main__':
         ]
     }
 }
-    test = d.send_depend_request('apkUrl',test_json)
+    # test = d.send_depend_request('apkUrl',test_json)

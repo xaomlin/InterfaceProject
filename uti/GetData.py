@@ -10,6 +10,8 @@ class GetData(object):
         self.excelhandler = ExcelHandler()
         self.dependhandler = DependHandler()
         self.getvalue = GetValue()
+
+    @property
     def get_data(self):
         '''
         1、获取所有is_run为yes的所有用例集
@@ -18,20 +20,35 @@ class GetData(object):
         '''
         # 获取运行的用例列表
         request_data = self.excelhandler.get_request_data()
+        # 获取所有用例，包括不进行运行的用例
+        excel_data = self.excelhandler.get_excel_data()
         # 循环列表
         for i in range(len(request_data)):
             # 判断是否需要依赖数据
-            is_depend = request_data['case_depend_id']
+            is_depend = request_data[i]['case_depend_id']
             if is_depend != '':
                 # 赋值依赖的key
                 depend_key = request_data[i]['case_depend_key']
                 # 赋值依赖的case_id
-                case_id = is_depend
+                case_id = int(is_depend[5:]) - 1
                 # 获取依赖的case的url
-                url = request_data[case_id].get('case_url')
+                url = excel_data[case_id].get('case_url')
+                print(url)
                 # 获取依赖的case的method
-                methon = request_data[case_id].get('case_method')
+                method = excel_data[case_id].get('case_method')
+                print(method)
                 # 获取依赖的case的param
-                params = request_data[case_id].get('case_params')
-                depend_response = self.dependhandler.send_depend_request(url,methon,params).json()
-                self.getvalue.get_json_value_by_key(depend_response,depend_key)
+                params = excel_data[case_id].get('case_params')
+                if params == '':
+                # 执行依赖case
+                    depend_response = self.dependhandler.send_depend_request(url, method)
+                else:
+                    depend_response = self.dependhandler.send_depend_request(url, method, params)
+                # 获取依赖数据对应的值
+                depend_data = self.getvalue.get_json_value_by_key(depend_response, depend_key)
+                # print(depend_data)
+                dicts = {}
+                dicts['depend'] = depend_data[0]
+                request_data.append(dicts)
+        print(request_data)
+        return request_data

@@ -9,10 +9,14 @@ import json
 import requests
 from bs4 import BeautifulSoup
 from uti.LoggerHandler import logger
+from uti.ExcelHandler import ExcelHandler
+
 class RequestHandler(object):
+
 
     def __init__(self, case):
         self.case = case
+        print(case)
         try:
             self.case_expect = json.loads(self.case['case_expect'])
         except:
@@ -24,7 +28,8 @@ class RequestHandler(object):
         response = self.send_request()
         return response
 
-    def send_request(self):
+    def send_request(self, case):
+        self.case = case
         """ 发请求 """
         try:
             response = requests.request(
@@ -70,3 +75,7 @@ class RequestHandler(object):
             pass
         else:
             return {}
+
+if __name__ == '__mian__':
+    r = RequestHandler()
+    r.send_request()
