@@ -1,0 +1,1 @@
+ERROR    接口测试:RequestHandler.py:47 {'response': '请求发送失败，详细信息： url=https://sj.qq.com/myapp/searchAjax.htm?kw=唯品会'}

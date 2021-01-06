@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert {'response': ...x.htm?kw=唯品会'} == '{\"success\":tru}'\n  +{'response': '请求发送失败，详细信息： url=https://sj.qq.com/myapp/searchAjax.htm?kw=唯品会'}\n  -'{\"success\":tru}'",
+      "children" : [ {
+        "name" : "搜索APP",
+        "uid" : "5a032330f24debe5",
+        "parentUid" : "50c692703f624f9f727635183f7a82ca",
+        "status" : "failed",
+        "time" : {
+          "start" : 1609952310178,
+          "stop" : 1609952310526,
+          "duration" : 348
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'case_id': 'case_4', 'case_name': '搜索APP', 'case_run': 'yes', 'case_url': 'https://sj.qq.com/myapp/searchAjax.htm?kw=唯品会', 'case_method': 'GET', 'case_depend_id': '', 'case_depend_key': '', 'case_depend_param': '', 'case_params': '', 'case_expect': '{\"success\":tru}', 'other': ''}" ]
+      } ],
+      "uid" : "50c692703f624f9f727635183f7a82ca"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

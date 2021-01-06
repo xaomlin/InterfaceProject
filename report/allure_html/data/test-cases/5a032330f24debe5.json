@@ -1,0 +1,101 @@
+{
+  "uid" : "5a032330f24debe5",
+  "name" : "搜索APP",
+  "fullName" : "scripts.test_case.Test_case#test_case",
+  "historyId" : "7e828afbaedfa893de205d6534b52ff9",
+  "time" : {
+    "start" : 1609952310178,
+    "stop" : 1609952310526,
+    "duration" : 348
+  },
+  "description" : "<font color=\"red\">请求URL：</font>https://sj.qq.com/myapp/searchAjax.htm?kw=唯品会<br /><font color=\"red\">期望值：</font>{\"success\":tru}",
+  "descriptionHtml" : "<p><font color=\"red\">请求URL：</font>https://sj.qq.com/myapp/searchAjax.htm?kw=唯品会<br /><font color=\"red\">期望值：</font>{&quot;success&quot;:tru}</p>\n",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert {'response': ...x.htm?kw=唯品会'} == '{\"success\":tru}'\n  +{'response': '请求发送失败，详细信息： url=https://sj.qq.com/myapp/searchAjax.htm?kw=唯品会'}\n  -'{\"success\":tru}'",
+  "statusTrace" : "self = <scripts.test_case.Test_case object at 0x048CE7F0>\ncase = {'case_depend_id': '', 'case_depend_key': '', 'case_depend_param': '', 'case_expect': '{\"success\":tru}', ...}\n\n    @pytest.mark.parametrize('case', GetData().get_data)\n    def test_case(self, case):\n        \"\"\"  执行断言 \"\"\"\n        # print(case)\n        # 发请求\n        response = RequestHandler(case).get_response\n    \n        # 制作 allure 报告\n        allure.dynamic.title(case['case_name'])\n        allure.dynamic.description('<font color=\"red\">请求URL：</font>{}<br />'\n                                   '<font color=\"red\">期望值：</font>{}'.format(case['case_url'], case['case_expect']))\n        allure.dynamic.feature(case['case_name'])\n        allure.dynamic.story(case['case_method'])\n>       assert response[0] == response[1]\nE       assert {'response': ...x.htm?kw=唯品会'} == '{\"success\":tru}'\nE         +{'response': '请求发送失败，详细信息： url=https://sj.qq.com/myapp/searchAjax.htm?kw=唯品会'}\nE         -'{\"success\":tru}'\n\nscripts\\test_case.py:30: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "<font color=\"red\">请求URL：</font>https://sj.qq.com/myapp/searchAjax.htm?kw=唯品会<br /><font color=\"red\">期望值：</font>{\"success\":tru}",
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert {'response': ...x.htm?kw=唯品会'} == '{\"success\":tru}'\n  +{'response': '请求发送失败，详细信息： url=https://sj.qq.com/myapp/searchAjax.htm?kw=唯品会'}\n  -'{\"success\":tru}'",
+    "statusTrace" : "self = <scripts.test_case.Test_case object at 0x048CE7F0>\ncase = {'case_depend_id': '', 'case_depend_key': '', 'case_depend_param': '', 'case_expect': '{\"success\":tru}', ...}\n\n    @pytest.mark.parametrize('case', GetData().get_data)\n    def test_case(self, case):\n        \"\"\"  执行断言 \"\"\"\n        # print(case)\n        # 发请求\n        response = RequestHandler(case).get_response\n    \n        # 制作 allure 报告\n        allure.dynamic.title(case['case_name'])\n        allure.dynamic.description('<font color=\"red\">请求URL：</font>{}<br />'\n                                   '<font color=\"red\">期望值：</font>{}'.format(case['case_url'], case['case_expect']))\n        allure.dynamic.feature(case['case_name'])\n        allure.dynamic.story(case['case_method'])\n>       assert response[0] == response[1]\nE       assert {'response': ...x.htm?kw=唯品会'} == '{\"success\":tru}'\nE         +{'response': '请求发送失败，详细信息： url=https://sj.qq.com/myapp/searchAjax.htm?kw=唯品会'}\nE         -'{\"success\":tru}'\n\nscripts\\test_case.py:30: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "f281b2b76361556c",
+      "name" : "log",
+      "source" : "f281b2b76361556c.txt",
+      "type" : "text/plain",
+      "size" : 151
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "搜索APP"
+  }, {
+    "name" : "story",
+    "value" : "GET"
+  }, {
+    "name" : "parentSuite",
+    "value" : "scripts"
+  }, {
+    "name" : "suite",
+    "value" : "test_case"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_case"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-2FL92AG3"
+  }, {
+    "name" : "thread",
+    "value" : "11424-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "scripts.test_case"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case",
+    "value" : "{'case_id': 'case_4', 'case_name': '搜索APP', 'case_run': 'yes', 'case_url': 'https://sj.qq.com/myapp/searchAjax.htm?kw=唯品会', 'case_method': 'GET', 'case_depend_id': '', 'case_depend_key': '', 'case_depend_param': '', 'case_params': '', 'case_expect': '{\"success\":tru}', 'other': ''}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "94edd3a6c6492a15",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert {'response': ...x.htm?kw=唯品会'} == '{\"success\":tru}'\n  +{'response': '请求发送失败，详细信息： url=https://sj.qq.com/myapp/searchAjax.htm?kw=唯品会'}\n  -'{\"success\":tru}'",
+      "time" : {
+        "start" : 1609952187429,
+        "stop" : 1609952187978,
+        "duration" : 549
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "5a032330f24debe5.json",
+  "parameterValues" : [ "{'case_id': 'case_4', 'case_name': '搜索APP', 'case_run': 'yes', 'case_url': 'https://sj.qq.com/myapp/searchAjax.htm?kw=唯品会', 'case_method': 'GET', 'case_depend_id': '', 'case_depend_key': '', 'case_depend_param': '', 'case_params': '', 'case_expect': '{\"success\":tru}', 'other': ''}" ]
+}

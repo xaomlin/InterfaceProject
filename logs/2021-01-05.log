@@ -1,0 +1,52 @@
+2021-01-05 23:39:19,270 发送请求 INFO https://sj.qq.com/myapp/searchAjax.htm?kw=美团 执行成功
+2021-01-05 23:39:27,043 接口测试 ERROR {'response': '请求发送失败，详细信息： url=https://sj.qq.com/myapp/searchAjax.htm?kw=美团'}
+2021-01-05 23:39:55,499 发送请求 INFO https://sj.qq.com/myapp/searchAjax.htm?kw=美团 执行成功
+2021-01-05 23:41:34,369 发送请求 INFO https://sj.qq.com/myapp/searchAjax.htm?kw=微信 执行成功
+2021-01-05 23:41:34,636 发送请求 INFO https://sj.qq.com/myapp/searchAjax.htm?kw=王者荣耀 执行成功
+2021-01-05 23:41:34,954 发送请求 INFO https://sj.qq.com/myapp/searchAjax.htm?kw=QQ 执行成功
+2021-01-05 23:41:35,336 接口测试 ERROR {'response': '请求发送失败，详细信息： url=https://sj.qq.com/myapp/searchAjax.htm?kw=唯品会'}
+2021-01-05 23:41:35,786 发送请求 INFO https://sj.qq.com/myapp/searchAjax.htm?kw=美团 执行成功
+2021-01-05 23:41:36,045 发送请求 INFO https://sj.qq.com/myapp/searchAjax.htm?kw=支付宝 执行成功
+2021-01-05 23:41:36,422 发送请求 INFO https://sj.qq.com/myapp/searchAjax.htm?kw=爱奇艺 执行成功
+2021-01-05 23:41:36,756 发送请求 INFO https://sj.qq.com/myapp/searchAjax.htm?kw=微信 执行成功
+2021-01-05 23:41:37,354 发送请求 INFO https://sj.qq.com/myapp/searchAjax.htm?kw=微信 执行成功
+2021-01-05 23:41:37,673 发送请求 INFO https://sj.qq.com/myapp/searchAjax.htm?kw=微信 执行成功
+2021-01-05 23:41:37,951 发送请求 INFO https://sj.qq.com/myapp/searchAjax.htm?kw=微信 执行成功
+2021-01-05 23:41:38,436 发送请求 INFO https://sj.qq.com/myapp/searchAjax.htm?kw=微信 执行成功
+2021-01-05 23:42:50,059 发送请求 INFO https://sj.qq.com/myapp/searchAjax.htm?kw=美团 执行成功
+2021-01-05 23:43:06,456 发送请求 INFO https://sj.qq.com/myapp/searchAjax.htm?kw=微信 执行成功
+2021-01-05 23:43:07,263 发送请求 INFO https://sj.qq.com/myapp/searchAjax.htm?kw=王者荣耀 执行成功
+2021-01-05 23:43:07,542 发送请求 INFO https://sj.qq.com/myapp/searchAjax.htm?kw=QQ 执行成功
+2021-01-05 23:43:08,020 接口测试 ERROR {'response': '请求发送失败，详细信息： url=https://sj.qq.com/myapp/searchAjax.htm?kw=唯品会'}
+2021-01-05 23:43:08,394 发送请求 INFO https://sj.qq.com/myapp/searchAjax.htm?kw=美团 执行成功
+2021-01-05 23:43:08,724 发送请求 INFO https://sj.qq.com/myapp/searchAjax.htm?kw=支付宝 执行成功
+2021-01-05 23:43:09,000 发送请求 INFO https://sj.qq.com/myapp/searchAjax.htm?kw=爱奇艺 执行成功
+2021-01-05 23:43:09,314 发送请求 INFO https://sj.qq.com/myapp/searchAjax.htm?kw=微信 执行成功
+2021-01-05 23:43:09,573 发送请求 INFO https://sj.qq.com/myapp/searchAjax.htm?kw=微信 执行成功
+2021-01-05 23:43:09,828 发送请求 INFO https://sj.qq.com/myapp/searchAjax.htm?kw=微信 执行成功
+2021-01-05 23:43:10,263 发送请求 INFO https://sj.qq.com/myapp/searchAjax.htm?kw=微信 执行成功
+2021-01-05 23:43:10,762 发送请求 INFO https://sj.qq.com/myapp/searchAjax.htm?kw=微信 执行成功
+2021-01-05 23:52:24,021 发送请求 INFO https://sj.qq.com/myapp/searchAjax.htm?kw=微信 执行成功
+2021-01-05 23:52:24,337 发送请求 INFO https://sj.qq.com/myapp/searchAjax.htm?kw=王者荣耀 执行成功
+2021-01-05 23:52:24,626 发送请求 INFO https://sj.qq.com/myapp/searchAjax.htm?kw=QQ 执行成功
+2021-01-05 23:52:25,026 接口测试 ERROR {'response': '请求发送失败，详细信息： url=https://sj.qq.com/myapp/searchAjax.htm?kw=唯品会'}
+2021-01-05 23:52:25,478 发送请求 INFO https://sj.qq.com/myapp/searchAjax.htm?kw=美团 执行成功
+2021-01-05 23:52:25,784 发送请求 INFO https://sj.qq.com/myapp/searchAjax.htm?kw=支付宝 执行成功
+2021-01-05 23:52:26,206 发送请求 INFO https://sj.qq.com/myapp/searchAjax.htm?kw=爱奇艺 执行成功
+2021-01-05 23:52:26,576 发送请求 INFO https://sj.qq.com/myapp/searchAjax.htm?kw=微信 执行成功
+2021-01-05 23:52:27,044 发送请求 INFO https://sj.qq.com/myapp/searchAjax.htm?kw=微信 执行成功
+2021-01-05 23:52:27,322 发送请求 INFO https://sj.qq.com/myapp/searchAjax.htm?kw=微信 执行成功
+2021-01-05 23:52:27,593 发送请求 INFO https://sj.qq.com/myapp/searchAjax.htm?kw=微信 执行成功
+2021-01-05 23:52:27,851 发送请求 INFO https://sj.qq.com/myapp/searchAjax.htm?kw=微信 执行成功
+2021-01-05 23:57:58,984 发送请求 INFO https://sj.qq.com/myapp/searchAjax.htm?kw=微信 执行成功
+2021-01-05 23:57:59,493 发送请求 INFO https://sj.qq.com/myapp/searchAjax.htm?kw=王者荣耀 执行成功
+2021-01-05 23:57:59,784 发送请求 INFO https://sj.qq.com/myapp/searchAjax.htm?kw=QQ 执行成功
+2021-01-05 23:58:00,094 接口测试 ERROR {'response': '请求发送失败，详细信息： url=https://sj.qq.com/myapp/searchAjax.htm?kw=唯品会'}
+2021-01-05 23:58:00,862 发送请求 INFO https://sj.qq.com/myapp/searchAjax.htm?kw=美团 执行成功
+2021-01-05 23:58:01,157 发送请求 INFO https://sj.qq.com/myapp/searchAjax.htm?kw=支付宝 执行成功
+2021-01-05 23:58:01,615 发送请求 INFO https://sj.qq.com/myapp/searchAjax.htm?kw=爱奇艺 执行成功
+2021-01-05 23:58:01,918 发送请求 INFO https://sj.qq.com/myapp/searchAjax.htm?kw=微信 执行成功
+2021-01-05 23:58:02,191 发送请求 INFO https://sj.qq.com/myapp/searchAjax.htm?kw=微信 执行成功
+2021-01-05 23:58:02,524 发送请求 INFO https://sj.qq.com/myapp/searchAjax.htm?kw=微信 执行成功
+2021-01-05 23:58:03,016 发送请求 INFO https://sj.qq.com/myapp/searchAjax.htm?kw=微信 执行成功
+2021-01-05 23:58:03,340 发送请求 INFO https://sj.qq.com/myapp/searchAjax.htm?kw=微信 执行成功
