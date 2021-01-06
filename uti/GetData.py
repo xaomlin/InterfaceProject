@@ -50,5 +50,4 @@ class GetData(object):
                 dicts = {}
                 dicts['depend'] = depend_data[0]
                 request_data.append(dicts)
-        print(request_data)
         return request_data

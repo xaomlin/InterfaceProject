@@ -41,7 +41,7 @@ class ExcelHandler(object):
             if is_run == 'yes':
                 # print(excel_data[i])
                 request_data.append(excel_data[i])
-        # print(request_data)
+        print(request_data)
         return request_data
 
 

@@ -10,7 +10,7 @@ file_path = '接口测试示例.xlsx'
 TEST_CASE_PATH = os.path.join(BASE_PATH, 'data', file_path)
 
 # 报告路径
-TEST_CASE_REPORT_PATH = os.path.join(BASE_PATH, 'report', 'report.html')
+TEST_CASE_REPORT_PATH = os.path.join(BASE_PATH, 'report', 'allure_html/index.html')
 
 # CASE_METHOD = 'case_method'
 

@@ -16,11 +16,11 @@ class RequestHandler(object):
 
     def __init__(self, case):
         self.case = case
-        print(case)
         try:
             self.case_expect = json.loads(self.case['case_expect'])
         except:
             self.case_expect = self.case['case_expect']
+        # print(type(self.case_expect))
 
     @property
     def get_response(self):
@@ -28,8 +28,7 @@ class RequestHandler(object):
         response = self.send_request()
         return response
 
-    def send_request(self, case):
-        self.case = case
+    def send_request(self):
         """ 发请求 """
         try:
             response = requests.request(
@@ -47,12 +46,13 @@ class RequestHandler(object):
         except:
             logger().error({'response': "请求发送失败，详细信息： url={}".format(self.case['case_url'])})
             return {'response': "请求发送失败，详细信息： url={}".format(self.case['case_url'])}, self.case['case_expect']
-
+        # print(response)
         return response
 
     def _check_json_response(self, response):
         """  处理json类型的返回值 """
         response = response.json()  # {'success': True}
+        # print(response.keys())
         for key in self.case_expect:
             if self.case_expect[key] != response[key]:  # 用例执行失败的
                 return {key: self.case_expect[key]}, {key: response[key]}
@@ -76,6 +76,7 @@ class RequestHandler(object):
         else:
             return {}
 
-if __name__ == '__mian__':
-    r = RequestHandler()
+if __name__ == '__main__':
+    data = {'case_id': 'case_5', 'case_name': '搜索APP', 'case_run': 'yes', 'case_url': 'https://sj.qq.com/myapp/searchAjax.htm?kw=美团', 'case_method': 'GET', 'case_depend_id': '', 'case_depend_key': 'apkUrl', 'case_depend_param': '', 'case_params': '', 'case_expect': '{"success":true}', 'other': ''}
+    r = RequestHandler(data)
     r.send_request()
