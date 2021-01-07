@@ -22,6 +22,7 @@ class Test_case(object):
         response = RequestHandler(case).get_response
 
         # 制作 allure 报告
+
         allure.dynamic.title(case['case_name'])
         allure.dynamic.description('<font color="red">请求URL：</font>{}<br />'
                                    '<font color="red">期望值：</font>{}'.format(case['case_url'], case['case_expect']))
