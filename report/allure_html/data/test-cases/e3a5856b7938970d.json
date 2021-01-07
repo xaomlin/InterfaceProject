@@ -1,0 +1,112 @@
+{
+  "uid" : "e3a5856b7938970d",
+  "name" : "搜索APP",
+  "fullName" : "scripts.test_case.Test_case#test_case",
+  "historyId" : "27bb486db7b10048497bee129510d4ac",
+  "time" : {
+    "start" : 1610024211348,
+    "stop" : 1610024211658,
+    "duration" : 310
+  },
+  "description" : "<font color=\"red\">请求URL：</font>https://sj.qq.com/myapp/searchAjax.htm?kw=虎扑<br /><font color=\"red\">期望值：</font>{\"success\":true}",
+  "descriptionHtml" : "<p><font color=\"red\">请求URL：</font>https://sj.qq.com/myapp/searchAjax.htm?kw=虎扑<br /><font color=\"red\">期望值：</font>{&quot;success&quot;:true}</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1610024207574,
+      "stop" : 1610024207574,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "<font color=\"red\">请求URL：</font>https://sj.qq.com/myapp/searchAjax.htm?kw=虎扑<br /><font color=\"red\">期望值：</font>{\"success\":true}",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "87b40d509a94d57b",
+      "name" : "log",
+      "source" : "87b40d509a94d57b.txt",
+      "type" : "text/plain",
+      "size" : 104
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1610024211938,
+      "stop" : 1610024215065,
+      "duration" : 3127
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "搜索APP"
+  }, {
+    "name" : "story",
+    "value" : "GET"
+  }, {
+    "name" : "parentSuite",
+    "value" : "scripts"
+  }, {
+    "name" : "suite",
+    "value" : "test_case"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_case"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-2FL92AG3"
+  }, {
+    "name" : "thread",
+    "value" : "13752-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "scripts.test_case"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case",
+    "value" : "{'case_id': 'case_8', 'case_name': '搜索APP', 'case_run': 'yes', 'case_url': 'https://sj.qq.com/myapp/searchAjax.htm?kw=虎扑', 'case_method': 'GET', 'case_depend_id': '', 'case_depend_key': '', 'case_depend_param': '', 'case_params': '', 'case_expect': '{\"success\":true}', 'other': ''}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e3a5856b7938970d.json",
+  "parameterValues" : [ "{'case_id': 'case_8', 'case_name': '搜索APP', 'case_run': 'yes', 'case_url': 'https://sj.qq.com/myapp/searchAjax.htm?kw=虎扑', 'case_method': 'GET', 'case_depend_id': '', 'case_depend_key': '', 'case_depend_param': '', 'case_params': '', 'case_expect': '{\"success\":true}', 'other': ''}" ]
+}
