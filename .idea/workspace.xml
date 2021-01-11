@@ -19,66 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3a68e12d-e2dd-4294-9b85-fdb3d6fc16eb" name="Default Changelist" comment="test allure">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytest.ini" beforeDir="false" afterPath="$PROJECT_DIR$/pytest.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/allure_html/app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/allure_html/data/behaviors.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/allure_html/data/behaviors.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/allure_html/data/categories.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/allure_html/data/categories.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/allure_html/data/packages.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/allure_html/data/suites.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/allure_html/data/suites.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/allure_html/data/timeline.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/allure_html/export/influxDbData.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/allure_html/export/mail.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/allure_html/export/prometheusData.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/allure_html/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/allure_html/history/categories-trend.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/allure_html/history/duration-trend.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/allure_html/history/history-trend.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/allure_html/history/history.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/allure_html/history/retry-trend.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/allure_html/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/allure_html/plugins/behaviors/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/allure_html/plugins/packages/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/allure_html/plugins/screen-diff/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/allure_html/plugins/screen-diff/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/allure_html/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/allure_html/widgets/behaviors.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/allure_html/widgets/categories-trend.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/allure_html/widgets/categories.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/allure_html/widgets/duration-trend.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/allure_html/widgets/duration.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/allure_html/widgets/environment.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/allure_html/widgets/executors.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/allure_html/widgets/history-trend.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/allure_html/widgets/launch.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/allure_html/widgets/retry-trend.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/allure_html/widgets/severity.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/allure_html/widgets/status-chart.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/allure_html/widgets/suites.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/allure_html/widgets/summary.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/allure_report/00b97de5-017b-4c65-bf3e-d98f0fdbbc66-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/allure_report/0bc3a6db-73ff-4778-afef-8f73633826d7-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/allure_report/13e49193-de72-423a-9088-db43608d66fe-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/allure_report/1fc968ea-c2c6-44e2-9007-54e38ee31e70-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/allure_report/4225eeca-2c40-4b15-aca5-ed64760a7007-attachment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/allure_report/4547a9f0-cbf8-461d-838e-b944460e96cd-attachment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/allure_report/5d731978-6df6-45ea-928c-89b0ecd7a3a4-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/allure_report/72498f0d-aa49-44a5-b1ea-28d4d0d39443-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/allure_report/85daa204-1810-47d2-b830-544214550c90-attachment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/allure_report/87c0ba84-ea8b-4f46-829b-286608b61ae5-attachment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/allure_report/8e50339c-41b7-425e-93d5-e63a33a3549d-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/allure_report/ad3fbf32-c306-4fbd-900b-b66260dfb3f2-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/allure_report/bfffab8e-32ef-4b87-9934-0f332628631b-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/allure_report/d3b51328-bd6a-438f-9662-0f5a75258df3-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/allure_report/f34b5efc-5251-449c-8197-ec23f1d3b56c-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/allure_report/fe8a1e30-0151-4226-8bf0-e7d8836a2d34-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings/conf.py" beforeDir="false" afterPath="$PROJECT_DIR$/settings/conf.py" afterDir="false" />
-    </list>
+    <list default="true" id="3a68e12d-e2dd-4294-9b85-fdb3d6fc16eb" name="Default Changelist" comment="test allure" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -277,7 +218,7 @@
       <workItem from="1609952516072" duration="592000" />
       <workItem from="1610015925351" duration="2037000" />
       <workItem from="1610020007241" duration="4785000" />
-      <workItem from="1610360779200" duration="2173000" />
+      <workItem from="1610360779200" duration="2500000" />
     </task>
     <task id="LOCAL-00001" summary="第一次提交">
       <created>1575012535697</created>
@@ -370,7 +311,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610362310127</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="test allure">
+      <created>1610363495664</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1610363495664</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -428,22 +376,22 @@
       <screen x="0" y="0" width="1493" height="893" />
     </state>
     <state x="487" y="148" key="Github.UntrackedFilesDialog/0.0.1493.893@0.0.1493.893" timestamp="1609172226127" />
-    <state width="1450" height="288" key="GridCell.Tab.0.bottom" timestamp="1610363226930">
+    <state width="1450" height="288" key="GridCell.Tab.0.bottom" timestamp="1610363376152">
       <screen x="0" y="0" width="1493" height="893" />
     </state>
-    <state width="1450" height="288" key="GridCell.Tab.0.bottom/0.0.1493.893@0.0.1493.893" timestamp="1610363226930" />
-    <state width="1450" height="288" key="GridCell.Tab.0.center" timestamp="1610363226930">
+    <state width="1450" height="288" key="GridCell.Tab.0.bottom/0.0.1493.893@0.0.1493.893" timestamp="1610363376152" />
+    <state width="1450" height="288" key="GridCell.Tab.0.center" timestamp="1610363376152">
       <screen x="0" y="0" width="1493" height="893" />
     </state>
-    <state width="1450" height="288" key="GridCell.Tab.0.center/0.0.1493.893@0.0.1493.893" timestamp="1610363226930" />
-    <state width="1450" height="288" key="GridCell.Tab.0.left" timestamp="1610363226930">
+    <state width="1450" height="288" key="GridCell.Tab.0.center/0.0.1493.893@0.0.1493.893" timestamp="1610363376152" />
+    <state width="1450" height="288" key="GridCell.Tab.0.left" timestamp="1610363376152">
       <screen x="0" y="0" width="1493" height="893" />
     </state>
-    <state width="1450" height="288" key="GridCell.Tab.0.left/0.0.1493.893@0.0.1493.893" timestamp="1610363226930" />
-    <state width="1450" height="288" key="GridCell.Tab.0.right" timestamp="1610363226930">
+    <state width="1450" height="288" key="GridCell.Tab.0.left/0.0.1493.893@0.0.1493.893" timestamp="1610363376152" />
+    <state width="1450" height="288" key="GridCell.Tab.0.right" timestamp="1610363376152">
       <screen x="0" y="0" width="1493" height="893" />
     </state>
-    <state width="1450" height="288" key="GridCell.Tab.0.right/0.0.1493.893@0.0.1493.893" timestamp="1610363226930" />
+    <state width="1450" height="288" key="GridCell.Tab.0.right/0.0.1493.893@0.0.1493.893" timestamp="1610363376152" />
     <state width="1450" height="289" key="GridCell.Tab.1.bottom" timestamp="1610362875411">
       <screen x="0" y="0" width="1493" height="893" />
     </state>
@@ -464,10 +412,10 @@
       <screen x="0" y="0" width="1493" height="893" />
     </state>
     <state x="249" y="92" key="SettingsEditor/0.0.1493.893@0.0.1493.893" timestamp="1609861940440" />
-    <state x="340" y="180" key="Vcs.Push.Dialog.v2" timestamp="1610362315520">
+    <state x="340" y="180" key="Vcs.Push.Dialog.v2" timestamp="1610363511654">
       <screen x="0" y="0" width="1493" height="893" />
     </state>
-    <state x="340" y="180" key="Vcs.Push.Dialog.v2/0.0.1493.893@0.0.1493.893" timestamp="1610362315520" />
+    <state x="340" y="180" key="Vcs.Push.Dialog.v2/0.0.1493.893@0.0.1493.893" timestamp="1610363511654" />
     <state x="410" y="189" width="672" height="678" key="search.everywhere.popup" timestamp="1609759149923">
       <screen x="0" y="0" width="1493" height="893" />
     </state>
@@ -508,7 +456,7 @@
     <SUITE FILE_PATH="coverage/ATScripts$DependHander.coverage" NAME="DependHander Coverage Results" MODIFIED="1609170015690" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/uti" />
     <SUITE FILE_PATH="coverage/ATScripts$run.coverage" NAME="run Coverage Results" MODIFIED="1606667433933" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ATScripts$demo1.coverage" NAME="demo1 Coverage Results" MODIFIED="1574842234507" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo" />
-    <SUITE FILE_PATH="coverage/InterfaceProject$run.coverage" NAME="run Coverage Results" MODIFIED="1610363226924" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/InterfaceProject$run.coverage" NAME="run Coverage Results" MODIFIED="1610363376146" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/InterfaceProject$test.coverage" NAME="test Coverage Results" MODIFIED="1609254543635" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/uti" />
     <SUITE FILE_PATH="coverage/InterfaceProject$RequestHandler.coverage" NAME="RequestHandler Coverage Results" MODIFIED="1609861369448" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/uti" />
     <SUITE FILE_PATH="coverage/InterfaceProject$AllureHandler.coverage" NAME="AllureHandler Coverage Results" MODIFIED="1609950743012" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/uti" />

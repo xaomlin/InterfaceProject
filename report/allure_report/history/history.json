@@ -1,0 +1,174 @@
+{
+  "51ae1c76f8ea3094e3747b8418d98cbf" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a9aff88799a2e869",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610363379365,
+        "stop" : 1610363382430,
+        "duration" : 3065
+      }
+    } ]
+  },
+  "7e828afbaedfa893de205d6534b52ff9" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d32572bb63698858",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610363378671,
+        "stop" : 1610363379355,
+        "duration" : 684
+      }
+    } ]
+  },
+  "df9da671c07e6a8c0fdbf973b60e32eb" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "135564ac2275519a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610363302872,
+        "stop" : 1610363303154,
+        "duration" : 282
+      }
+    } ]
+  },
+  "2375b523c2d3da9387227be97fe292b6" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "52949796b98c972",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610363383259,
+        "stop" : 1610363383655,
+        "duration" : 396
+      }
+    } ]
+  },
+  "27bb486db7b10048497bee129510d4ac" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "80050d2d59d3e9f2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610363383665,
+        "stop" : 1610363383962,
+        "duration" : 297
+      }
+    } ]
+  },
+  "8969fb93535c3ccbd57d0d36069d62f2" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8417eb3d51f9c293",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610363376564,
+        "stop" : 1610363377443,
+        "duration" : 879
+      }
+    } ]
+  },
+  "ca62f509d63a7b419fc24a32a92b087d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "67c8034f6723b1d2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610363382440,
+        "stop" : 1610363383259,
+        "duration" : 819
+      }
+    } ]
+  },
+  "fac1fcb6ccb71c4ed49bb5fbd5696efb" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e827d909f2b173c2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610363377888,
+        "stop" : 1610363378627,
+        "duration" : 739
+      }
+    } ]
+  },
+  "2267bb04dfeab26bec94c39d05e91380" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "31cf0b77cf176683",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert {'response': ....htm?kw=王者荣耀'} == '{\"success\":tr}'\n  +{'response': '请求发送失败，详细信息： url=https://sj.qq.com/myapp/searchAjax.htm?kw=王者荣耀'}\n  -'{\"success\":tr}'",
+      "time" : {
+        "start" : 1610363377453,
+        "stop" : 1610363377817,
+        "duration" : 364
+      }
+    } ]
+  }
+}

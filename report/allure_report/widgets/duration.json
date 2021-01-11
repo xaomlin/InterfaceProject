@@ -1,0 +1,91 @@
+[ {
+  "uid" : "e827d909f2b173c2",
+  "name" : "搜索APP",
+  "time" : {
+    "start" : 1610363377888,
+    "stop" : 1610363378627,
+    "duration" : 739
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8417eb3d51f9c293",
+  "name" : "搜索APP",
+  "time" : {
+    "start" : 1610363376564,
+    "stop" : 1610363377443,
+    "duration" : 879
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "52949796b98c972",
+  "name" : "搜索APP",
+  "time" : {
+    "start" : 1610363383259,
+    "stop" : 1610363383655,
+    "duration" : 396
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "67c8034f6723b1d2",
+  "name" : "搜索APP",
+  "time" : {
+    "start" : 1610363382440,
+    "stop" : 1610363383259,
+    "duration" : 819
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "80050d2d59d3e9f2",
+  "name" : "搜索APP",
+  "time" : {
+    "start" : 1610363383665,
+    "stop" : 1610363383962,
+    "duration" : 297
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "31cf0b77cf176683",
+  "name" : "搜索APP",
+  "time" : {
+    "start" : 1610363377453,
+    "stop" : 1610363377817,
+    "duration" : 364
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "d32572bb63698858",
+  "name" : "搜索APP",
+  "time" : {
+    "start" : 1610363378671,
+    "stop" : 1610363379355,
+    "duration" : 684
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "135564ac2275519a",
+  "name" : "搜索APP",
+  "time" : {
+    "start" : 1610363302872,
+    "stop" : 1610363303154,
+    "duration" : 282
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a9aff88799a2e869",
+  "name" : "搜索APP",
+  "time" : {
+    "start" : 1610363379365,
+    "stop" : 1610363382430,
+    "duration" : 3065
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

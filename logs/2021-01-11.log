@@ -1,0 +1,89 @@
+2021-01-11 18:44:44,377 发送请求 INFO https://sj.qq.com/myapp/searchAjax.htm?kw=微信 执行成功
+2021-01-11 18:44:45,074 接口测试 ERROR {'response': '请求发送失败，详细信息： url=https://sj.qq.com/myapp/searchAjax.htm?kw=王者荣耀'}
+2021-01-11 18:44:45,877 发送请求 INFO https://sj.qq.com/myapp/searchAjax.htm?kw=QQ 执行成功
+2021-01-11 18:44:46,212 发送请求 INFO https://sj.qq.com/myapp/searchAjax.htm?kw=唯品会 执行成功
+2021-01-11 18:44:46,600 发送请求 INFO https://sj.qq.com/myapp/searchAjax.htm?kw=美团 执行成功
+2021-01-11 18:44:47,234 发送请求 INFO https://sj.qq.com/myapp/searchAjax.htm?kw=支付宝 执行成功
+2021-01-11 18:44:47,513 发送请求 INFO https://sj.qq.com/myapp/searchAjax.htm?kw=爱奇艺 执行成功
+2021-01-11 18:44:48,508 发送请求 INFO https://sj.qq.com/myapp/searchAjax.htm?kw=虎扑 执行成功
+2021-01-11 18:44:48,895 发送请求 INFO https://sj.qq.com/myapp/searchAjax.htm?kw=虎扑 执行成功
+2021-01-11 18:50:20,265 发送请求 INFO https://sj.qq.com/myapp/searchAjax.htm?kw=微信 执行成功
+2021-01-11 18:50:20,573 接口测试 ERROR {'response': '请求发送失败，详细信息： url=https://sj.qq.com/myapp/searchAjax.htm?kw=王者荣耀'}
+2021-01-11 18:50:21,004 发送请求 INFO https://sj.qq.com/myapp/searchAjax.htm?kw=QQ 执行成功
+2021-01-11 18:50:21,383 发送请求 INFO https://sj.qq.com/myapp/searchAjax.htm?kw=唯品会 执行成功
+2021-01-11 18:50:21,841 发送请求 INFO https://sj.qq.com/myapp/searchAjax.htm?kw=美团 执行成功
+2021-01-11 18:50:22,203 发送请求 INFO https://sj.qq.com/myapp/searchAjax.htm?kw=支付宝 执行成功
+2021-01-11 18:50:22,480 发送请求 INFO https://sj.qq.com/myapp/searchAjax.htm?kw=爱奇艺 执行成功
+2021-01-11 18:50:23,729 发送请求 INFO https://sj.qq.com/myapp/searchAjax.htm?kw=虎扑 执行成功
+2021-01-11 18:50:25,549 发送请求 INFO https://sj.qq.com/myapp/searchAjax.htm?kw=虎扑 执行成功
+2021-01-11 18:54:53,561 发送请求 INFO https://sj.qq.com/myapp/searchAjax.htm?kw=微信 执行成功
+2021-01-11 18:54:53,905 接口测试 ERROR {'response': '请求发送失败，详细信息： url=https://sj.qq.com/myapp/searchAjax.htm?kw=王者荣耀'}
+2021-01-11 18:54:54,553 发送请求 INFO https://sj.qq.com/myapp/searchAjax.htm?kw=QQ 执行成功
+2021-01-11 18:54:54,886 发送请求 INFO https://sj.qq.com/myapp/searchAjax.htm?kw=唯品会 执行成功
+2021-01-11 18:54:55,208 发送请求 INFO https://sj.qq.com/myapp/searchAjax.htm?kw=美团 执行成功
+2021-01-11 18:54:55,547 发送请求 INFO https://sj.qq.com/myapp/searchAjax.htm?kw=支付宝 执行成功
+2021-01-11 18:54:56,629 发送请求 INFO https://sj.qq.com/myapp/searchAjax.htm?kw=爱奇艺 执行成功
+2021-01-11 18:54:59,097 发送请求 INFO https://sj.qq.com/myapp/searchAjax.htm?kw=虎扑 执行成功
+2021-01-11 18:59:21,887 发送请求 INFO https://sj.qq.com/myapp/searchAjax.htm?kw=微信 执行成功
+2021-01-11 18:59:23,176 接口测试 ERROR {'response': '请求发送失败，详细信息： url=https://sj.qq.com/myapp/searchAjax.htm?kw=王者荣耀'}
+2021-01-11 18:59:23,757 发送请求 INFO https://sj.qq.com/myapp/searchAjax.htm?kw=QQ 执行成功
+2021-01-11 18:59:25,133 发送请求 INFO https://sj.qq.com/myapp/searchAjax.htm?kw=唯品会 执行成功
+2021-01-11 18:59:25,693 发送请求 INFO https://sj.qq.com/myapp/searchAjax.htm?kw=美团 执行成功
+2021-01-11 18:59:28,568 发送请求 INFO https://sj.qq.com/myapp/searchAjax.htm?kw=支付宝 执行成功
+2021-01-11 18:59:29,243 发送请求 INFO https://sj.qq.com/myapp/searchAjax.htm?kw=爱奇艺 执行成功
+2021-01-11 18:59:29,629 发送请求 INFO https://sj.qq.com/myapp/searchAjax.htm?kw=虎扑 执行成功
+2021-01-11 18:59:30,371 发送请求 INFO https://sj.qq.com/myapp/searchAjax.htm?kw=虎扑 执行成功
+2021-01-11 19:01:16,935 发送请求 INFO https://sj.qq.com/myapp/searchAjax.htm?kw=微信 执行成功
+2021-01-11 19:01:17,936 接口测试 ERROR {'response': '请求发送失败，详细信息： url=https://sj.qq.com/myapp/searchAjax.htm?kw=王者荣耀'}
+2021-01-11 19:01:18,393 发送请求 INFO https://sj.qq.com/myapp/searchAjax.htm?kw=QQ 执行成功
+2021-01-11 19:01:18,989 发送请求 INFO https://sj.qq.com/myapp/searchAjax.htm?kw=唯品会 执行成功
+2021-01-11 19:01:19,582 发送请求 INFO https://sj.qq.com/myapp/searchAjax.htm?kw=美团 执行成功
+2021-01-11 19:01:20,879 发送请求 INFO https://sj.qq.com/myapp/searchAjax.htm?kw=支付宝 执行成功
+2021-01-11 19:01:21,289 发送请求 INFO https://sj.qq.com/myapp/searchAjax.htm?kw=爱奇艺 执行成功
+2021-01-11 19:01:22,184 发送请求 INFO https://sj.qq.com/myapp/searchAjax.htm?kw=虎扑 执行成功
+2021-01-11 19:01:22,754 发送请求 INFO https://sj.qq.com/myapp/searchAjax.htm?kw=虎扑 执行成功
+2021-01-11 19:05:37,032 发送请求 INFO https://sj.qq.com/myapp/searchAjax.htm?kw=微信 执行成功
+2021-01-11 19:05:37,845 接口测试 ERROR {'response': '请求发送失败，详细信息： url=https://sj.qq.com/myapp/searchAjax.htm?kw=王者荣耀'}
+2021-01-11 19:05:38,196 发送请求 INFO https://sj.qq.com/myapp/searchAjax.htm?kw=QQ 执行成功
+2021-01-11 19:05:38,766 发送请求 INFO https://sj.qq.com/myapp/searchAjax.htm?kw=唯品会 执行成功
+2021-01-11 19:05:39,139 发送请求 INFO https://sj.qq.com/myapp/searchAjax.htm?kw=美团 执行成功
+2021-01-11 19:05:39,517 发送请求 INFO https://sj.qq.com/myapp/searchAjax.htm?kw=支付宝 执行成功
+2021-01-11 19:05:39,948 发送请求 INFO https://sj.qq.com/myapp/searchAjax.htm?kw=爱奇艺 执行成功
+2021-01-11 19:05:40,336 发送请求 INFO https://sj.qq.com/myapp/searchAjax.htm?kw=虎扑 执行成功
+2021-01-11 19:05:40,756 发送请求 INFO https://sj.qq.com/myapp/searchAjax.htm?kw=虎扑 执行成功
+2021-01-11 19:07:07,844 发送请求 INFO https://sj.qq.com/myapp/searchAjax.htm?kw=微信 执行成功
+2021-01-11 19:07:08,184 接口测试 ERROR {'response': '请求发送失败，详细信息： url=https://sj.qq.com/myapp/searchAjax.htm?kw=王者荣耀'}
+2021-01-11 19:07:08,626 发送请求 INFO https://sj.qq.com/myapp/searchAjax.htm?kw=QQ 执行成功
+2021-01-11 19:07:08,948 发送请求 INFO https://sj.qq.com/myapp/searchAjax.htm?kw=唯品会 执行成功
+2021-01-11 19:07:09,323 发送请求 INFO https://sj.qq.com/myapp/searchAjax.htm?kw=美团 执行成功
+2021-01-11 19:07:09,639 发送请求 INFO https://sj.qq.com/myapp/searchAjax.htm?kw=支付宝 执行成功
+2021-01-11 19:07:10,007 发送请求 INFO https://sj.qq.com/myapp/searchAjax.htm?kw=爱奇艺 执行成功
+2021-01-11 19:07:10,454 发送请求 INFO https://sj.qq.com/myapp/searchAjax.htm?kw=虎扑 执行成功
+2021-01-11 19:07:10,700 发送请求 INFO https://sj.qq.com/myapp/searchAjax.htm?kw=虎扑 执行成功
+2021-01-11 19:07:39,079 发送请求 INFO https://sj.qq.com/myapp/searchAjax.htm?kw=微信 执行成功
+2021-01-11 19:07:39,430 接口测试 ERROR {'response': '请求发送失败，详细信息： url=https://sj.qq.com/myapp/searchAjax.htm?kw=王者荣耀'}
+2021-01-11 19:07:39,959 发送请求 INFO https://sj.qq.com/myapp/searchAjax.htm?kw=QQ 执行成功
+2021-01-11 19:07:40,274 发送请求 INFO https://sj.qq.com/myapp/searchAjax.htm?kw=唯品会 执行成功
+2021-01-11 19:07:40,667 发送请求 INFO https://sj.qq.com/myapp/searchAjax.htm?kw=美团 执行成功
+2021-01-11 19:07:40,991 发送请求 INFO https://sj.qq.com/myapp/searchAjax.htm?kw=支付宝 执行成功
+2021-01-11 19:07:41,309 发送请求 INFO https://sj.qq.com/myapp/searchAjax.htm?kw=爱奇艺 执行成功
+2021-01-11 19:07:41,688 发送请求 INFO https://sj.qq.com/myapp/searchAjax.htm?kw=虎扑 执行成功
+2021-01-11 19:07:42,148 发送请求 INFO https://sj.qq.com/myapp/searchAjax.htm?kw=虎扑 执行成功
+2021-01-11 19:08:17,442 发送请求 INFO https://sj.qq.com/myapp/searchAjax.htm?kw=微信 执行成功
+2021-01-11 19:08:18,758 接口测试 ERROR {'response': '请求发送失败，详细信息： url=https://sj.qq.com/myapp/searchAjax.htm?kw=王者荣耀'}
+2021-01-11 19:08:19,272 发送请求 INFO https://sj.qq.com/myapp/searchAjax.htm?kw=QQ 执行成功
+2021-01-11 19:08:19,508 发送请求 INFO https://sj.qq.com/myapp/searchAjax.htm?kw=唯品会 执行成功
+2021-01-11 19:08:20,805 发送请求 INFO https://sj.qq.com/myapp/searchAjax.htm?kw=美团 执行成功
+2021-01-11 19:08:21,204 发送请求 INFO https://sj.qq.com/myapp/searchAjax.htm?kw=支付宝 执行成功
+2021-01-11 19:08:21,610 发送请求 INFO https://sj.qq.com/myapp/searchAjax.htm?kw=爱奇艺 执行成功
+2021-01-11 19:08:22,864 发送请求 INFO https://sj.qq.com/myapp/searchAjax.htm?kw=虎扑 执行成功
+2021-01-11 19:08:23,154 发送请求 INFO https://sj.qq.com/myapp/searchAjax.htm?kw=虎扑 执行成功
+2021-01-11 19:09:37,442 发送请求 INFO https://sj.qq.com/myapp/searchAjax.htm?kw=微信 执行成功
+2021-01-11 19:09:37,817 接口测试 ERROR {'response': '请求发送失败，详细信息： url=https://sj.qq.com/myapp/searchAjax.htm?kw=王者荣耀'}
+2021-01-11 19:09:38,627 发送请求 INFO https://sj.qq.com/myapp/searchAjax.htm?kw=QQ 执行成功
+2021-01-11 19:09:39,354 发送请求 INFO https://sj.qq.com/myapp/searchAjax.htm?kw=唯品会 执行成功
+2021-01-11 19:09:42,430 发送请求 INFO https://sj.qq.com/myapp/searchAjax.htm?kw=美团 执行成功
+2021-01-11 19:09:43,259 发送请求 INFO https://sj.qq.com/myapp/searchAjax.htm?kw=支付宝 执行成功
+2021-01-11 19:09:43,654 发送请求 INFO https://sj.qq.com/myapp/searchAjax.htm?kw=爱奇艺 执行成功
+2021-01-11 19:09:43,961 发送请求 INFO https://sj.qq.com/myapp/searchAjax.htm?kw=虎扑 执行成功
+2021-01-11 19:09:44,450 发送请求 INFO https://sj.qq.com/myapp/searchAjax.htm?kw=虎扑 执行成功

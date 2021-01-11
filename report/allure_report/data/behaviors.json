@@ -1,0 +1,130 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "搜索APP",
+    "children" : [ {
+      "name" : "GET",
+      "children" : [ {
+        "name" : "搜索APP",
+        "uid" : "135564ac2275519a",
+        "parentUid" : "88d929db79b7002fe4ff037a7a381e0e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1610363302872,
+          "stop" : 1610363303154,
+          "duration" : 282
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'case_id': 'case_9', 'case_name': '搜索APP', 'case_run': 'yes', 'case_url': 'https://sj.qq.com/myapp/searchAjax.htm?kw=虎扑', 'case_method': 'GET', 'case_depend_id': '', 'case_depend_key': '', 'case_depend_param': '', 'case_params': '', 'case_expect': '{\"success\":true}', 'other': ''}" ]
+      }, {
+        "name" : "搜索APP",
+        "uid" : "8417eb3d51f9c293",
+        "parentUid" : "88d929db79b7002fe4ff037a7a381e0e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1610363376564,
+          "stop" : 1610363377443,
+          "duration" : 879
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'case_id': 'case_1', 'case_name': '搜索APP', 'case_run': 'yes', 'case_url': 'https://sj.qq.com/myapp/searchAjax.htm?kw=微信', 'case_method': 'GET', 'case_depend_id': '', 'case_depend_key': '', 'case_depend_param': '', 'case_params': '', 'case_expect': '{\"success\":true}', 'other': ''}" ]
+      }, {
+        "name" : "搜索APP",
+        "uid" : "31cf0b77cf176683",
+        "parentUid" : "88d929db79b7002fe4ff037a7a381e0e",
+        "status" : "failed",
+        "time" : {
+          "start" : 1610363377453,
+          "stop" : 1610363377817,
+          "duration" : 364
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'case_id': 'case_2', 'case_name': '搜索APP', 'case_run': 'yes', 'case_url': 'https://sj.qq.com/myapp/searchAjax.htm?kw=王者荣耀', 'case_method': 'GET', 'case_depend_id': '', 'case_depend_key': '', 'case_depend_param': '', 'case_params': '', 'case_expect': '{\"success\":tr}', 'other': ''}" ]
+      }, {
+        "name" : "搜索APP",
+        "uid" : "e827d909f2b173c2",
+        "parentUid" : "88d929db79b7002fe4ff037a7a381e0e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1610363377888,
+          "stop" : 1610363378627,
+          "duration" : 739
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'case_id': 'case_3', 'case_name': '搜索APP', 'case_run': 'yes', 'case_url': 'https://sj.qq.com/myapp/searchAjax.htm?kw=QQ', 'case_method': 'GET', 'case_depend_id': '', 'case_depend_key': '', 'case_depend_param': '', 'case_params': '', 'case_expect': '{\"success\":true}', 'other': ''}" ]
+      }, {
+        "name" : "搜索APP",
+        "uid" : "d32572bb63698858",
+        "parentUid" : "88d929db79b7002fe4ff037a7a381e0e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1610363378671,
+          "stop" : 1610363379355,
+          "duration" : 684
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'case_id': 'case_4', 'case_name': '搜索APP', 'case_run': 'yes', 'case_url': 'https://sj.qq.com/myapp/searchAjax.htm?kw=唯品会', 'case_method': 'GET', 'case_depend_id': '', 'case_depend_key': '', 'case_depend_param': '', 'case_params': '', 'case_expect': '{\"success\":true}', 'other': ''}" ]
+      }, {
+        "name" : "搜索APP",
+        "uid" : "a9aff88799a2e869",
+        "parentUid" : "88d929db79b7002fe4ff037a7a381e0e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1610363379365,
+          "stop" : 1610363382430,
+          "duration" : 3065
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'case_id': 'case_5', 'case_name': '搜索APP', 'case_run': 'yes', 'case_url': 'https://sj.qq.com/myapp/searchAjax.htm?kw=美团', 'case_method': 'GET', 'case_depend_id': '', 'case_depend_key': 'apkUrl', 'case_depend_param': '', 'case_params': '', 'case_expect': '{\"success\":true}', 'other': ''}" ]
+      }, {
+        "name" : "搜索APP",
+        "uid" : "67c8034f6723b1d2",
+        "parentUid" : "88d929db79b7002fe4ff037a7a381e0e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1610363382440,
+          "stop" : 1610363383259,
+          "duration" : 819
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'case_id': 'case_6', 'case_name': '搜索APP', 'case_run': 'yes', 'case_url': 'https://sj.qq.com/myapp/searchAjax.htm?kw=支付宝', 'case_method': 'GET', 'case_depend_id': '', 'case_depend_key': '', 'case_depend_param': '', 'case_params': '', 'case_expect': '{\"success\":true}', 'other': ''}" ]
+      }, {
+        "name" : "搜索APP",
+        "uid" : "52949796b98c972",
+        "parentUid" : "88d929db79b7002fe4ff037a7a381e0e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1610363383259,
+          "stop" : 1610363383655,
+          "duration" : 396
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'case_id': 'case_7', 'case_name': '搜索APP', 'case_run': 'yes', 'case_url': 'https://sj.qq.com/myapp/searchAjax.htm?kw=爱奇艺', 'case_method': 'GET', 'case_depend_id': '', 'case_depend_key': '', 'case_depend_param': '', 'case_params': '', 'case_expect': '{\"success\":true}', 'other': ''}" ]
+      }, {
+        "name" : "搜索APP",
+        "uid" : "80050d2d59d3e9f2",
+        "parentUid" : "88d929db79b7002fe4ff037a7a381e0e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1610363383665,
+          "stop" : 1610363383962,
+          "duration" : 297
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'case_id': 'case_8', 'case_name': '搜索APP', 'case_run': 'yes', 'case_url': 'https://sj.qq.com/myapp/searchAjax.htm?kw=虎扑', 'case_method': 'GET', 'case_depend_id': '', 'case_depend_key': '', 'case_depend_param': '', 'case_params': '', 'case_expect': '{\"success\":true}', 'other': ''}" ]
+      } ],
+      "uid" : "88d929db79b7002fe4ff037a7a381e0e"
+    } ],
+    "uid" : "9bb0a40710e486213e10373b2d742658"
+  } ]
+}
