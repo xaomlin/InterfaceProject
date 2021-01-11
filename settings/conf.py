@@ -16,7 +16,7 @@ TEST_CASE_PATH = os.path.join(BASE_PATH, 'data', file_path)
 # ------------ allure 相关配置 -----------
 
 result_path = os.path.join(BASE_PATH, 'report', 'result')
-allure_html_path = os.path.join(BASE_PATH, 'report', 'allure_html')
+allure_html_path = os.path.join(BASE_PATH, 'report', 'allure_report')
 ALLURE_COMMAND = 'allure generate {} -o {} --clean'.format(result_path, allure_html_path)
 
 # ---------------- 日志相关 --------------------
