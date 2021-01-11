@@ -4,12 +4,12 @@
     "uid" : "af586ea5ffb1b57fad0f98a55a6d147c",
     "name" : "scripts",
     "statistic" : {
-      "failed" : 0,
+      "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 9,
+      "passed" : 7,
       "unknown" : 0,
-      "total" : 9
+      "total" : 8
     }
   } ]
 }
