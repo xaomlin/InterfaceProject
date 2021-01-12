@@ -1,19 +1,18 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
-  "name" : "categories",
   "children" : [ {
     "name" : "Product defects",
     "children" : [ {
       "name" : "AssertionError: assert {'response': ....htm?kw=王者荣耀'} == '{\"success\":tr}'\n  +{'response': '请求发送失败，详细信息： url=https://sj.qq.com/myapp/searchAjax.htm?kw=王者荣耀'}\n  -'{\"success\":tr}'",
       "children" : [ {
         "name" : "搜索APP",
-        "uid" : "31cf0b77cf176683",
+        "uid" : "62a14bebc7789879",
         "parentUid" : "456a85fbd03229ade0fb2a1caa446ae7",
         "status" : "failed",
         "time" : {
-          "start" : 1610363377453,
-          "stop" : 1610363377817,
-          "duration" : 364
+          "start" : 1610364263863,
+          "stop" : 1610364264579,
+          "duration" : 716
         },
         "flaky" : false,
         "newFailed" : false,
@@ -22,5 +21,6 @@
       "uid" : "456a85fbd03229ade0fb2a1caa446ae7"
     } ],
     "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
-  } ]
+  } ],
+  "name" : "categories"
 }
