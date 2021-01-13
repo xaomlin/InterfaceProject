@@ -1,0 +1,73 @@
+{
+  "uid" : "d5f8675a5bac807c",
+  "name" : "搜索APP",
+  "fullName" : "scripts.test_case.Test_case#test_case",
+  "historyId" : "f76c90a4e3988a01ab5ffa307c7d860b",
+  "time" : {
+    "start" : 1610533503937,
+    "stop" : 1610533504185,
+    "duration" : 248
+  },
+  "description" : "<font color=\"red\">请求URL：</font>https://sj.qq.com/myapp/searchAjax.htm?kw=虎扑<br /><font color=\"red\">期望值：</font>{\"success\":123}",
+  "descriptionHtml" : "<p><font color=\"red\">请求URL：</font>https://sj.qq.com/myapp/searchAjax.htm?kw=虎扑<br /><font color=\"red\">期望值：</font>{&quot;success&quot;:123}</p>\n",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert {'success': 123} == {'success': True}\n  Differing items:\n  {'success': 123} != {'success': True}\n  Full diff:\n  - {'success': True}\n  ?             ^^^^\n  + {'success': 123}\n  ?             ^^^",
+  "statusTrace" : "self = <scripts.test_case.Test_case object at 0x03F476B8>\ncase = {'case_depend_id': '', 'case_depend_key': '', 'case_depend_param': '', 'case_expect': '{\"success\":123}', ...}\n\n    @pytest.mark.parametrize('case', GetData().get_data)\n    def test_case(self, case):\n        \"\"\"  执行断言 \"\"\"\n        # print(case)\n        # 发请求\n        response = RequestHandler(case).get_response\n    \n        # 制作 allure 报告\n    \n        allure.dynamic.title(case['case_name'])\n        allure.dynamic.description('<font color=\"red\">请求URL：</font>{}<br />'\n                                   '<font color=\"red\">期望值：</font>{}'.format(case['case_url'], case['case_expect']))\n        allure.dynamic.feature(case['case_name'])\n        allure.dynamic.story(case['case_method'])\n>       assert response[0] == response[1]\nE       AssertionError: assert {'success': 123} == {'success': True}\nE         Differing items:\nE         {'success': 123} != {'success': True}\nE         Full diff:\nE         - {'success': True}\nE         ?             ^^^^\nE         + {'success': 123}\nE         ?             ^^^\n\nscripts\\test_case.py:31: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "搜索APP"
+  }, {
+    "name" : "story",
+    "value" : "GET"
+  }, {
+    "name" : "parentSuite",
+    "value" : "scripts"
+  }, {
+    "name" : "suite",
+    "value" : "test_case"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_case"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-2FL92AG3"
+  }, {
+    "name" : "thread",
+    "value" : "10792-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "scripts.test_case"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case",
+    "value" : "{'case_id': 'case_9', 'case_name': '搜索APP', 'case_run': 'yes', 'case_url': 'https://sj.qq.com/myapp/searchAjax.htm?kw=虎扑', 'case_method': 'GET', 'case_depend_id': '', 'case_depend_key': '', 'case_depend_param': '', 'case_params': '', 'case_expect': '{\"success\":123}', 'other': ''}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "d5f8675a5bac807c.json",
+  "parameterValues" : [ "{'case_id': 'case_9', 'case_name': '搜索APP', 'case_run': 'yes', 'case_url': 'https://sj.qq.com/myapp/searchAjax.htm?kw=虎扑', 'case_method': 'GET', 'case_depend_id': '', 'case_depend_key': '', 'case_depend_param': '', 'case_params': '', 'case_expect': '{\"success\":123}', 'other': ''}" ]
+}

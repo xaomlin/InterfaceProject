@@ -1,0 +1,30 @@
+2021-01-13 18:23:31,379 发送请求 INFO https://sj.qq.com/myapp/searchAjax.htm?kw=微信 执行成功
+2021-01-13 18:23:31,710 接口测试 ERROR {'response': '请求发送失败，详细信息： url=https://sj.qq.com/myapp/searchAjax.htm?kw=王者荣耀'}
+2021-01-13 18:23:32,111 发送请求 INFO https://sj.qq.com/myapp/searchAjax.htm?kw=QQ 执行成功
+2021-01-13 18:23:32,400 发送请求 INFO https://sj.qq.com/myapp/searchAjax.htm?kw=唯品会 执行成功
+2021-01-13 18:23:32,948 发送请求 INFO https://sj.qq.com/myapp/searchAjax.htm?kw=美团 执行成功
+2021-01-13 18:23:33,281 发送请求 INFO https://sj.qq.com/myapp/searchAjax.htm?kw=支付宝 执行成功
+2021-01-13 18:23:33,580 发送请求 INFO https://sj.qq.com/myapp/searchAjax.htm?kw=爱奇艺 执行成功
+2021-01-13 18:23:34,859 发送请求 INFO https://sj.qq.com/myapp/searchAjax.htm?kw=虎扑 执行成功
+2021-01-13 18:23:35,220 发送请求 INFO https://sj.qq.com/myapp/searchAjax.htm?kw=虎扑 执行成功
+2021-01-13 18:23:35,542 发送请求 INFO https://sj.qq.com/myapp/searchAjax.htm?kw=虎扑 执行成功
+2021-01-13 18:23:35,955 发送请求 INFO https://sj.qq.com/myapp/searchAjax.htm?kw=虎扑 执行成功
+2021-01-13 18:23:37,242 发送请求 INFO https://sj.qq.com/myapp/searchAjax.htm?kw=虎扑 执行成功
+2021-01-13 18:23:37,814 发送请求 INFO https://sj.qq.com/myapp/searchAjax.htm?kw=虎扑 执行成功
+2021-01-13 18:23:38,149 发送请求 INFO https://sj.qq.com/myapp/searchAjax.htm?kw=虎扑 执行成功
+2021-01-13 18:23:38,426 发送请求 INFO https://sj.qq.com/myapp/searchAjax.htm?kw=虎扑 执行成功
+2021-01-13 18:25:00,456 发送请求 INFO https://sj.qq.com/myapp/searchAjax.htm?kw=微信 执行成功
+2021-01-13 18:25:00,750 接口测试 ERROR {'response': '请求发送失败，详细信息： url=https://sj.qq.com/myapp/searchAjax.htm?kw=王者荣耀'}
+2021-01-13 18:25:01,098 发送请求 INFO https://sj.qq.com/myapp/searchAjax.htm?kw=QQ 执行成功
+2021-01-13 18:25:01,332 发送请求 INFO https://sj.qq.com/myapp/searchAjax.htm?kw=唯品会 执行成功
+2021-01-13 18:25:01,632 发送请求 INFO https://sj.qq.com/myapp/searchAjax.htm?kw=美团 执行成功
+2021-01-13 18:25:02,208 发送请求 INFO https://sj.qq.com/myapp/searchAjax.htm?kw=支付宝 执行成功
+2021-01-13 18:25:02,561 发送请求 INFO https://sj.qq.com/myapp/searchAjax.htm?kw=爱奇艺 执行成功
+2021-01-13 18:25:02,789 发送请求 INFO https://sj.qq.com/myapp/searchAjax.htm?kw=虎扑 执行成功
+2021-01-13 18:25:03,068 发送请求 INFO https://sj.qq.com/myapp/searchAjax.htm?kw=虎扑 执行成功
+2021-01-13 18:25:03,354 发送请求 INFO https://sj.qq.com/myapp/searchAjax.htm?kw=虎扑 执行成功
+2021-01-13 18:25:03,690 发送请求 INFO https://sj.qq.com/myapp/searchAjax.htm?kw=虎扑 执行成功
+2021-01-13 18:25:03,926 发送请求 INFO https://sj.qq.com/myapp/searchAjax.htm?kw=虎扑 执行成功
+2021-01-13 18:25:04,511 发送请求 INFO https://sj.qq.com/myapp/searchAjax.htm?kw=虎扑 执行成功
+2021-01-13 18:25:04,901 发送请求 INFO https://sj.qq.com/myapp/searchAjax.htm?kw=虎扑 执行成功
+2021-01-13 18:25:05,161 发送请求 INFO https://sj.qq.com/myapp/searchAjax.htm?kw=虎扑 执行成功

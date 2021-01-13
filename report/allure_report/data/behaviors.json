@@ -6,121 +6,199 @@
       "name" : "GET",
       "children" : [ {
         "name" : "搜索APP",
-        "uid" : "de05cd5c7499f8bf",
+        "uid" : "4938d46ade5d2d74",
         "parentUid" : "88d929db79b7002fe4ff037a7a381e0e",
         "status" : "passed",
         "time" : {
-          "start" : 1610364230812,
-          "stop" : 1610364232152,
-          "duration" : 1340
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "{'case_id': 'case_9', 'case_name': '搜索APP', 'case_run': 'yes', 'case_url': 'https://sj.qq.com/myapp/searchAjax.htm?kw=虎扑', 'case_method': 'GET', 'case_depend_id': '', 'case_depend_key': '', 'case_depend_param': '', 'case_params': '', 'case_expect': '{\"success\":true}', 'other': ''}" ]
-      }, {
-        "name" : "搜索APP",
-        "uid" : "22cf4f15bb22a505",
-        "parentUid" : "88d929db79b7002fe4ff037a7a381e0e",
-        "status" : "passed",
-        "time" : {
-          "start" : 1610364263004,
-          "stop" : 1610364263863,
-          "duration" : 859
+          "start" : 1610533500122,
+          "stop" : 1610533500457,
+          "duration" : 335
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "{'case_id': 'case_1', 'case_name': '搜索APP', 'case_run': 'yes', 'case_url': 'https://sj.qq.com/myapp/searchAjax.htm?kw=微信', 'case_method': 'GET', 'case_depend_id': '', 'case_depend_key': '', 'case_depend_param': '', 'case_params': '', 'case_expect': '{\"success\":true}', 'other': ''}" ]
       }, {
         "name" : "搜索APP",
-        "uid" : "62a14bebc7789879",
+        "uid" : "1be4343129059691",
         "parentUid" : "88d929db79b7002fe4ff037a7a381e0e",
         "status" : "failed",
         "time" : {
-          "start" : 1610364263863,
-          "stop" : 1610364264579,
-          "duration" : 716
+          "start" : 1610533500457,
+          "stop" : 1610533500750,
+          "duration" : 293
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "{'case_id': 'case_2', 'case_name': '搜索APP', 'case_run': 'yes', 'case_url': 'https://sj.qq.com/myapp/searchAjax.htm?kw=王者荣耀', 'case_method': 'GET', 'case_depend_id': '', 'case_depend_key': '', 'case_depend_param': '', 'case_params': '', 'case_expect': '{\"success\":tr}', 'other': ''}" ]
       }, {
         "name" : "搜索APP",
-        "uid" : "72e8b91f97907187",
+        "uid" : "e45f05912330914e",
         "parentUid" : "88d929db79b7002fe4ff037a7a381e0e",
         "status" : "passed",
         "time" : {
-          "start" : 1610364264648,
-          "stop" : 1610364265296,
-          "duration" : 648
+          "start" : 1610533500834,
+          "stop" : 1610533501099,
+          "duration" : 265
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "{'case_id': 'case_3', 'case_name': '搜索APP', 'case_run': 'yes', 'case_url': 'https://sj.qq.com/myapp/searchAjax.htm?kw=QQ', 'case_method': 'GET', 'case_depend_id': '', 'case_depend_key': '', 'case_depend_param': '', 'case_params': '', 'case_expect': '{\"success\":true}', 'other': ''}" ]
       }, {
         "name" : "搜索APP",
-        "uid" : "5338ae3c2729a9fd",
+        "uid" : "efe7fd71c00166bc",
         "parentUid" : "88d929db79b7002fe4ff037a7a381e0e",
         "status" : "passed",
         "time" : {
-          "start" : 1610364265296,
-          "stop" : 1610364265638,
-          "duration" : 342
+          "start" : 1610533501104,
+          "stop" : 1610533501333,
+          "duration" : 229
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "{'case_id': 'case_4', 'case_name': '搜索APP', 'case_run': 'yes', 'case_url': 'https://sj.qq.com/myapp/searchAjax.htm?kw=唯品会', 'case_method': 'GET', 'case_depend_id': '', 'case_depend_key': '', 'case_depend_param': '', 'case_params': '', 'case_expect': '{\"success\":true}', 'other': ''}" ]
       }, {
         "name" : "搜索APP",
-        "uid" : "1d8fd57f9a6f6693",
+        "uid" : "225c0eb31727a4ea",
         "parentUid" : "88d929db79b7002fe4ff037a7a381e0e",
         "status" : "passed",
         "time" : {
-          "start" : 1610364265649,
-          "stop" : 1610364267441,
-          "duration" : 1792
+          "start" : 1610533501333,
+          "stop" : 1610533501632,
+          "duration" : 299
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "{'case_id': 'case_5', 'case_name': '搜索APP', 'case_run': 'yes', 'case_url': 'https://sj.qq.com/myapp/searchAjax.htm?kw=美团', 'case_method': 'GET', 'case_depend_id': '', 'case_depend_key': 'apkUrl', 'case_depend_param': '', 'case_params': '', 'case_expect': '{\"success\":true}', 'other': ''}" ]
       }, {
         "name" : "搜索APP",
-        "uid" : "21f8bbfb73348278",
+        "uid" : "ddf37e82ee0fbbc",
         "parentUid" : "88d929db79b7002fe4ff037a7a381e0e",
         "status" : "passed",
         "time" : {
-          "start" : 1610364267482,
-          "stop" : 1610364268180,
-          "duration" : 698
+          "start" : 1610533501679,
+          "stop" : 1610533502208,
+          "duration" : 529
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "{'case_id': 'case_6', 'case_name': '搜索APP', 'case_run': 'yes', 'case_url': 'https://sj.qq.com/myapp/searchAjax.htm?kw=支付宝', 'case_method': 'GET', 'case_depend_id': '', 'case_depend_key': '', 'case_depend_param': '', 'case_params': '', 'case_expect': '{\"success\":true}', 'other': ''}" ]
       }, {
         "name" : "搜索APP",
-        "uid" : "e330e00bb220baf4",
+        "uid" : "17ee9f25c69e462b",
         "parentUid" : "88d929db79b7002fe4ff037a7a381e0e",
         "status" : "passed",
         "time" : {
-          "start" : 1610364268190,
-          "stop" : 1610364268876,
-          "duration" : 686
+          "start" : 1610533502208,
+          "stop" : 1610533502562,
+          "duration" : 354
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "{'case_id': 'case_7', 'case_name': '搜索APP', 'case_run': 'yes', 'case_url': 'https://sj.qq.com/myapp/searchAjax.htm?kw=爱奇艺', 'case_method': 'GET', 'case_depend_id': '', 'case_depend_key': '', 'case_depend_param': '', 'case_params': '', 'case_expect': '{\"success\":true}', 'other': ''}" ]
       }, {
         "name" : "搜索APP",
-        "uid" : "cc9ddeee0eeeb7bd",
+        "uid" : "cc0875cf6aaccfb2",
         "parentUid" : "88d929db79b7002fe4ff037a7a381e0e",
         "status" : "passed",
         "time" : {
-          "start" : 1610364268882,
-          "stop" : 1610364270335,
-          "duration" : 1453
+          "start" : 1610533502562,
+          "stop" : 1610533502790,
+          "duration" : 228
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "{'case_id': 'case_8', 'case_name': '搜索APP', 'case_run': 'yes', 'case_url': 'https://sj.qq.com/myapp/searchAjax.htm?kw=虎扑', 'case_method': 'GET', 'case_depend_id': '', 'case_depend_key': '', 'case_depend_param': '', 'case_params': '', 'case_expect': '{\"success\":true}', 'other': ''}" ]
+      }, {
+        "name" : "搜索APP",
+        "uid" : "72f4f97fac433e63",
+        "parentUid" : "88d929db79b7002fe4ff037a7a381e0e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1610533502790,
+          "stop" : 1610533503068,
+          "duration" : 278
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'case_id': 'case_9', 'case_name': '搜索APP', 'case_run': 'yes', 'case_url': 'https://sj.qq.com/myapp/searchAjax.htm?kw=虎扑', 'case_method': 'GET', 'case_depend_id': '', 'case_depend_key': '', 'case_depend_param': '', 'case_params': '', 'case_expect': '{\"success\":true}', 'other': ''}" ]
+      }, {
+        "name" : "搜索APP",
+        "uid" : "6e07490e19ea18a0",
+        "parentUid" : "88d929db79b7002fe4ff037a7a381e0e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1610533503112,
+          "stop" : 1610533503365,
+          "duration" : 253
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'case_id': 'case_9', 'case_name': '搜索APP', 'case_run': 'yes', 'case_url': 'https://sj.qq.com/myapp/searchAjax.htm?kw=虎扑', 'case_method': 'GET', 'case_depend_id': '', 'case_depend_key': '', 'case_depend_param': '', 'case_params': '', 'case_expect': '{\"success\":true}', 'other': ''}" ]
+      }, {
+        "name" : "搜索APP",
+        "uid" : "6b88a26470cdfafd",
+        "parentUid" : "88d929db79b7002fe4ff037a7a381e0e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1610533503403,
+          "stop" : 1610533503690,
+          "duration" : 287
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'case_id': 'case_9', 'case_name': '搜索APP', 'case_run': 'yes', 'case_url': 'https://sj.qq.com/myapp/searchAjax.htm?kw=虎扑', 'case_method': 'GET', 'case_depend_id': '', 'case_depend_key': '', 'case_depend_param': '', 'case_params': '', 'case_expect': '{\"success\":true}', 'other': ''}" ]
+      }, {
+        "name" : "搜索APP",
+        "uid" : "1255e263e033f47b",
+        "parentUid" : "88d929db79b7002fe4ff037a7a381e0e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1610533503690,
+          "stop" : 1610533503927,
+          "duration" : 237
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'case_id': 'case_9', 'case_name': '搜索APP', 'case_run': 'yes', 'case_url': 'https://sj.qq.com/myapp/searchAjax.htm?kw=虎扑', 'case_method': 'GET', 'case_depend_id': '', 'case_depend_key': '', 'case_depend_param': '', 'case_params': '', 'case_expect': '{\"success\":true}', 'other': ''}" ]
+      }, {
+        "name" : "搜索APP",
+        "uid" : "d5f8675a5bac807c",
+        "parentUid" : "88d929db79b7002fe4ff037a7a381e0e",
+        "status" : "failed",
+        "time" : {
+          "start" : 1610533503937,
+          "stop" : 1610533504185,
+          "duration" : 248
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'case_id': 'case_9', 'case_name': '搜索APP', 'case_run': 'yes', 'case_url': 'https://sj.qq.com/myapp/searchAjax.htm?kw=虎扑', 'case_method': 'GET', 'case_depend_id': '', 'case_depend_key': '', 'case_depend_param': '', 'case_params': '', 'case_expect': '{\"success\":123}', 'other': ''}" ]
+      }, {
+        "name" : "搜索APP",
+        "uid" : "eec5bac914683501",
+        "parentUid" : "88d929db79b7002fe4ff037a7a381e0e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1610533504196,
+          "stop" : 1610533504512,
+          "duration" : 316
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'case_id': 'case_9', 'case_name': '搜索APP', 'case_run': 'yes', 'case_url': 'https://sj.qq.com/myapp/searchAjax.htm?kw=虎扑', 'case_method': 'GET', 'case_depend_id': '', 'case_depend_key': '', 'case_depend_param': '', 'case_params': '', 'case_expect': '{\"success\":true}', 'other': ''}" ]
+      }, {
+        "name" : "搜索APP",
+        "uid" : "b1e01f642dc586bd",
+        "parentUid" : "88d929db79b7002fe4ff037a7a381e0e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1610533504558,
+          "stop" : 1610533504901,
+          "duration" : 343
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'case_id': 'case_9', 'case_name': '搜索APP', 'case_run': 'yes', 'case_url': 'https://sj.qq.com/myapp/searchAjax.htm?kw=虎扑', 'case_method': 'GET', 'case_depend_id': '', 'case_depend_key': '', 'case_depend_param': '', 'case_params': '', 'case_expect': '{\"success\":true}', 'other': ''}" ]
       } ],
       "uid" : "88d929db79b7002fe4ff037a7a381e0e"
     } ],
