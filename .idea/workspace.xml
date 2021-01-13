@@ -221,7 +221,7 @@
       <workItem from="1610360779200" duration="3804000" />
       <workItem from="1610460763475" duration="987000" />
       <workItem from="1610533352958" duration="5622000" />
-      <workItem from="1610542661541" duration="1347000" />
+      <workItem from="1610542661541" duration="2079000" />
     </task>
     <task id="LOCAL-00001" summary="第一次提交">
       <created>1575012535697</created>
@@ -384,7 +384,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610543404404</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="test allure jenkins">
+      <created>1610544320176</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1610544320176</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -479,10 +486,10 @@
       <screen x="0" y="0" width="1493" height="893" />
     </state>
     <state x="249" y="92" key="SettingsEditor/0.0.1493.893@0.0.1493.893" timestamp="1610542768821" />
-    <state x="340" y="180" key="Vcs.Push.Dialog.v2" timestamp="1610543415697">
+    <state x="340" y="180" key="Vcs.Push.Dialog.v2" timestamp="1610544334845">
       <screen x="0" y="0" width="1493" height="893" />
     </state>
-    <state x="340" y="180" key="Vcs.Push.Dialog.v2/0.0.1493.893@0.0.1493.893" timestamp="1610543415697" />
+    <state x="340" y="180" key="Vcs.Push.Dialog.v2/0.0.1493.893@0.0.1493.893" timestamp="1610544334845" />
     <state x="410" y="189" width="672" height="678" key="search.everywhere.popup" timestamp="1609759149923">
       <screen x="0" y="0" width="1493" height="893" />
     </state>
