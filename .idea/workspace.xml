@@ -19,7 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3a68e12d-e2dd-4294-9b85-fdb3d6fc16eb" name="Default Changelist" comment="test allure jenkins" />
+    <list default="true" id="3a68e12d-e2dd-4294-9b85-fdb3d6fc16eb" name="Default Changelist" comment="test allure jenkins">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -76,7 +78,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="$PROJECT_DIR$/../nodejs/node" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -222,6 +224,8 @@
       <workItem from="1610460763475" duration="987000" />
       <workItem from="1610533352958" duration="5622000" />
       <workItem from="1610542661541" duration="2775000" />
+      <workItem from="1610620164876" duration="290000" />
+      <workItem from="1610620465541" duration="1514000" />
     </task>
     <task id="LOCAL-00001" summary="第一次提交">
       <created>1575012535697</created>
@@ -398,7 +402,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610546251791</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="test allure jenkins">
+      <created>1610620317328</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1610620317328</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -441,10 +452,10 @@
       <screen x="0" y="0" width="1493" height="893" />
     </state>
     <state x="906" y="153" key="#xdebugger.evaluate/0.0.1493.893@0.0.1493.893" timestamp="1609847426143" />
-    <state x="528" y="188" key="FileChooserDialogImpl" timestamp="1609172100079">
+    <state x="528" y="188" key="FileChooserDialogImpl" timestamp="1610620440864">
       <screen x="0" y="0" width="1493" height="893" />
     </state>
-    <state x="528" y="188" key="FileChooserDialogImpl/0.0.1493.893@0.0.1493.893" timestamp="1609172100079" />
+    <state x="528" y="188" key="FileChooserDialogImpl/0.0.1493.893@0.0.1493.893" timestamp="1610620440864" />
     <state x="561" y="366" key="Github.CreateGistDialog" timestamp="1609952735318">
       <screen x="0" y="0" width="1493" height="893" />
     </state>
@@ -489,14 +500,22 @@
       <screen x="0" y="0" width="1493" height="893" />
     </state>
     <state width="1450" height="289" key="GridCell.Tab.1.right/0.0.1493.893@0.0.1493.893" timestamp="1610366447281" />
-    <state x="249" y="92" key="SettingsEditor" timestamp="1610542768821">
+    <state x="143" y="73" key="MergeDialog" timestamp="1610620360624">
       <screen x="0" y="0" width="1493" height="893" />
     </state>
-    <state x="249" y="92" key="SettingsEditor/0.0.1493.893@0.0.1493.893" timestamp="1610542768821" />
-    <state x="340" y="180" key="Vcs.Push.Dialog.v2" timestamp="1610546259041">
+    <state x="143" y="73" key="MergeDialog/0.0.1493.893@0.0.1493.893" timestamp="1610620360624" />
+    <state x="383" y="208" key="MultipleFileMergeDialog" timestamp="1610620360632">
       <screen x="0" y="0" width="1493" height="893" />
     </state>
-    <state x="340" y="180" key="Vcs.Push.Dialog.v2/0.0.1493.893@0.0.1493.893" timestamp="1610546259041" />
+    <state x="383" y="208" key="MultipleFileMergeDialog/0.0.1493.893@0.0.1493.893" timestamp="1610620360632" />
+    <state x="249" y="92" key="SettingsEditor" timestamp="1610620451153">
+      <screen x="0" y="0" width="1493" height="893" />
+    </state>
+    <state x="249" y="92" key="SettingsEditor/0.0.1493.893@0.0.1493.893" timestamp="1610620451153" />
+    <state x="340" y="180" key="Vcs.Push.Dialog.v2" timestamp="1610620369808">
+      <screen x="0" y="0" width="1493" height="893" />
+    </state>
+    <state x="340" y="180" key="Vcs.Push.Dialog.v2/0.0.1493.893@0.0.1493.893" timestamp="1610620369808" />
     <state x="410" y="189" width="672" height="678" key="search.everywhere.popup" timestamp="1609759149923">
       <screen x="0" y="0" width="1493" height="893" />
     </state>
