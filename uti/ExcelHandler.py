@@ -40,7 +40,6 @@ class ExcelHandler(object):
         # print(request_data)
         return request_data
 
-
     # def dict_data(self, excelPath):
     #     data = xlrd.open_workbook(excelPath)
     #     table = data.sheet_by_index(0)
