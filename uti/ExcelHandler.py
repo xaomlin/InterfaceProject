@@ -78,6 +78,7 @@ class ExcelHandler(object):
     #             request_data.append(excel_data[i])
     #     print(request_data)
     #     return request_data
+
 if __name__ == '__main__':
     e = ExcelHandler()
     e.get_request_data()
