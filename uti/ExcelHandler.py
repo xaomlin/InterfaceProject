@@ -23,7 +23,6 @@ class ExcelHandler(object):
         # 获取其他行
         for i in range(1, rows):
             l.append(dict(zip(title, sheet.row_values(i))))
-        # print(l)
         return l
 
 
