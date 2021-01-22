@@ -35,7 +35,6 @@ class ExcelHandler(object):
         for i in range(len(excel_data)):
             is_run = excel_data[i].get('case_run')
             if is_run == 'yes':
-                # print(excel_data[i])
                 request_data.append(excel_data[i])
         # print(request_data)
         return request_data
