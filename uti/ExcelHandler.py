@@ -8,8 +8,6 @@ import xlrd
 from settings import conf
 
 class ExcelHandler(object):
-
-
     def get_excel_data(self):
         # 获取到book对象
         # print(conf.TEST_CASE_PATH)
