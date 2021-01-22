@@ -25,7 +25,6 @@ class ExcelHandler(object):
             l.append(dict(zip(title, sheet.row_values(i))))
         return l
 
-
     def get_request_data(self):
         '''
         EXCEL表中判断是否执行
