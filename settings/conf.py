@@ -30,4 +30,4 @@ LOG_FILE_LEVEL = 'info'  # 文件输出流
 LOG_FILE_NAME = os.path.join(BASE_PATH, 'logs', datetime.datetime.now().strftime('%Y-%m-%d') + '.log')
 
 # if __name__ == '__main__':
-#     print(TEST_CASE_PATH)
+#     print(os.path.abspath(__file__))
