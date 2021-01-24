@@ -12,7 +12,7 @@ class ExcelHandler(object):
 
     def get_excel_data(self):
         # 获取到book对象
-        print(conf.TEST_CASE_PATH)
+        # print(conf.TEST_CASE_PATH)
         book = xlrd.open_workbook(conf.TEST_CASE_PATH)
         # print(book)
         # 获取sheet对象
@@ -41,7 +41,7 @@ class ExcelHandler(object):
             if is_run == 'yes':
                 # print(excel_data[i])
                 request_data.append(excel_data[i])
-        print(request_data)
+        # print(request_data)
         return request_data
 
 
