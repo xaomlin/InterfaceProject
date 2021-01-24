@@ -7,17 +7,15 @@ from uti.RequestHandler import RequestHandler
 from uti.AllureHandler import AllureHandler
 from uti.EmailHandler import EmailHandler
 '''
-1. 
+1. 获取测试数据
 2. 发请求
 3. 生成测试用例报告
-4. 发邮件
-5. 断言
+4. 断言
 '''
 class Test_case(object):
     @pytest.mark.parametrize('case', GetData().get_data)
     def test_case(self, case):
         """  执行断言 """
-        # print(case)
         # 发请求
         response = RequestHandler(case).get_response
 

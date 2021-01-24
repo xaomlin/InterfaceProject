@@ -25,6 +25,7 @@ class RequestHandler(object):
     def get_response(self):
         """ 获取请求结果 """
         response = self.send_request()
+        # print(response)
         return response
 
     def get_session(self):
@@ -34,29 +35,24 @@ class RequestHandler(object):
     def send_request(self):
         """ 发请求 """
         method = self.case['case_method'].upper()
-        data = self.case['case_params']
+        data = self._check_params()
         url = self.case['case_url']
+        type = self.case['params_type'].upper()
         try:
-            if data != '':
-                if isinstance(data, str):
-                    data = json.loads(data)
-                else:
-                    data = data
-                print(data)
             if method == 'GET':
                 if data != None:
                     response = requests.request(method=method, url=url, params=data)
                 else:
                     response = requests.request(method=method, url=url)
             elif method == 'POST':
-                response = requests.request(method=method, url=url, data=data)
-                    # if params_type == 'FORM':  # 发送表单数据，使用data参数传递
-                    #     response = self.session.request(method=method, url=url, data=data)
-                    # elif params_type == 'JSON':  # 如果接口支持application/json类型，则使用json参数传递
-                    #     response = self.session.request(method=method, url=url, json=data)
-                    # else:  # 如果接口需要传递其他类型的数据比如 上传文件，调用下面的请求方法
-                    #     response = self.session.request(method=method, url=url)
-                    # # 如果请求方式非 get 和post 会报错，当然你也可以继续添加其他的请求方法
+                if type == 'FORM':  # 发送表单数据，使用data参数传递
+                        response = requests.request(method=method, url=url, data=data)
+                elif type == 'JSON':  # 如果接口支持application/json类型，则使用json参数传递
+                        response = requests.request(method=method, url=url, json=data)
+                else:  # 如果接口需要传递其他类型的数据比如 上传文件，调用下面的请求方法
+                    response = requests.request(method=method, url=url)
+                    # 如果请求方式非 get 和post 会报错，当然你也可以继续添加其他的请求方法
+                # response_text = response.text
             else:
                 raise ValueError('request method "{}" error ! please check'.format(method))
             content_type = response.headers['Content-Type']
@@ -69,7 +65,6 @@ class RequestHandler(object):
         except:
             logger().error({'response': "请求发送失败，详细信息： url={}".format(self.case['case_url'])})
             return {'response': "请求发送失败，详细信息： url={}".format(self.case['case_url'])}, self.case['case_expect']
-        print(assert_data)
         return assert_data
 
     def _check_json_response(self, response):
@@ -78,9 +73,9 @@ class RequestHandler(object):
         for key in self.case_expect:
             if self.case_expect[key] != response[key]:  # 用例执行失败的
                 return {key: self.case_expect[key]}, {key: response[key]}
-        else:  # 执行成功
-            logger("发送请求").info('{} 执行成功'.format(self.case['case_url']))
-            return {key: self.case_expect[key]}, {key: response[key]}
+            else:  # 执行成功
+                logger("发送请求").info('{} 执行成功'.format(self.case['case_url']))
+                return {key: self.case_expect[key]}, {key: response[key]}
 
     def _check_html_response(self, response):
         """ 校验html类型的数据"""
@@ -90,13 +85,13 @@ class RequestHandler(object):
 
     def _check_params(self):
         """ 整理参数 """
-        if self.case['case_params']:
-            """
-            做扩展
-            """
-            pass
+        param = self.case['case_params']
+        if param != '':
+            if isinstance(param, str):
+                data = json.loads(param)
+                return data
         else:
-            return {}
+            return None
 
 if __name__ == '__main__':
     data = {'case_id': 'case_5', 'case_name': '搜索APP', 'case_run': 'yes',
@@ -107,5 +102,10 @@ if __name__ == '__main__':
             'case_url': 'https://sj.qq.com/myapp/searchAjax.html?kw=美团', 'case_method': 'GET', 'case_depend_id': '',
             'case_depend_key': 'apkUrl', 'case_depend_param': '', 'case_params': '',
             'case_expect': '{"success":true}', 'other': ''}
-    r = RequestHandler(data1)
-    r.send_request()
+    data2 = {'case_id': 'case_5', 'case_name': '搜索APP', 'case_run': 'yes',
+                'case_url': 'https://app.nicebooker.com/parental/app/v1/user/phoneLogin', 'case_method': 'post', 'case_depend_id': '',
+                'case_depend_key': 'apkUrl', 'case_depend_param': '', 'case_params': '{"client":{"bundleId":"com.qlchat.hexiaoyu","caller":"app","ex":{"model":"VOG-AL00"},"os":"25","platform":"android","ver":"1.3.1"},"data":{"password":"01a3a90a410be072fbcffe9699816414","phoneNum":"15989160853"},"id":"1610968043407474","sign":"a7e4be19722660d16d55a330cdd97342","timestamp":1610968043407,"user":{}}',
+                'case_expect': '{"state":{"code":0,"msg":"操作成功"}}','param_type':'json', 'other': ''}
+    r = RequestHandler(data2)
+    # r.send_request()
+    r.get_response
