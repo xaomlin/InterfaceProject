@@ -12,7 +12,7 @@ class ExcelHandler(object):
 
     def get_excel_data(self):
         # 获取到book对象
-        # print(conf.TEST_CASE_PATH)
+        print(conf.TEST_CASE_PATH)
         book = xlrd.open_workbook(conf.TEST_CASE_PATH)
         # print(book)
         # 获取sheet对象
@@ -21,6 +21,7 @@ class ExcelHandler(object):
         l = []
         # print(sheet.row_values(0))
         title = sheet.row_values(0)
+        # print(title)
         # 获取其他行
         for i in range(1, rows):
             l.append(dict(zip(title, sheet.row_values(i))))
@@ -40,7 +41,7 @@ class ExcelHandler(object):
             if is_run == 'yes':
                 # print(excel_data[i])
                 request_data.append(excel_data[i])
-        # print(request_data)
+        print(request_data)
         return request_data
 
 

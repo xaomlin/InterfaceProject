@@ -33,7 +33,7 @@ class GetData(object):
                 case_id = int(is_depend[5:]) - 1
                 # 获取依赖的case的url
                 url = excel_data[case_id].get('case_url')
-                print(url)
+                # print(url)
                 # 获取依赖的case的method
                 method = excel_data[case_id].get('case_method')
                 print(method)
