@@ -19,7 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3a68e12d-e2dd-4294-9b85-fdb3d6fc16eb" name="Default Changelist" comment="调试Jenkins" />
+    <list default="true" id="3a68e12d-e2dd-4294-9b85-fdb3d6fc16eb" name="Default Changelist" comment="调试Jenkins">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/接口测试示例.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/data/接口测试示例.xlsx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -260,7 +263,7 @@
       <workItem from="1610620465541" duration="1514000" />
       <workItem from="1611474260025" duration="3757000" />
       <workItem from="1611479355852" duration="4867000" />
-      <workItem from="1611484473310" duration="2017000" />
+      <workItem from="1611484473310" duration="3408000" />
     </task>
     <task id="LOCAL-00001" summary="第一次提交">
       <created>1575012535697</created>
@@ -472,7 +475,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611486409486</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="调试Jenkins">
+      <created>1611486527239</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1611486527239</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -579,10 +589,10 @@
       <screen x="0" y="0" width="1493" height="893" />
     </state>
     <state x="249" y="92" key="SettingsEditor/0.0.1493.893@0.0.1493.893" timestamp="1611457510918" />
-    <state x="340" y="180" key="Vcs.Push.Dialog.v2" timestamp="1611486421913">
+    <state x="340" y="180" key="Vcs.Push.Dialog.v2" timestamp="1611486556184">
       <screen x="0" y="0" width="1493" height="893" />
     </state>
-    <state x="340" y="180" key="Vcs.Push.Dialog.v2/0.0.1493.893@0.0.1493.893" timestamp="1611486421913" />
+    <state x="340" y="180" key="Vcs.Push.Dialog.v2/0.0.1493.893@0.0.1493.893" timestamp="1611486556184" />
     <state x="410" y="189" width="672" height="678" key="search.everywhere.popup" timestamp="1609759149923">
       <screen x="0" y="0" width="1493" height="893" />
     </state>
