@@ -1,43 +1,5 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "name" : "categories",
-  "children" : [ {
-    "name" : "Product defects",
-    "children" : [ {
-      "name" : "AssertionError: assert {'response': ....htm?kw=王者荣耀'} == '{\"success\":tr}'\n  +{'response': '请求发送失败，详细信息： url=https://sj.qq.com/myapp/searchAjax.htm?kw=王者荣耀'}\n  -'{\"success\":tr}'",
-      "children" : [ {
-        "name" : "搜索APP",
-        "uid" : "144ad9c807498ef0",
-        "parentUid" : "456a85fbd03229ade0fb2a1caa446ae7",
-        "status" : "failed",
-        "time" : {
-          "start" : 1610539512026,
-          "stop" : 1610539512454,
-          "duration" : 428
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "{'case_id': 'case_2', 'case_name': '搜索APP', 'case_run': 'yes', 'case_url': 'https://sj.qq.com/myapp/searchAjax.htm?kw=王者荣耀', 'case_method': 'GET', 'case_depend_id': '', 'case_depend_key': '', 'case_depend_param': '', 'case_params': '', 'case_expect': '{\"success\":tr}', 'other': ''}" ]
-      } ],
-      "uid" : "456a85fbd03229ade0fb2a1caa446ae7"
-    }, {
-      "name" : "AssertionError: assert {'success': 123} == {'success': True}\n  Differing items:\n  {'success': 123} != {'success': True}\n  Full diff:\n  - {'success': True}\n  ?             ^^^^\n  + {'success': 123}\n  ?             ^^^",
-      "children" : [ {
-        "name" : "搜索APP",
-        "uid" : "f6a6c0986174d5e1",
-        "parentUid" : "24bf7847f0b12e9b8a22b00dbda8472b",
-        "status" : "failed",
-        "time" : {
-          "start" : 1610539516322,
-          "stop" : 1610539517013,
-          "duration" : 691
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "{'case_id': 'case_9', 'case_name': '搜索APP', 'case_run': 'yes', 'case_url': 'https://sj.qq.com/myapp/searchAjax.htm?kw=虎扑', 'case_method': 'GET', 'case_depend_id': '', 'case_depend_key': '', 'case_depend_param': '', 'case_params': '', 'case_expect': '{\"success\":123}', 'other': ''}" ]
-      } ],
-      "uid" : "24bf7847f0b12e9b8a22b00dbda8472b"
-    } ],
-    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
-  } ]
+  "children" : [ ]
 }
