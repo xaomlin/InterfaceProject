@@ -14,24 +14,41 @@ class DependHandler(object):
     #     response = self.send_depend_request()
     #     return response
 
-    def send_depend_request(self,url, method, data = None):
+    def send_depend_request(self,url, method, type,data = None):
         """ 发请求 """
-
-        response = requests.request(
-            method=method,
-            url=url,
-            data=data
-            )
-        response_data = response.json()
-        return response_data
+        method = method.upper()
+        type = type.upper()
+        try:
+            if data != '':
+                if isinstance(data, str):
+                    data = json.loads(data)
+            if method == 'GET':
+                if data != None:
+                    response = requests.request(method=method, url=url, params=data)
+                else:
+                    response = requests.request(method=method, url=url)
+                response_data = response.json()
+                return response_data
+            elif method == 'POST':
+                if type == 'FORM':  # 发送表单数据，使用data参数传递
+                    response = requests.request(method=method, url=url, data=data)
+                elif type == 'JSON':  # 如果接口支持application/json类型，则使用json参数传递
+                    response = requests.request(method=method, url=url, json=data)
+                else:  # 如果接口需要传递其他类型的数据比如 上传文件，调用下面的请求方法
+                    response = requests.request(method=method, url=url)
+                    # 如果请求方式非 get 和post 会报错，当然你也可以继续添加其他的请求方法
+                response_data = response.json()
+                return response_data
+        except:
+            logger().error({'依赖接口执行失败': " url={}".format(url)})
 
 
 if __name__ == '__main__':
     d = DependHandler()
     method = 'GET'
-    url = 'https://sj.qq.com/myapp/searchAjax.htm?kw=微信'
-    # param = {'kw':'UC浏览器极速版'}
-    print(d.send_depend_request(method,url))
+    url = 'https://sj.qq.com/myapp/searchAjax.htm'
+    param = {'kw':'UC浏览器极速版'}
+    print(d.send_depend_request(url,method,'json',param))
     test_json = {
     "obj": {
         "appDetails": [

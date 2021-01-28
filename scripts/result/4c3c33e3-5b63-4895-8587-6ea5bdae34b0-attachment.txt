@@ -1,1 +1,0 @@
-ERROR    接口测试:RequestHandler.py:65 {'response': '请求发送失败，详细信息： url=https://app.nicebooker.com/parental/app/v1/user/phoneLogin'}

@@ -1,0 +1,67 @@
+{
+  "uid" : "d3d4733ff84830a8",
+  "name" : "hexiaoyu",
+  "fullName" : "scripts.test_case.Test_case#test_case",
+  "historyId" : "e47b393c04faf3c8af0910bd2db6efe8",
+  "time" : {
+    "start" : 1611850659208,
+    "stop" : 1611850659713,
+    "duration" : 505
+  },
+  "description" : "<font color=\"red\">请求URL：</font>https://app.nicebooker.com/parental/app/v1/integral/getRewardPoint<br /><font color=\"red\">期望值：</font>{\"state\":{\"code\":0,\"msg\":\"操作成功\"}}",
+  "descriptionHtml" : "<p><font color=\"red\">请求URL：</font>https://app.nicebooker.com/parental/app/v1/integral/getRewardPoint<br /><font color=\"red\">期望值：</font>{&quot;state&quot;:{&quot;code&quot;:0,&quot;msg&quot;:&quot;操作成功&quot;}}</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "hexiaoyu"
+  }, {
+    "name" : "story",
+    "value" : "post"
+  }, {
+    "name" : "parentSuite",
+    "value" : "scripts"
+  }, {
+    "name" : "suite",
+    "value" : "test_case"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_case"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-2FL92AG3"
+  }, {
+    "name" : "thread",
+    "value" : "11124-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "scripts.test_case"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case",
+    "value" : "{'case_id': 'case_50', 'case_name': 'hexiaoyu', 'case_run': 'yes', 'case_url': 'https://app.nicebooker.com/parental/app/v1/integral/getRewardPoint', 'case_method': 'post', 'case_params': '{\"client\":{\"bundleId\":\"com.qlchat.hexiaoyu\",\"caller\":\"app\",\"ex\":{\"model\":\"VOG-AL00\"},\"os\":\"25\",\"platform\":\"android\",\"ver\":\"1.3.1\"},\"data\":{},\"id\":\"1610968486599138\",\"sign\":\"518c7c8ca4fb04ac1f5152c4126281dd\",\"timestamp\":1610968486599,\"user\":{\"sid\":\"<sid>\",\"userId\":2000002398561712}}', 'params_type': 'json', 'case_response_key': '', 'case_depend_key': 'sid', 'case_expect': '{\"state\":{\"code\":0,\"msg\":\"操作成功\"}}', 'other': ''}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d3d4733ff84830a8.json",
+  "parameterValues" : [ "{'case_id': 'case_50', 'case_name': 'hexiaoyu', 'case_run': 'yes', 'case_url': 'https://app.nicebooker.com/parental/app/v1/integral/getRewardPoint', 'case_method': 'post', 'case_params': '{\"client\":{\"bundleId\":\"com.qlchat.hexiaoyu\",\"caller\":\"app\",\"ex\":{\"model\":\"VOG-AL00\"},\"os\":\"25\",\"platform\":\"android\",\"ver\":\"1.3.1\"},\"data\":{},\"id\":\"1610968486599138\",\"sign\":\"518c7c8ca4fb04ac1f5152c4126281dd\",\"timestamp\":1610968486599,\"user\":{\"sid\":\"<sid>\",\"userId\":2000002398561712}}', 'params_type': 'json', 'case_response_key': '', 'case_depend_key': 'sid', 'case_expect': '{\"state\":{\"code\":0,\"msg\":\"操作成功\"}}', 'other': ''}" ]
+}

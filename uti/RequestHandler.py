@@ -24,9 +24,8 @@ class RequestHandler(object):
     @property
     def get_response(self):
         """ 获取请求结果 """
-        response = self.send_request()
-        # print(response)
-        return response
+        response,assert_value, = self.send_request()
+        return response,assert_value
 
     def get_session(self):
         self.session = requests.Session()
@@ -36,6 +35,7 @@ class RequestHandler(object):
         """ 发请求 """
         method = self.case['case_method'].upper()
         data = self._check_params()
+        # print(data)
         url = self.case['case_url']
         type = self.case['params_type'].upper()
         try:
@@ -65,7 +65,8 @@ class RequestHandler(object):
         except:
             logger().error({'response': "请求发送失败，详细信息： url={}".format(self.case['case_url'])})
             return {'response': "请求发送失败，详细信息： url={}".format(self.case['case_url'])}, self.case['case_expect']
-        return assert_data
+        response = response.json()
+        return response,assert_data
 
     def _check_json_response(self, response):
         """  处理json类型的返回值 """
@@ -86,10 +87,13 @@ class RequestHandler(object):
     def _check_params(self):
         """ 整理参数 """
         param = self.case['case_params']
+        # print(type(param))
         if param != '':
             if isinstance(param, str):
                 data = json.loads(param)
                 return data
+            if isinstance(param,dict):
+                return param
         else:
             return None
 

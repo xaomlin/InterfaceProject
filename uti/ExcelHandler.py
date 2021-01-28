@@ -6,9 +6,9 @@
 '''
 import xlrd
 from settings import conf
+from openpyxl import load_workbook
 
 class ExcelHandler(object):
-
 
     def get_excel_data(self):
         # 获取到book对象
@@ -23,7 +23,14 @@ class ExcelHandler(object):
             l.append(dict(zip(title, sheet.row_values(i))))
         return l
 
+    def get_sheet_name(self):
+        '''
+        获取sheet名字
+        '''
+        sheets = load_workbook(conf.TEST_CASE_PATH).sheetnames
+        return sheets[0]
 
+    @property
     def get_request_data(self):
         '''
         EXCEL表中判断是否执行
@@ -35,7 +42,6 @@ class ExcelHandler(object):
             is_run = excel_data[i].get('case_run').upper()
             if is_run == 'YES':
                 request_data.append(excel_data[i])
-        # print(request_data)
         return request_data
 
 
@@ -83,4 +89,5 @@ class ExcelHandler(object):
 
 if __name__ == '__main__':
     e = ExcelHandler()
-    e.get_request_data()
+    print(e.get_request_data())
+    # e.get_sheet_name()
