@@ -40,7 +40,7 @@ class RequestHandler(object):
         type = self.case['params_type'].upper()
         try:
             if method == 'GET':
-                if data != None:
+                if data != '':
                     response = requests.request(method=method, url=url, params=data)
                 else:
                     response = requests.request(method=method, url=url)

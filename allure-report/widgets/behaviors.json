@@ -1,8 +1,19 @@
 {
-  "total" : 3,
+  "total" : 4,
   "items" : [ {
-    "uid" : "ea57b2bd3892c6243dbf18e7e3043c9d",
-    "name" : "搜索APP4",
+    "uid" : "b9dbd41d74db9ff5a649c9a937469ad4",
+    "name" : "搜索APP0",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "5250694090a4cf318331d2ee7c875404",
+    "name" : "搜索APP1",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
