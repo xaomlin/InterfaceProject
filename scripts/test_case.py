@@ -23,7 +23,6 @@ class Test_case(object):
         table = excelhandler.get_sheet_name()
         mysql = MysqlHandler()
         mysql.create_table(table)
-        # print('11')
         run = NotRunBeDependCase()
         run.not_run_be_depend_case()
 
@@ -33,15 +32,12 @@ class Test_case(object):
         if case['case_depend_key'] != '':
             param = GetParam().getparam(case['case_depend_key'],case['case_params'])
             case['case_params'] = param
-        # print(case['case_params'])
         savevalue = SaveRunBeDependValue()
         response,assert_value = RequestHandler(case).get_response
-        # print(assert_value)
         if case['case_response_key'] != '':
-            # print(case['case_response_key'])
             savevalue.savedependvalue(case['case_response_key'],response)
         # 制作 allure 报告
-        assert assert_value[0] == assert_value[0]
+        assert assert_value[0] == assert_value[1]
         allure.dynamic.title(case['case_name'])
         allure.dynamic.description('<font color="red">请求URL：</font>{}<br />'
                                    '<font color="red">期望值：</font>{}'.format(case['case_url'], case['case_expect']))
