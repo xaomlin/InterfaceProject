@@ -19,9 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3a68e12d-e2dd-4294-9b85-fdb3d6fc16eb" name="Default Changelist" comment="添加说明md文件">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="3a68e12d-e2dd-4294-9b85-fdb3d6fc16eb" name="Default Changelist" comment="更新说明" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -267,7 +265,7 @@
       <workItem from="1611829512203" duration="6977000" />
       <workItem from="1611840338686" duration="8841000" />
       <workItem from="1611936124440" duration="4622000" />
-      <workItem from="1612018393388" duration="630000" />
+      <workItem from="1612018393388" duration="1011000" />
     </task>
     <task id="LOCAL-00001" summary="第一次提交">
       <created>1575012535697</created>
@@ -514,7 +512,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611940379371</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="更新说明">
+      <created>1612019802963</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1612019802963</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -549,7 +554,8 @@
     <MESSAGE value="hexiaoyu测试用例" />
     <MESSAGE value="初代数据依赖done" />
     <MESSAGE value="添加说明md文件" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加说明md文件" />
+    <MESSAGE value="更新说明" />
+    <option name="LAST_COMMIT_MESSAGE" value="更新说明" />
   </component>
   <component name="WindowStateProjectService">
     <state x="162" y="325" key="#Notifications" timestamp="1609171898300">
@@ -632,10 +638,10 @@
       <screen x="0" y="0" width="1493" height="893" />
     </state>
     <state x="249" y="92" key="SettingsEditor/0.0.1493.893@0.0.1493.893" timestamp="1611936736039" />
-    <state x="340" y="180" key="Vcs.Push.Dialog.v2" timestamp="1611940408547">
+    <state x="340" y="180" key="Vcs.Push.Dialog.v2" timestamp="1612019818273">
       <screen x="0" y="0" width="1493" height="893" />
     </state>
-    <state x="340" y="180" key="Vcs.Push.Dialog.v2/0.0.1493.893@0.0.1493.893" timestamp="1611940408547" />
+    <state x="340" y="180" key="Vcs.Push.Dialog.v2/0.0.1493.893@0.0.1493.893" timestamp="1612019818273" />
     <state x="410" y="189" width="672" height="678" key="search.everywhere.popup" timestamp="1611834742400">
       <screen x="0" y="0" width="1493" height="893" />
     </state>
