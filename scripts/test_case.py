@@ -2,7 +2,6 @@
 # @Project : InterfaceProject
 import pytest
 import allure
-from uti.GetData import GetData
 from uti.RequestHandler import RequestHandler
 from uti.AllureHandler import AllureHandler
 from uti.ExcelHandler import ExcelHandler
@@ -10,7 +9,6 @@ from uti.MysqlHandler import MysqlHandler
 from uti.NotRunBeDpendCase import NotRunBeDependCase
 from uti.SaveRunBeDependValue import SaveRunBeDependValue
 from uti.GetParam import GetParam
-import json
 '''
 1. 获取测试数据
 2. 发请求
