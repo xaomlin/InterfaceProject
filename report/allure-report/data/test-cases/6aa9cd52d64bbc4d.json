@@ -1,0 +1,84 @@
+{
+  "uid" : "6aa9cd52d64bbc4d",
+  "name" : "getReportMsgNums",
+  "fullName" : "scripts.test_case.Test_case#test_case",
+  "historyId" : "f3fd23e5baa2e2365cb5a6249ec9cf4b",
+  "time" : {
+    "start" : 1612097234720,
+    "stop" : 1612097235246,
+    "duration" : 526
+  },
+  "description" : "<font color=\"red\">请求URL：</font>https://app.nicebooker.com/parental/app/v1/commentReport/getReportMsgNums<br /><font color=\"red\">期望值：</font>{\"state\":{\"code\":0,\"msg\":\"操作成功\"}}",
+  "descriptionHtml" : "<p><font color=\"red\">请求URL：</font>https://app.nicebooker.com/parental/app/v1/commentReport/getReportMsgNums<br /><font color=\"red\">期望值：</font>{&quot;state&quot;:{&quot;code&quot;:0,&quot;msg&quot;:&quot;操作成功&quot;}}</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "<font color=\"red\">请求URL：</font>https://app.nicebooker.com/parental/app/v1/commentReport/getReportMsgNums<br /><font color=\"red\">期望值：</font>{\"state\":{\"code\":0,\"msg\":\"操作成功\"}}",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "7b4b34d278f9f5ee",
+      "name" : "log",
+      "source" : "7b4b34d278f9f5ee.txt",
+      "type" : "text/plain",
+      "size" : 129
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "getReportMsgNums"
+  }, {
+    "name" : "story",
+    "value" : "post"
+  }, {
+    "name" : "parentSuite",
+    "value" : "scripts"
+  }, {
+    "name" : "suite",
+    "value" : "test_case"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_case"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-2FL92AG3"
+  }, {
+    "name" : "thread",
+    "value" : "7816-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "scripts.test_case"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case",
+    "value" : "{'case_id': 'case_41', 'case_model': 'HEXIAOYU', 'case_name': 'getReportMsgNums', 'case_run': 'yes', 'case_url': 'https://app.nicebooker.com/parental/app/v1/commentReport/getReportMsgNums', 'case_method': 'post', 'case_params': 'getReportMsgNums2', 'params_type': 'json', 'case_response_key': '', 'case_depend_key': 'sid', 'case_expect': '{\"state\":{\"code\":0,\"msg\":\"操作成功\"}}', 'other': ''}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6aa9cd52d64bbc4d.json",
+  "parameterValues" : [ "{'case_id': 'case_41', 'case_model': 'HEXIAOYU', 'case_name': 'getReportMsgNums', 'case_run': 'yes', 'case_url': 'https://app.nicebooker.com/parental/app/v1/commentReport/getReportMsgNums', 'case_method': 'post', 'case_params': 'getReportMsgNums2', 'params_type': 'json', 'case_response_key': '', 'case_depend_key': 'sid', 'case_expect': '{\"state\":{\"code\":0,\"msg\":\"操作成功\"}}', 'other': ''}" ]
+}
