@@ -9,6 +9,7 @@ from uti.MysqlHandler import MysqlHandler
 from uti.NotRunBeDpendCase import NotRunBeDependCase
 from uti.SaveRunBeDependValue import SaveRunBeDependValue
 from uti.GetParam import GetParam
+from uti.ReadYaml import ReadYaml
 '''
 1. 获取测试数据
 2. 发请求
@@ -28,15 +29,21 @@ class Test_case(object):
 
     @pytest.mark.parametrize('case', ExcelHandler().get_request_data)
     def test_case(self,case):
-        """  执行断言 """
-        if case['case_depend_key'] != '':
-            param = GetParam().getparam(case['case_depend_key'],case['case_params'])
-            case['case_params'] = param
-        savevalue = SaveRunBeDependValue()
+        case_model = case['case_model']
+        case_params = case['case_params']
+        if case_params != '':
+            params = ReadYaml().get_yaml_param(case_model,case_params)
+            if case['case_depend_key'] != '':
+                param = GetParam().getparam(case['case_depend_key'],params)
+                case['case_params'] = param
+            else:
+                case['case_params'] = params
         response,assert_value = RequestHandler(case).get_response
         if case['case_response_key'] != '':
+            savevalue = SaveRunBeDependValue()
             savevalue.savedependvalue(case['case_response_key'],response)
         # 制作 allure 报告
+        """  执行断言 """
         assert assert_value[0] == assert_value[1]
         allure.dynamic.title(case['case_name'])
         allure.dynamic.description('<font color="red">请求URL：</font>{}<br />'

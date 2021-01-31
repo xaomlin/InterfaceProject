@@ -46,7 +46,7 @@ class LoggerHandler:
         return self.logger
 
 
-def logger(log_name='接口测试'):
+def logger(log_name='api_test'):
     return LoggerHandler(
         log_name=log_name,
         logger_level=conf.LOG_LEVEL,
