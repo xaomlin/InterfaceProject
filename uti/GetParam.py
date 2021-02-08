@@ -9,7 +9,7 @@ class GetParam(object):
     '''获取运行前的参数'''
     def getparam(self,case_depend_key,param):
         excelhandler = ExcelHandler()
-        table = excelhandler.get_sheet_name()
+        table = excelhandler.table_name()
         mysql = MysqlHandler()
         # 获取数据库的依赖值
         repl = mysql.select_table('value', table, case_depend_key)

@@ -1,0 +1,1 @@
+INFO     发送请求:RequestHandler.py:77 https://app.nicebooker.com/parental/app/v1/evaluation/getEvaluationIndexStatus 执行成功

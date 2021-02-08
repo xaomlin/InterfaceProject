@@ -18,9 +18,9 @@ class NotRunBeDependCase(object):
 
     def not_run_be_depend_case(self):
         #获取所有的case
-        excel_data = self.excelhandler.get_excel_data()
+        excel_data = self.excelhandler.get_all_excel_data()
         #获取插入表
-        table = self.excelhandler.get_sheet_name()
+        table = self.excelhandler.table_name()
         mysql = MysqlHandler()
         mysql.create_table(table)
         # 循环遍历每一条case

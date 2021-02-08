@@ -7,16 +7,15 @@
       "name" : "AssertionError: assert {'state': {'c...'msg': '操作功'}} == {'state': {'c...msg': '请求成功'}}\n  Differing items:\n  {'state': {'code': 0, 'msg': '操作功'}} != {'state': {'code': 0, 'msg': '请求成功'}}\n  Full diff:\n  - {'state': {'code': 0, 'msg': '请求成功'}}\n  ?                               ^^^\n  + {'state': {'code': 0, 'msg': '操作功'}}\n  ?                               ^^",
       "children" : [ {
         "name" : "test_case[case10]",
-        "uid" : "5d9dcc160c281647",
+        "uid" : "361a3e3ce370eacf",
         "parentUid" : "b46640a70d12b6db15183eff06164955",
         "status" : "failed",
         "time" : {
-          "start" : 1612097219875,
-          "stop" : 1612097220352,
-          "duration" : 477
+          "start" : 1612753445873,
+          "stop" : 1612753446392,
+          "duration" : 519
         },
         "flaky" : false,
-        "newFailed" : false,
         "parameters" : [ "{'case_id': 'case_11', 'case_model': 'HEXIAOYU', 'case_name': 'getRewardPoint', 'case_run': 'yes', 'case_url': 'https://app.nicebooker.com/parental/app/v1/integral/getRewardPoint', 'case_method': 'post', 'case_params': 'getRewardPoint1', 'params_type': 'json', 'case_response_key': '', 'case_depend_key': 'sid', 'case_expect': '{\"state\":{\"code\":0,\"msg\":\"操作功\"}}', 'other': ''}" ]
       } ],
       "uid" : "b46640a70d12b6db15183eff06164955"
@@ -24,55 +23,51 @@
       "name" : "AssertionError: assert {'state': {'c...msg': '操作成功'}} == {'state': {'c...msg': '请求成功'}}\n  Differing items:\n  {'state': {'code': 0, 'msg': '操作成功'}} != {'state': {'code': 0, 'msg': '请求成功'}}\n  Full diff:\n  - {'state': {'code': 0, 'msg': '请求成功'}}\n  ?                               ^^\n  + {'state': {'code': 0, 'msg': '操作成功'}}\n  ?                               ^^",
       "children" : [ {
         "name" : "test_case[case25]",
-        "uid" : "b80b5a1153087d33",
+        "uid" : "2d22c2ed054f6dfb",
         "parentUid" : "54a952d2836ae441062f8b6d34c2f98d",
         "status" : "failed",
         "time" : {
-          "start" : 1612097227560,
-          "stop" : 1612097228063,
-          "duration" : 503
+          "start" : 1612753453749,
+          "stop" : 1612753454244,
+          "duration" : 495
         },
         "flaky" : false,
-        "newFailed" : false,
         "parameters" : [ "{'case_id': 'case_26', 'case_model': 'HEXIAOYU', 'case_name': 'getRewardPoint', 'case_run': 'yes', 'case_url': 'https://app.nicebooker.com/parental/app/v1/integral/getRewardPoint', 'case_method': 'post', 'case_params': 'getRewardPoint2', 'params_type': 'json', 'case_response_key': '', 'case_depend_key': 'sid', 'case_expect': '{\"state\":{\"code\":0,\"msg\":\"操作成功\"}}', 'other': ''}" ]
       }, {
         "name" : "test_case[case28]",
-        "uid" : "6b6df1ff5b8113a",
+        "uid" : "f6b072814b6739fa",
         "parentUid" : "54a952d2836ae441062f8b6d34c2f98d",
         "status" : "failed",
         "time" : {
-          "start" : 1612097229027,
-          "stop" : 1612097229533,
-          "duration" : 506
+          "start" : 1612753455283,
+          "stop" : 1612753455797,
+          "duration" : 514
         },
         "flaky" : false,
-        "newFailed" : false,
         "parameters" : [ "{'case_id': 'case_29', 'case_model': 'HEXIAOYU', 'case_name': 'getRewardPoint', 'case_run': 'yes', 'case_url': 'https://app.nicebooker.com/parental/app/v1/integral/getRewardPoint', 'case_method': 'post', 'case_params': 'getRewardPoint3', 'params_type': 'json', 'case_response_key': '', 'case_depend_key': 'sid', 'case_expect': '{\"state\":{\"code\":0,\"msg\":\"操作成功\"}}', 'other': ''}" ]
       }, {
         "name" : "test_case[case31]",
-        "uid" : "ef6cd6ed155e7ade",
+        "uid" : "eeb35fea0b24765b",
         "parentUid" : "54a952d2836ae441062f8b6d34c2f98d",
         "status" : "failed",
         "time" : {
-          "start" : 1612097230054,
-          "stop" : 1612097230559,
-          "duration" : 505
+          "start" : 1612753456436,
+          "stop" : 1612753456944,
+          "duration" : 508
         },
         "flaky" : false,
-        "newFailed" : false,
         "parameters" : [ "{'case_id': 'case_32', 'case_model': 'HEXIAOYU', 'case_name': 'getRewardPoint', 'case_run': 'yes', 'case_url': 'https://app.nicebooker.com/parental/app/v1/integral/getRewardPoint', 'case_method': 'post', 'case_params': 'getRewardPoint4', 'params_type': 'json', 'case_response_key': '', 'case_depend_key': 'sid', 'case_expect': '{\"state\":{\"code\":0,\"msg\":\"操作成功\"}}', 'other': ''}" ]
       }, {
         "name" : "test_case[case34]",
-        "uid" : "a813afdeefeec650",
+        "uid" : "bf8349b017e793b4",
         "parentUid" : "54a952d2836ae441062f8b6d34c2f98d",
         "status" : "failed",
         "time" : {
-          "start" : 1612097231561,
-          "stop" : 1612097232041,
-          "duration" : 480
+          "start" : 1612753457972,
+          "stop" : 1612753458522,
+          "duration" : 550
         },
         "flaky" : false,
-        "newFailed" : false,
         "parameters" : [ "{'case_id': 'case_35', 'case_model': 'HEXIAOYU', 'case_name': 'getRewardPoint', 'case_run': 'yes', 'case_url': 'https://app.nicebooker.com/parental/app/v1/integral/getRewardPoint', 'case_method': 'post', 'case_params': 'getRewardPoint5', 'params_type': 'json', 'case_response_key': '', 'case_depend_key': 'sid', 'case_expect': '{\"state\":{\"code\":0,\"msg\":\"操作成功\"}}', 'other': ''}" ]
       } ],
       "uid" : "54a952d2836ae441062f8b6d34c2f98d"
@@ -84,16 +79,15 @@
       "name" : "KeyError: 'getDetailInfo3:'",
       "children" : [ {
         "name" : "test_case[case30]",
-        "uid" : "5f2c3771a5d87bec",
+        "uid" : "e4354312785ef658",
         "parentUid" : "151605ab01a52912c02878594855ed37",
         "status" : "broken",
         "time" : {
-          "start" : 1612097230003,
-          "stop" : 1612097230054,
-          "duration" : 51
+          "start" : 1612753456340,
+          "stop" : 1612753456419,
+          "duration" : 79
         },
         "flaky" : false,
-        "newFailed" : false,
         "parameters" : [ "{'case_id': 'case_31', 'case_model': 'HEXIAOYU', 'case_name': 'getDetailInfo', 'case_run': 'yes', 'case_url': 'https://app.nicebooker.com/parental/app/v1/userbaby/getDetailInfo', 'case_method': 'post', 'case_params': 'getDetailInfo3:', 'params_type': 'json', 'case_response_key': '', 'case_depend_key': 'sid', 'case_expect': '{\"state\":{\"code\":0,\"msg\":\"操作成功\"}}', 'other': ''}" ]
       } ],
       "uid" : "151605ab01a52912c02878594855ed37"

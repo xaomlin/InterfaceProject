@@ -8,7 +8,7 @@ pip install xlwt
 '''
 import xlrd
 
-# file_path = r'D:\MT\ATScripts\demo\接口测试示例.xlsx'
+# file_path = r'D:\MT\ATScripts\demo\Test.xlsx'
 #
 # # 获取到book对象
 # book = xlrd.open_workbook(file_path)

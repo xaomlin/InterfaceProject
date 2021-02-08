@@ -1,431 +1,511 @@
 [ {
-  "uid" : "a74158292857d7a0",
-  "name" : "versionUpdate",
-  "time" : {
-    "start" : 1612097226558,
-    "stop" : 1612097227035,
-    "duration" : 477
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "ba727662e7a5c411",
-  "name" : "subjectTopiclist",
-  "time" : {
-    "start" : 1612097232618,
-    "stop" : 1612097233199,
-    "duration" : 581
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "b80b5a1153087d33",
-  "name" : "test_case[case25]",
-  "time" : {
-    "start" : 1612097227560,
-    "stop" : 1612097228063,
-    "duration" : 503
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "d32c428347881013",
-  "name" : "getIntegral",
-  "time" : {
-    "start" : 1612097228068,
-    "stop" : 1612097228532,
-    "duration" : 464
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "ef6cd6ed155e7ade",
-  "name" : "test_case[case31]",
-  "time" : {
-    "start" : 1612097230054,
-    "stop" : 1612097230559,
-    "duration" : 505
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "589fbb5fa6932f6a",
-  "name" : "getDetailInfo",
-  "time" : {
-    "start" : 1612097227041,
-    "stop" : 1612097227554,
-    "duration" : 513
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "590e7ec7d4d046ee",
-  "name" : "subjectTopiclist",
-  "time" : {
-    "start" : 1612097232051,
-    "stop" : 1612097232618,
-    "duration" : 567
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "95425de79466d8d8",
-  "name" : "versionUpdate",
-  "time" : {
-    "start" : 1612097224014,
-    "stop" : 1612097224500,
-    "duration" : 486
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "6aa9cd52d64bbc4d",
-  "name" : "getReportMsgNums",
-  "time" : {
-    "start" : 1612097234720,
-    "stop" : 1612097235246,
-    "duration" : 526
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "c76be538d833cde8",
-  "name" : "getCourseCatalogList",
-  "time" : {
-    "start" : 1612097234182,
-    "stop" : 1612097234720,
-    "duration" : 538
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "80cfce8d278f2715",
-  "name" : "getDetailInfo",
-  "time" : {
-    "start" : 1612097219349,
-    "stop" : 1612097219872,
-    "duration" : 523
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "73143d3270128db5",
-  "name" : "getUserCourseList",
-  "time" : {
-    "start" : 1612097235831,
-    "stop" : 1612097236550,
-    "duration" : 719
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "151f051e6a181474",
+  "uid" : "2e93bf8ed6c53a65",
   "name" : "getAdvertising",
   "time" : {
-    "start" : 1612097224517,
-    "stop" : 1612097225044,
-    "duration" : 527
+    "start" : 1612753450698,
+    "stop" : 1612753451171,
+    "duration" : 473
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "b2a07b4e63e7407a",
-  "name" : "getEvaluationStatus",
-  "time" : {
-    "start" : 1612097225523,
-    "stop" : 1612097226065,
-    "duration" : 542
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "9f54e7d66157c332",
+  "uid" : "6ed2dd66c85eb2a2",
   "name" : "搜索APP1",
   "time" : {
-    "start" : 1612097212810,
-    "stop" : 1612097213070,
-    "duration" : 260
+    "start" : 1612753443549,
+    "stop" : 1612753443784,
+    "duration" : 235
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "b608ef5fb118c95a",
-  "name" : "搜索APP1",
-  "time" : {
-    "start" : 1612097218489,
-    "stop" : 1612097218772,
-    "duration" : 283
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "e64f8636e8a22de0",
-  "name" : "getUserStatus",
-  "time" : {
-    "start" : 1612097223025,
-    "stop" : 1612097223501,
-    "duration" : 476
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "a5663c15aea31264",
-  "name" : "搜索APP1",
-  "time" : {
-    "start" : 1612097213336,
-    "stop" : 1612097213613,
-    "duration" : 277
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "594d68d13517c453",
-  "name" : "listBanner",
-  "time" : {
-    "start" : 1612097223518,
-    "stop" : 1612097224008,
-    "duration" : 490
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "7c2a46a57b070f57",
-  "name" : "getIntegral",
-  "time" : {
-    "start" : 1612097229543,
-    "stop" : 1612097229993,
-    "duration" : 450
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "8571de2a19ea5e96",
+  "uid" : "48c80d1879e233d8",
   "name" : "checkSpecial",
   "time" : {
-    "start" : 1612097233209,
-    "stop" : 1612097233711,
-    "duration" : 502
+    "start" : 1612753459642,
+    "stop" : 1612753460141,
+    "duration" : 499
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "dc5a52f1dd673d21",
+  "uid" : "e4354312785ef658",
+  "name" : "test_case[case30]",
+  "time" : {
+    "start" : 1612753456340,
+    "stop" : 1612753456419,
+    "duration" : 79
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "4f49babbf91f405e",
+  "name" : "搜索APP",
+  "time" : {
+    "start" : 1612753463499,
+    "stop" : 1612753463890,
+    "duration" : 391
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "28c584a403918148",
   "name" : "搜索APP1",
   "time" : {
-    "start" : 1612097213613,
-    "stop" : 1612097213965,
-    "duration" : 352
+    "start" : 1612753444097,
+    "stop" : 1612753444458,
+    "duration" : 361
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "69dd184c47eaa4d5",
-  "name" : "getEvaluationIndexStatus",
+  "uid" : "c73632ba840e7943",
+  "name" : "getEvaluationStatus",
   "time" : {
-    "start" : 1612097222470,
-    "stop" : 1612097223021,
-    "duration" : 551
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "4b17a96d9d551036",
-  "name" : "搜索APP1",
-  "time" : {
-    "start" : 1612097214216,
-    "stop" : 1612097218479,
-    "duration" : 4263
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "a568710e0e07d66e",
-  "name" : "listTeacher",
-  "time" : {
-    "start" : 1612097228535,
-    "stop" : 1612097229027,
-    "duration" : 492
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "50db6ceb810bdb91",
-  "name" : "subjectTopiclist",
-  "time" : {
-    "start" : 1612097220943,
-    "stop" : 1612097221462,
-    "duration" : 519
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "a813afdeefeec650",
-  "name" : "test_case[case34]",
-  "time" : {
-    "start" : 1612097231561,
-    "stop" : 1612097232041,
-    "duration" : 480
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "b106825721d38cc4",
-  "name" : "getReportMsgNums",
-  "time" : {
-    "start" : 1612097221960,
-    "stop" : 1612097222465,
-    "duration" : 505
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "6430449ee23ef41e",
-  "name" : "搜索APP1",
-  "time" : {
-    "start" : 1612097213072,
-    "stop" : 1612097213333,
-    "duration" : 261
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "d2c1025ae59f8787",
-  "name" : "phoneLogin",
-  "time" : {
-    "start" : 1612097218790,
-    "stop" : 1612097219349,
-    "duration" : 559
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "96bd901b5bede78e",
-  "name" : "getIntegral",
-  "time" : {
-    "start" : 1612097225049,
-    "stop" : 1612097225517,
+    "start" : 1612753451726,
+    "stop" : 1612753452194,
     "duration" : 468
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "695ecb2f62d46030",
+  "uid" : "2d22c2ed054f6dfb",
+  "name" : "test_case[case25]",
+  "time" : {
+    "start" : 1612753453749,
+    "stop" : 1612753454244,
+    "duration" : 495
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "588479995f1c8c0b",
+  "name" : "搜索APP1",
+  "time" : {
+    "start" : 1612753443245,
+    "stop" : 1612753443541,
+    "duration" : 296
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "eeb35fea0b24765b",
+  "name" : "test_case[case31]",
+  "time" : {
+    "start" : 1612753456436,
+    "stop" : 1612753456944,
+    "duration" : 508
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "a1ebf05a30c5450d",
+  "name" : "getReportMsgNums",
+  "time" : {
+    "start" : 1612753448062,
+    "stop" : 1612753448595,
+    "duration" : 533
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bbd9044f59656e17",
   "name" : "getIntegral",
   "time" : {
-    "start" : 1612097226071,
-    "stop" : 1612097226552,
-    "duration" : 481
+    "start" : 1612753457481,
+    "stop" : 1612753457966,
+    "duration" : 485
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "8048c78561d596d9",
-  "name" : "搜索APP0",
+  "uid" : "9a89ab5a8c35f8d2",
+  "name" : "getIntegral",
   "time" : {
-    "start" : 1612097212433,
-    "stop" : 1612097212796,
-    "duration" : 363
+    "start" : 1612753455807,
+    "stop" : 1612753456335,
+    "duration" : 528
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "2b0c01e4df9d9ed7",
+  "uid" : "ba941b09bcb9d732",
+  "name" : "getIntegral",
+  "time" : {
+    "start" : 1612753452199,
+    "stop" : 1612753452712,
+    "duration" : 513
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "da223af68e5ae14a",
+  "name" : "listTeacher",
+  "time" : {
+    "start" : 1612753454755,
+    "stop" : 1612753455278,
+    "duration" : 523
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dfef24db55e817a2",
+  "name" : "getDetailInfo",
+  "time" : {
+    "start" : 1612753445333,
+    "stop" : 1612753445863,
+    "duration" : 530
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d10c0d66e9bdb745",
+  "name" : "getIntegral",
+  "time" : {
+    "start" : 1612753451184,
+    "stop" : 1612753451716,
+    "duration" : 532
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5ac838407befff19",
+  "name" : "搜索APP",
+  "time" : {
+    "start" : 1612753463895,
+    "stop" : 1612753464226,
+    "duration" : 331
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "da98a62367f4b662",
+  "name" : "搜索APP",
+  "time" : {
+    "start" : 1612753464485,
+    "stop" : 1612753464681,
+    "duration" : 196
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "361a3e3ce370eacf",
+  "name" : "test_case[case10]",
+  "time" : {
+    "start" : 1612753445873,
+    "stop" : 1612753446392,
+    "duration" : 519
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "8afd824723553265",
+  "name" : "搜索APP",
+  "time" : {
+    "start" : 1612753464962,
+    "stop" : 1612753465187,
+    "duration" : 225
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3409a95da2e97773",
   "name" : "todayCourseRemind",
   "time" : {
-    "start" : 1612097220422,
-    "stop" : 1612097220927,
-    "duration" : 505
+    "start" : 1612753446537,
+    "stop" : 1612753447020,
+    "duration" : 483
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "d7bda54d4b2ce1ab",
-  "name" : "getConfigDataByCampId",
+  "uid" : "cc064d82ad0aaae2",
+  "name" : "搜索APP",
   "time" : {
-    "start" : 1612097235246,
-    "stop" : 1612097235831,
-    "duration" : 585
+    "start" : 1612753465195,
+    "stop" : 1612753465471,
+    "duration" : 276
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "237db3e444ab6b51",
-  "name" : "getIntegral",
+  "uid" : "483f026a7da5df83",
+  "name" : "搜索APP",
   "time" : {
-    "start" : 1612097230569,
-    "stop" : 1612097231084,
+    "start" : 1612753464688,
+    "stop" : 1612753464957,
+    "duration" : 269
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1b045c2d39cf0fdd",
+  "name" : "subjectTopiclist",
+  "time" : {
+    "start" : 1612753458541,
+    "stop" : 1612753459095,
+    "duration" : 554
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1226e316e485ee77",
+  "name" : "getClockInActivity",
+  "time" : {
+    "start" : 1612753462972,
+    "stop" : 1612753463487,
     "duration" : 515
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "6d6e70c98e1d0f28",
-  "name" : "getUnSubscribe",
-  "time" : {
-    "start" : 1612097233716,
-    "stop" : 1612097234172,
-    "duration" : 456
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "6b6df1ff5b8113a",
-  "name" : "test_case[case28]",
-  "time" : {
-    "start" : 1612097229027,
-    "stop" : 1612097229533,
-    "duration" : 506
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "bdcc2a19dd97bd6a",
+  "uid" : "94887edadb1edd62",
   "name" : "getSystemMsgNum",
   "time" : {
-    "start" : 1612097221468,
-    "stop" : 1612097221956,
-    "duration" : 488
+    "start" : 1612753447576,
+    "stop" : 1612753448054,
+    "duration" : 478
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "5d9dcc160c281647",
-  "name" : "test_case[case10]",
+  "uid" : "7072e3735feea7c5",
+  "name" : "versionUpdate",
   "time" : {
-    "start" : 1612097219875,
-    "stop" : 1612097220352,
-    "duration" : 477
+    "start" : 1612753450184,
+    "stop" : 1612753450686,
+    "duration" : 502
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2577db1a116f14ee",
+  "name" : "getUserStatus",
+  "time" : {
+    "start" : 1612753449132,
+    "stop" : 1612753449644,
+    "duration" : 512
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dcecf9d508c98934",
+  "name" : "getIntegral",
+  "time" : {
+    "start" : 1612753454255,
+    "stop" : 1612753454748,
+    "duration" : 493
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "daa7ff6c3f08bf5d",
+  "name" : "搜索APP",
+  "time" : {
+    "start" : 1612753464236,
+    "stop" : 1612753464480,
+    "duration" : 244
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c97b07a304747d82",
+  "name" : "phoneLogin",
+  "time" : {
+    "start" : 1612753444742,
+    "stop" : 1612753445323,
+    "duration" : 581
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3495ab122fec5313",
+  "name" : "getReportMsgNums",
+  "time" : {
+    "start" : 1612753461209,
+    "stop" : 1612753461696,
+    "duration" : 487
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "435849b3b2abf5e9",
+  "name" : "搜索APP1",
+  "time" : {
+    "start" : 1612753443790,
+    "stop" : 1612753444091,
+    "duration" : 301
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f00649c918ca3511",
+  "name" : "getUnSubscribe",
+  "time" : {
+    "start" : 1612753460152,
+    "stop" : 1612753460663,
+    "duration" : 511
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bf8349b017e793b4",
+  "name" : "test_case[case34]",
+  "time" : {
+    "start" : 1612753457972,
+    "stop" : 1612753458522,
+    "duration" : 550
   },
   "status" : "failed",
   "severity" : "normal"
 }, {
-  "uid" : "ebe1f25c75003131",
-  "name" : "getIntegral",
+  "uid" : "a2b43a6dc2a5e1af",
+  "name" : "getDetailInfo",
   "time" : {
-    "start" : 1612097231084,
-    "stop" : 1612097231561,
-    "duration" : 477
+    "start" : 1612753453201,
+    "stop" : 1612753453740,
+    "duration" : 539
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "f818c669295099db",
+  "uid" : "21de8b31e6db35cf",
+  "name" : "getUserCourseList",
+  "time" : {
+    "start" : 1612753462260,
+    "stop" : 1612753462965,
+    "duration" : 705
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f6b072814b6739fa",
+  "name" : "test_case[case28]",
+  "time" : {
+    "start" : 1612753455283,
+    "stop" : 1612753455797,
+    "duration" : 514
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "40ed68811e56c371",
   "name" : "搜索APP1",
   "time" : {
-    "start" : 1612097213980,
-    "stop" : 1612097214216,
-    "duration" : 236
+    "start" : 1612753444463,
+    "stop" : 1612753444732,
+    "duration" : 269
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "5f2c3771a5d87bec",
-  "name" : "test_case[case30]",
+  "uid" : "6eba56fb2ab7cbd7",
+  "name" : "getIntegral",
   "time" : {
-    "start" : 1612097230003,
-    "stop" : 1612097230054,
-    "duration" : 51
+    "start" : 1612753456970,
+    "stop" : 1612753457470,
+    "duration" : 500
   },
-  "status" : "broken",
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a65e6457b15feeb0",
+  "name" : "搜索APP0",
+  "time" : {
+    "start" : 1612753441752,
+    "stop" : 1612753442572,
+    "duration" : 820
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "98e1e3a0654f0fca",
+  "name" : "subjectTopiclist",
+  "time" : {
+    "start" : 1612753459100,
+    "stop" : 1612753459630,
+    "duration" : 530
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "33baa605e0b64819",
+  "name" : "搜索APP1",
+  "time" : {
+    "start" : 1612753442578,
+    "stop" : 1612753442961,
+    "duration" : 383
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4b5ef91b1fe27948",
+  "name" : "getEvaluationIndexStatus",
+  "time" : {
+    "start" : 1612753448601,
+    "stop" : 1612753449123,
+    "duration" : 522
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fdc36580d1e75f33",
+  "name" : "subjectTopiclist",
+  "time" : {
+    "start" : 1612753447027,
+    "stop" : 1612753447568,
+    "duration" : 541
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "271a6eee21e34b1f",
+  "name" : "getConfigDataByCampId",
+  "time" : {
+    "start" : 1612753461706,
+    "stop" : 1612753462247,
+    "duration" : 541
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dcf1cd9f6655bc2e",
+  "name" : "搜索APP1",
+  "time" : {
+    "start" : 1612753442972,
+    "stop" : 1612753443235,
+    "duration" : 263
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b90bb77b606c37d",
+  "name" : "getCourseCatalogList",
+  "time" : {
+    "start" : 1612753460668,
+    "stop" : 1612753461204,
+    "duration" : 536
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c1daf622e75e3c12",
+  "name" : "versionUpdate",
+  "time" : {
+    "start" : 1612753452717,
+    "stop" : 1612753453195,
+    "duration" : 478
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d4ef7e470173ff1e",
+  "name" : "listBanner",
+  "time" : {
+    "start" : 1612753449655,
+    "stop" : 1612753450174,
+    "duration" : 519
+  },
+  "status" : "passed",
   "severity" : "normal"
 } ]

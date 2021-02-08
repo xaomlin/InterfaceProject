@@ -6,8 +6,14 @@ import datetime
 BASE_PATH = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 # 脚本路径
-file_path = '接口测试示例.xlsx'
-TEST_CASE_PATH = os.path.join(BASE_PATH, 'data', file_path)
+# file_path = 'Test.xlsx'
+# TEST_CASE_PATH = os.path.join(BASE_PATH, 'data', file_path)
+file_name = 'Test,aa' #第一个为依赖数据库表
+CASE_PATH = os.path.join(BASE_PATH, 'data')
+
+# 参数路径
+yaml_name = 'Test.yaml'
+PARAM_PATH = os.path.join(BASE_PATH, 'Param',yaml_name)
 
 # ------------ allure 相关配置 -----------
 

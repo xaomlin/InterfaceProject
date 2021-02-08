@@ -7,16 +7,15 @@
       "name" : "GET",
       "children" : [ {
         "name" : "搜索APP0",
-        "uid" : "8048c78561d596d9",
+        "uid" : "a65e6457b15feeb0",
         "parentUid" : "51dd1c84e73c7f8a0b18f4667895bb87",
         "status" : "passed",
         "time" : {
-          "start" : 1612097212433,
-          "stop" : 1612097212796,
-          "duration" : 363
+          "start" : 1612753441752,
+          "stop" : 1612753442572,
+          "duration" : 820
         },
         "flaky" : false,
-        "newFailed" : false,
         "parameters" : [ "{'case_id': 'case_1', 'case_model': 'SEARCHAPP', 'case_name': '搜索APP0', 'case_run': 'yes', 'case_url': 'https://sj.qq.com/myapp/searchAjax.htm', 'case_method': 'GET', 'case_params': 'search1', 'params_type': 'json', 'case_response_key': '', 'case_depend_key': '', 'case_expect': '{\"success\":true}', 'other': ''}" ]
       } ],
       "uid" : "51dd1c84e73c7f8a0b18f4667895bb87"
@@ -28,94 +27,87 @@
       "name" : "GET",
       "children" : [ {
         "name" : "搜索APP1",
-        "uid" : "9f54e7d66157c332",
+        "uid" : "33baa605e0b64819",
         "parentUid" : "53d9d36f1ffa869834e39db7ce8f5373",
         "status" : "passed",
         "time" : {
-          "start" : 1612097212810,
-          "stop" : 1612097213070,
-          "duration" : 260
+          "start" : 1612753442578,
+          "stop" : 1612753442961,
+          "duration" : 383
         },
         "flaky" : false,
-        "newFailed" : false,
         "parameters" : [ "{'case_id': 'case_2', 'case_model': 'SEARCHAPP', 'case_name': '搜索APP1', 'case_run': 'yes', 'case_url': 'https://sj.qq.com/myapp/searchAjax.htm', 'case_method': 'GET', 'case_params': 'search2', 'params_type': 'form', 'case_response_key': '', 'case_depend_key': '', 'case_expect': '{\"success\":true}', 'other': ''}" ]
       }, {
         "name" : "搜索APP1",
-        "uid" : "6430449ee23ef41e",
+        "uid" : "dcf1cd9f6655bc2e",
         "parentUid" : "53d9d36f1ffa869834e39db7ce8f5373",
         "status" : "passed",
         "time" : {
-          "start" : 1612097213072,
-          "stop" : 1612097213333,
-          "duration" : 261
+          "start" : 1612753442972,
+          "stop" : 1612753443235,
+          "duration" : 263
         },
         "flaky" : false,
-        "newFailed" : false,
         "parameters" : [ "{'case_id': 'case_3', 'case_model': 'SEARCHAPP', 'case_name': '搜索APP1', 'case_run': 'yes', 'case_url': 'https://sj.qq.com/myapp/searchAjax.htm?kw=QQ', 'case_method': 'GET', 'case_params': '', 'params_type': '', 'case_response_key': '', 'case_depend_key': '', 'case_expect': '{\"success\":true}', 'other': ''}" ]
       }, {
         "name" : "搜索APP1",
-        "uid" : "a5663c15aea31264",
+        "uid" : "588479995f1c8c0b",
         "parentUid" : "53d9d36f1ffa869834e39db7ce8f5373",
         "status" : "passed",
         "time" : {
-          "start" : 1612097213336,
-          "stop" : 1612097213613,
-          "duration" : 277
+          "start" : 1612753443245,
+          "stop" : 1612753443541,
+          "duration" : 296
         },
         "flaky" : false,
-        "newFailed" : false,
         "parameters" : [ "{'case_id': 'case_4', 'case_model': 'SEARCHAPP', 'case_name': '搜索APP1', 'case_run': 'yes', 'case_url': 'https://sj.qq.com/myapp/searchAjax.htm?kw=唯品会', 'case_method': 'GET', 'case_params': '', 'params_type': '', 'case_response_key': '', 'case_depend_key': '', 'case_expect': '{\"success\":true}', 'other': ''}" ]
       }, {
         "name" : "搜索APP1",
-        "uid" : "dc5a52f1dd673d21",
+        "uid" : "6ed2dd66c85eb2a2",
         "parentUid" : "53d9d36f1ffa869834e39db7ce8f5373",
         "status" : "passed",
         "time" : {
-          "start" : 1612097213613,
-          "stop" : 1612097213965,
-          "duration" : 352
+          "start" : 1612753443549,
+          "stop" : 1612753443784,
+          "duration" : 235
         },
         "flaky" : false,
-        "newFailed" : false,
         "parameters" : [ "{'case_id': 'case_5', 'case_model': 'SEARCHAPP', 'case_name': '搜索APP1', 'case_run': 'yes', 'case_url': 'https://sj.qq.com/myapp/searchAjax.htm?kw=美团', 'case_method': 'GET', 'case_params': '', 'params_type': '', 'case_response_key': '', 'case_depend_key': '', 'case_expect': '{\"success\":true}', 'other': ''}" ]
       }, {
         "name" : "搜索APP1",
-        "uid" : "f818c669295099db",
+        "uid" : "435849b3b2abf5e9",
         "parentUid" : "53d9d36f1ffa869834e39db7ce8f5373",
         "status" : "passed",
         "time" : {
-          "start" : 1612097213980,
-          "stop" : 1612097214216,
-          "duration" : 236
+          "start" : 1612753443790,
+          "stop" : 1612753444091,
+          "duration" : 301
         },
         "flaky" : false,
-        "newFailed" : false,
         "parameters" : [ "{'case_id': 'case_6', 'case_model': 'SEARCHAPP', 'case_name': '搜索APP1', 'case_run': 'yes', 'case_url': 'https://sj.qq.com/myapp/searchAjax.htm?kw=支付宝', 'case_method': 'GET', 'case_params': '', 'params_type': '', 'case_response_key': '', 'case_depend_key': '', 'case_expect': '{\"success\":true}', 'other': ''}" ]
       }, {
         "name" : "搜索APP1",
-        "uid" : "4b17a96d9d551036",
+        "uid" : "28c584a403918148",
         "parentUid" : "53d9d36f1ffa869834e39db7ce8f5373",
         "status" : "passed",
         "time" : {
-          "start" : 1612097214216,
-          "stop" : 1612097218479,
-          "duration" : 4263
+          "start" : 1612753444097,
+          "stop" : 1612753444458,
+          "duration" : 361
         },
         "flaky" : false,
-        "newFailed" : false,
         "parameters" : [ "{'case_id': 'case_7', 'case_model': 'SEARCHAPP', 'case_name': '搜索APP1', 'case_run': 'yes', 'case_url': 'https://sj.qq.com/myapp/searchAjax.htm?kw=爱奇艺', 'case_method': 'GET', 'case_params': '', 'params_type': '', 'case_response_key': '', 'case_depend_key': '', 'case_expect': '{\"success\":true}', 'other': ''}" ]
       }, {
         "name" : "搜索APP1",
-        "uid" : "b608ef5fb118c95a",
+        "uid" : "40ed68811e56c371",
         "parentUid" : "53d9d36f1ffa869834e39db7ce8f5373",
         "status" : "passed",
         "time" : {
-          "start" : 1612097218489,
-          "stop" : 1612097218772,
-          "duration" : 283
+          "start" : 1612753444463,
+          "stop" : 1612753444732,
+          "duration" : 269
         },
         "flaky" : false,
-        "newFailed" : false,
         "parameters" : [ "{'case_id': 'case_8', 'case_model': 'SEARCHAPP', 'case_name': '搜索APP1', 'case_run': 'yes', 'case_url': 'https://sj.qq.com/myapp/searchAjax.htm?kw=虎扑', 'case_method': 'GET', 'case_params': '', 'params_type': '', 'case_response_key': '', 'case_depend_key': '', 'case_expect': '{\"success\":true}', 'other': ''}" ]
       } ],
       "uid" : "53d9d36f1ffa869834e39db7ce8f5373"
@@ -127,16 +119,15 @@
       "name" : "post",
       "children" : [ {
         "name" : "phoneLogin",
-        "uid" : "d2c1025ae59f8787",
+        "uid" : "c97b07a304747d82",
         "parentUid" : "0b8c91d01bae0d9c1e051d14a3c406dc",
         "status" : "passed",
         "time" : {
-          "start" : 1612097218790,
-          "stop" : 1612097219349,
-          "duration" : 559
+          "start" : 1612753444742,
+          "stop" : 1612753445323,
+          "duration" : 581
         },
         "flaky" : false,
-        "newFailed" : false,
         "parameters" : [ "{'case_id': 'case_9', 'case_model': 'HEXIAOYU', 'case_name': 'phoneLogin', 'case_run': 'yes', 'case_url': 'https://app.nicebooker.com/parental/app/v1/user/phoneLogin', 'case_method': 'post', 'case_params': 'phoneLogin', 'params_type': 'json', 'case_response_key': 'sid', 'case_depend_key': '', 'case_expect': '{\"state\":{\"code\":0,\"msg\":\"操作成功\"}}', 'other': ''}" ]
       } ],
       "uid" : "0b8c91d01bae0d9c1e051d14a3c406dc"
@@ -148,29 +139,27 @@
       "name" : "post",
       "children" : [ {
         "name" : "getDetailInfo",
-        "uid" : "80cfce8d278f2715",
+        "uid" : "dfef24db55e817a2",
         "parentUid" : "64e7895f6e3cf427919a80a7166ec415",
         "status" : "passed",
         "time" : {
-          "start" : 1612097219349,
-          "stop" : 1612097219872,
-          "duration" : 523
+          "start" : 1612753445333,
+          "stop" : 1612753445863,
+          "duration" : 530
         },
         "flaky" : false,
-        "newFailed" : false,
         "parameters" : [ "{'case_id': 'case_10', 'case_model': 'HEXIAOYU', 'case_name': 'getDetailInfo', 'case_run': 'yes', 'case_url': 'https://app.nicebooker.com/parental/app/v1/userbaby/getDetailInfo', 'case_method': 'post', 'case_params': 'getDetailInfo1', 'params_type': 'json', 'case_response_key': '', 'case_depend_key': 'sid', 'case_expect': '{\"state\":{\"code\":0,\"msg\":\"操作成功\"}}', 'other': ''}" ]
       }, {
         "name" : "getDetailInfo",
-        "uid" : "589fbb5fa6932f6a",
+        "uid" : "a2b43a6dc2a5e1af",
         "parentUid" : "64e7895f6e3cf427919a80a7166ec415",
         "status" : "passed",
         "time" : {
-          "start" : 1612097227041,
-          "stop" : 1612097227554,
-          "duration" : 513
+          "start" : 1612753453201,
+          "stop" : 1612753453740,
+          "duration" : 539
         },
         "flaky" : false,
-        "newFailed" : false,
         "parameters" : [ "{'case_id': 'case_25', 'case_model': 'HEXIAOYU', 'case_name': 'getDetailInfo', 'case_run': 'yes', 'case_url': 'https://app.nicebooker.com/parental/app/v1/userbaby/getDetailInfo', 'case_method': 'post', 'case_params': 'getDetailInfo2', 'params_type': 'json', 'case_response_key': '', 'case_depend_key': 'sid', 'case_expect': '{\"state\":{\"code\":0,\"msg\":\"操作成功\"}}', 'other': ''}" ]
       } ],
       "uid" : "64e7895f6e3cf427919a80a7166ec415"
@@ -178,16 +167,15 @@
     "uid" : "e0eb83ef558b09172c5202e4e8680e21"
   }, {
     "name" : "test_case[case10]",
-    "uid" : "5d9dcc160c281647",
+    "uid" : "361a3e3ce370eacf",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "failed",
     "time" : {
-      "start" : 1612097219875,
-      "stop" : 1612097220352,
-      "duration" : 477
+      "start" : 1612753445873,
+      "stop" : 1612753446392,
+      "duration" : 519
     },
     "flaky" : false,
-    "newFailed" : false,
     "parameters" : [ "{'case_id': 'case_11', 'case_model': 'HEXIAOYU', 'case_name': 'getRewardPoint', 'case_run': 'yes', 'case_url': 'https://app.nicebooker.com/parental/app/v1/integral/getRewardPoint', 'case_method': 'post', 'case_params': 'getRewardPoint1', 'params_type': 'json', 'case_response_key': '', 'case_depend_key': 'sid', 'case_expect': '{\"state\":{\"code\":0,\"msg\":\"操作功\"}}', 'other': ''}" ]
   }, {
     "name" : "todayCourseRemind",
@@ -195,16 +183,15 @@
       "name" : "post",
       "children" : [ {
         "name" : "todayCourseRemind",
-        "uid" : "2b0c01e4df9d9ed7",
+        "uid" : "3409a95da2e97773",
         "parentUid" : "4d349b95e70d9ff916150bca6a85020e",
         "status" : "passed",
         "time" : {
-          "start" : 1612097220422,
-          "stop" : 1612097220927,
-          "duration" : 505
+          "start" : 1612753446537,
+          "stop" : 1612753447020,
+          "duration" : 483
         },
         "flaky" : false,
-        "newFailed" : false,
         "parameters" : [ "{'case_id': 'case_12', 'case_model': 'HEXIAOYU', 'case_name': 'todayCourseRemind', 'case_run': 'yes', 'case_url': 'https://app.nicebooker.com/parental/app/v1/common/todayCourseRemind', 'case_method': 'post', 'case_params': 'todayCourseRemind', 'params_type': 'json', 'case_response_key': '', 'case_depend_key': 'sid', 'case_expect': '{\"state\":{\"code\":0,\"msg\":\"操作成功\"}}', 'other': ''}" ]
       } ],
       "uid" : "4d349b95e70d9ff916150bca6a85020e"
@@ -216,42 +203,39 @@
       "name" : "post",
       "children" : [ {
         "name" : "subjectTopiclist",
-        "uid" : "50db6ceb810bdb91",
+        "uid" : "fdc36580d1e75f33",
         "parentUid" : "b7be57e86937bf8c6d1842bd31486b61",
         "status" : "passed",
         "time" : {
-          "start" : 1612097220943,
-          "stop" : 1612097221462,
-          "duration" : 519
+          "start" : 1612753447027,
+          "stop" : 1612753447568,
+          "duration" : 541
         },
         "flaky" : false,
-        "newFailed" : false,
         "parameters" : [ "{'case_id': 'case_13', 'case_model': 'HEXIAOYU', 'case_name': 'subjectTopiclist', 'case_run': 'yes', 'case_url': 'https://app.nicebooker.com/parental/app/v1/common/subjectTopiclist', 'case_method': 'post', 'case_params': 'subjectTopiclist1', 'params_type': 'json', 'case_response_key': '', 'case_depend_key': 'sid', 'case_expect': '{\"state\":{\"code\":0,\"msg\":\"操作成功\"}}', 'other': ''}" ]
       }, {
         "name" : "subjectTopiclist",
-        "uid" : "590e7ec7d4d046ee",
+        "uid" : "1b045c2d39cf0fdd",
         "parentUid" : "b7be57e86937bf8c6d1842bd31486b61",
         "status" : "passed",
         "time" : {
-          "start" : 1612097232051,
-          "stop" : 1612097232618,
-          "duration" : 567
+          "start" : 1612753458541,
+          "stop" : 1612753459095,
+          "duration" : 554
         },
         "flaky" : false,
-        "newFailed" : false,
         "parameters" : [ "{'case_id': 'case_36', 'case_model': 'HEXIAOYU', 'case_name': 'subjectTopiclist', 'case_run': 'yes', 'case_url': 'https://app.nicebooker.com/parental/app/v1/common//subjectTopiclist', 'case_method': 'post', 'case_params': 'subjectTopiclist2', 'params_type': 'json', 'case_response_key': '', 'case_depend_key': 'sid', 'case_expect': '{\"state\":{\"code\":0,\"msg\":\"操作成功\"}}', 'other': ''}" ]
       }, {
         "name" : "subjectTopiclist",
-        "uid" : "ba727662e7a5c411",
+        "uid" : "98e1e3a0654f0fca",
         "parentUid" : "b7be57e86937bf8c6d1842bd31486b61",
         "status" : "passed",
         "time" : {
-          "start" : 1612097232618,
-          "stop" : 1612097233199,
-          "duration" : 581
+          "start" : 1612753459100,
+          "stop" : 1612753459630,
+          "duration" : 530
         },
         "flaky" : false,
-        "newFailed" : false,
         "parameters" : [ "{'case_id': 'case_37', 'case_model': 'HEXIAOYU', 'case_name': 'subjectTopiclist', 'case_run': 'yes', 'case_url': 'https://app.nicebooker.com/parental/app/v1/common/subjectTopiclist', 'case_method': 'post', 'case_params': 'subjectTopiclist3', 'params_type': 'json', 'case_response_key': '', 'case_depend_key': 'sid', 'case_expect': '{\"state\":{\"code\":0,\"msg\":\"操作成功\"}}', 'other': ''}" ]
       } ],
       "uid" : "b7be57e86937bf8c6d1842bd31486b61"
@@ -263,16 +247,15 @@
       "name" : "post",
       "children" : [ {
         "name" : "getSystemMsgNum",
-        "uid" : "bdcc2a19dd97bd6a",
+        "uid" : "94887edadb1edd62",
         "parentUid" : "d124e122d4a26e5a5d383c386df8f196",
         "status" : "passed",
         "time" : {
-          "start" : 1612097221468,
-          "stop" : 1612097221956,
-          "duration" : 488
+          "start" : 1612753447576,
+          "stop" : 1612753448054,
+          "duration" : 478
         },
         "flaky" : false,
-        "newFailed" : false,
         "parameters" : [ "{'case_id': 'case_14', 'case_model': 'HEXIAOYU', 'case_name': 'getSystemMsgNum', 'case_run': 'yes', 'case_url': 'https://app.nicebooker.com/parental/app/v1/commentReport/getSystemMsgNum', 'case_method': 'post', 'case_params': 'getSystemMsgNum', 'params_type': 'json', 'case_response_key': '', 'case_depend_key': 'sid', 'case_expect': '{\"state\":{\"code\":0,\"msg\":\"操作成功\"}}', 'other': ''}" ]
       } ],
       "uid" : "d124e122d4a26e5a5d383c386df8f196"
@@ -284,29 +267,27 @@
       "name" : "post",
       "children" : [ {
         "name" : "getReportMsgNums",
-        "uid" : "b106825721d38cc4",
+        "uid" : "a1ebf05a30c5450d",
         "parentUid" : "4c128d8b94cc36484af5e27645eda5dc",
         "status" : "passed",
         "time" : {
-          "start" : 1612097221960,
-          "stop" : 1612097222465,
-          "duration" : 505
+          "start" : 1612753448062,
+          "stop" : 1612753448595,
+          "duration" : 533
         },
         "flaky" : false,
-        "newFailed" : false,
         "parameters" : [ "{'case_id': 'case_15', 'case_model': 'HEXIAOYU', 'case_name': 'getReportMsgNums', 'case_run': 'yes', 'case_url': 'https://app.nicebooker.com/parental/app/v1/commentReport/getReportMsgNums', 'case_method': 'post', 'case_params': 'getReportMsgNums1', 'params_type': 'json', 'case_response_key': '', 'case_depend_key': 'sid', 'case_expect': '{\"state\":{\"code\":0,\"msg\":\"操作成功\"}}', 'other': ''}" ]
       }, {
         "name" : "getReportMsgNums",
-        "uid" : "6aa9cd52d64bbc4d",
+        "uid" : "3495ab122fec5313",
         "parentUid" : "4c128d8b94cc36484af5e27645eda5dc",
         "status" : "passed",
         "time" : {
-          "start" : 1612097234720,
-          "stop" : 1612097235246,
-          "duration" : 526
+          "start" : 1612753461209,
+          "stop" : 1612753461696,
+          "duration" : 487
         },
         "flaky" : false,
-        "newFailed" : false,
         "parameters" : [ "{'case_id': 'case_41', 'case_model': 'HEXIAOYU', 'case_name': 'getReportMsgNums', 'case_run': 'yes', 'case_url': 'https://app.nicebooker.com/parental/app/v1/commentReport/getReportMsgNums', 'case_method': 'post', 'case_params': 'getReportMsgNums2', 'params_type': 'json', 'case_response_key': '', 'case_depend_key': 'sid', 'case_expect': '{\"state\":{\"code\":0,\"msg\":\"操作成功\"}}', 'other': ''}" ]
       } ],
       "uid" : "4c128d8b94cc36484af5e27645eda5dc"
@@ -318,16 +299,15 @@
       "name" : "post",
       "children" : [ {
         "name" : "getEvaluationIndexStatus",
-        "uid" : "69dd184c47eaa4d5",
+        "uid" : "4b5ef91b1fe27948",
         "parentUid" : "d463328fb8f5b0988d9816e125f5a0a3",
         "status" : "passed",
         "time" : {
-          "start" : 1612097222470,
-          "stop" : 1612097223021,
-          "duration" : 551
+          "start" : 1612753448601,
+          "stop" : 1612753449123,
+          "duration" : 522
         },
         "flaky" : false,
-        "newFailed" : false,
         "parameters" : [ "{'case_id': 'case_16', 'case_model': 'HEXIAOYU', 'case_name': 'getEvaluationIndexStatus', 'case_run': 'yes', 'case_url': 'https://app.nicebooker.com/parental/app/v1/evaluation/getEvaluationIndexStatus', 'case_method': 'post', 'case_params': 'getEvaluationIndexStatus', 'params_type': 'json', 'case_response_key': '', 'case_depend_key': 'sid', 'case_expect': '{\"state\":{\"code\":0,\"msg\":\"操作成功\"}}', 'other': ''}" ]
       } ],
       "uid" : "d463328fb8f5b0988d9816e125f5a0a3"
@@ -339,16 +319,15 @@
       "name" : "post",
       "children" : [ {
         "name" : "getUserStatus",
-        "uid" : "e64f8636e8a22de0",
+        "uid" : "2577db1a116f14ee",
         "parentUid" : "10779c9cd5706d2e5215d27c8ce4907c",
         "status" : "passed",
         "time" : {
-          "start" : 1612097223025,
-          "stop" : 1612097223501,
-          "duration" : 476
+          "start" : 1612753449132,
+          "stop" : 1612753449644,
+          "duration" : 512
         },
         "flaky" : false,
-        "newFailed" : false,
         "parameters" : [ "{'case_id': 'case_17', 'case_model': 'HEXIAOYU', 'case_name': 'getUserStatus', 'case_run': 'yes', 'case_url': 'https://app.nicebooker.com/parental/app/v1/user/getUserStatus', 'case_method': 'post', 'case_params': 'getUserStatus', 'params_type': 'json', 'case_response_key': '', 'case_depend_key': 'sid', 'case_expect': '{\"state\":{\"code\":0,\"msg\":\"操作成功\"}}', 'other': ''}" ]
       } ],
       "uid" : "10779c9cd5706d2e5215d27c8ce4907c"
@@ -360,16 +339,15 @@
       "name" : "post",
       "children" : [ {
         "name" : "listBanner",
-        "uid" : "594d68d13517c453",
+        "uid" : "d4ef7e470173ff1e",
         "parentUid" : "dfdfdd8e7b89a8437bcd8698c1319951",
         "status" : "passed",
         "time" : {
-          "start" : 1612097223518,
-          "stop" : 1612097224008,
-          "duration" : 490
+          "start" : 1612753449655,
+          "stop" : 1612753450174,
+          "duration" : 519
         },
         "flaky" : false,
-        "newFailed" : false,
         "parameters" : [ "{'case_id': 'case_18', 'case_model': 'HEXIAOYU', 'case_name': 'listBanner', 'case_run': 'yes', 'case_url': 'https://app.nicebooker.com/parental/app/v1/common/listBanner', 'case_method': 'post', 'case_params': 'listBanner', 'params_type': 'json', 'case_response_key': '', 'case_depend_key': 'sid', 'case_expect': '{\"state\":{\"code\":0,\"msg\":\"操作成功\"}}', 'other': ''}" ]
       } ],
       "uid" : "dfdfdd8e7b89a8437bcd8698c1319951"
@@ -381,29 +359,27 @@
       "name" : "post",
       "children" : [ {
         "name" : "versionUpdate",
-        "uid" : "95425de79466d8d8",
+        "uid" : "7072e3735feea7c5",
         "parentUid" : "a3d8f51278593771e5b2d1bd7e6b83e5",
         "status" : "passed",
         "time" : {
-          "start" : 1612097224014,
-          "stop" : 1612097224500,
-          "duration" : 486
+          "start" : 1612753450184,
+          "stop" : 1612753450686,
+          "duration" : 502
         },
         "flaky" : false,
-        "newFailed" : false,
         "parameters" : [ "{'case_id': 'case_19', 'case_model': 'HEXIAOYU', 'case_name': 'versionUpdate', 'case_run': 'yes', 'case_url': 'https://app.nicebooker.com/parental/app/v1/common/versionUpdate', 'case_method': 'post', 'case_params': 'versionUpdate1', 'params_type': 'json', 'case_response_key': '', 'case_depend_key': 'sid', 'case_expect': '{\"state\":{\"code\":0,\"msg\":\"操作成功\"}}', 'other': ''}" ]
       }, {
         "name" : "versionUpdate",
-        "uid" : "a74158292857d7a0",
+        "uid" : "c1daf622e75e3c12",
         "parentUid" : "a3d8f51278593771e5b2d1bd7e6b83e5",
         "status" : "passed",
         "time" : {
-          "start" : 1612097226558,
-          "stop" : 1612097227035,
-          "duration" : 477
+          "start" : 1612753452717,
+          "stop" : 1612753453195,
+          "duration" : 478
         },
         "flaky" : false,
-        "newFailed" : false,
         "parameters" : [ "{'case_id': 'case_24', 'case_model': 'HEXIAOYU', 'case_name': 'versionUpdate', 'case_run': 'yes', 'case_url': 'https://app.nicebooker.com/parental/app/v1/common/versionUpdate', 'case_method': 'post', 'case_params': 'versionUpdate2', 'params_type': 'json', 'case_response_key': '', 'case_depend_key': 'sid', 'case_expect': '{\"state\":{\"code\":0,\"msg\":\"操作成功\"}}', 'other': ''}" ]
       } ],
       "uid" : "a3d8f51278593771e5b2d1bd7e6b83e5"
@@ -415,16 +391,15 @@
       "name" : "post",
       "children" : [ {
         "name" : "getAdvertising",
-        "uid" : "151f051e6a181474",
+        "uid" : "2e93bf8ed6c53a65",
         "parentUid" : "325277bdfd8bec03f7a838349f359cb0",
         "status" : "passed",
         "time" : {
-          "start" : 1612097224517,
-          "stop" : 1612097225044,
-          "duration" : 527
+          "start" : 1612753450698,
+          "stop" : 1612753451171,
+          "duration" : 473
         },
         "flaky" : false,
-        "newFailed" : false,
         "parameters" : [ "{'case_id': 'case_20', 'case_model': 'HEXIAOYU', 'case_name': 'getAdvertising', 'case_run': 'yes', 'case_url': 'https://app.nicebooker.com/parental/app/v1/common/getAdvertising', 'case_method': 'post', 'case_params': 'getAdvertising', 'params_type': 'json', 'case_response_key': '', 'case_depend_key': 'sid', 'case_expect': '{\"state\":{\"code\":0,\"msg\":\"操作成功\"}}', 'other': ''}" ]
       } ],
       "uid" : "325277bdfd8bec03f7a838349f359cb0"
@@ -436,81 +411,75 @@
       "name" : "post",
       "children" : [ {
         "name" : "getIntegral",
-        "uid" : "96bd901b5bede78e",
+        "uid" : "d10c0d66e9bdb745",
         "parentUid" : "d51a1b9e707f527c82d0db8c8cc0ba8a",
         "status" : "passed",
         "time" : {
-          "start" : 1612097225049,
-          "stop" : 1612097225517,
-          "duration" : 468
+          "start" : 1612753451184,
+          "stop" : 1612753451716,
+          "duration" : 532
         },
         "flaky" : false,
-        "newFailed" : false,
         "parameters" : [ "{'case_id': 'case_21', 'case_model': 'HEXIAOYU', 'case_name': 'getIntegral', 'case_run': 'yes', 'case_url': 'https://app.nicebooker.com/parental/app/v1/integral/getIntegral', 'case_method': 'post', 'case_params': 'getIntegral1', 'params_type': 'json', 'case_response_key': '', 'case_depend_key': 'sid', 'case_expect': '{\"state\":{\"code\":0,\"msg\":\"操作成功\"}}', 'other': ''}" ]
       }, {
         "name" : "getIntegral",
-        "uid" : "695ecb2f62d46030",
+        "uid" : "ba941b09bcb9d732",
         "parentUid" : "d51a1b9e707f527c82d0db8c8cc0ba8a",
         "status" : "passed",
         "time" : {
-          "start" : 1612097226071,
-          "stop" : 1612097226552,
-          "duration" : 481
+          "start" : 1612753452199,
+          "stop" : 1612753452712,
+          "duration" : 513
         },
         "flaky" : false,
-        "newFailed" : false,
         "parameters" : [ "{'case_id': 'case_23', 'case_model': 'HEXIAOYU', 'case_name': 'getIntegral', 'case_run': 'yes', 'case_url': 'https://app.nicebooker.com/parental/app/v1/integral/getIntegral', 'case_method': 'post', 'case_params': 'getIntegral2', 'params_type': 'json', 'case_response_key': '', 'case_depend_key': 'sid', 'case_expect': '{\"state\":{\"code\":0,\"msg\":\"操作成功\"}}', 'other': ''}" ]
       }, {
         "name" : "getIntegral",
-        "uid" : "d32c428347881013",
+        "uid" : "dcecf9d508c98934",
         "parentUid" : "d51a1b9e707f527c82d0db8c8cc0ba8a",
         "status" : "passed",
         "time" : {
-          "start" : 1612097228068,
-          "stop" : 1612097228532,
-          "duration" : 464
+          "start" : 1612753454255,
+          "stop" : 1612753454748,
+          "duration" : 493
         },
         "flaky" : false,
-        "newFailed" : false,
         "parameters" : [ "{'case_id': 'case_27', 'case_model': 'HEXIAOYU', 'case_name': 'getIntegral', 'case_run': 'yes', 'case_url': 'https://app.nicebooker.com/parental/app/v1/integral/getIntegral', 'case_method': 'post', 'case_params': 'getIntegral3', 'params_type': 'json', 'case_response_key': '', 'case_depend_key': 'sid', 'case_expect': '{\"state\":{\"code\":0,\"msg\":\"操作成功\"}}', 'other': ''}" ]
       }, {
         "name" : "getIntegral",
-        "uid" : "7c2a46a57b070f57",
+        "uid" : "9a89ab5a8c35f8d2",
         "parentUid" : "d51a1b9e707f527c82d0db8c8cc0ba8a",
         "status" : "passed",
         "time" : {
-          "start" : 1612097229543,
-          "stop" : 1612097229993,
-          "duration" : 450
+          "start" : 1612753455807,
+          "stop" : 1612753456335,
+          "duration" : 528
         },
         "flaky" : false,
-        "newFailed" : false,
         "parameters" : [ "{'case_id': 'case_30', 'case_model': 'HEXIAOYU', 'case_name': 'getIntegral', 'case_run': 'yes', 'case_url': 'https://app.nicebooker.com/parental/app/v1/integral/getIntegral', 'case_method': 'post', 'case_params': 'getIntegral4', 'params_type': 'json', 'case_response_key': '', 'case_depend_key': 'sid', 'case_expect': '{\"state\":{\"code\":0,\"msg\":\"操作成功\"}}', 'other': ''}" ]
       }, {
         "name" : "getIntegral",
-        "uid" : "237db3e444ab6b51",
+        "uid" : "6eba56fb2ab7cbd7",
         "parentUid" : "d51a1b9e707f527c82d0db8c8cc0ba8a",
         "status" : "passed",
         "time" : {
-          "start" : 1612097230569,
-          "stop" : 1612097231084,
-          "duration" : 515
+          "start" : 1612753456970,
+          "stop" : 1612753457470,
+          "duration" : 500
         },
         "flaky" : false,
-        "newFailed" : false,
         "parameters" : [ "{'case_id': 'case_33', 'case_model': 'HEXIAOYU', 'case_name': 'getIntegral', 'case_run': 'yes', 'case_url': 'https://app.nicebooker.com/parental/app/v1/integral/getIntegral', 'case_method': 'post', 'case_params': 'getIntegral5', 'params_type': 'json', 'case_response_key': '', 'case_depend_key': 'sid', 'case_expect': '{\"state\":{\"code\":0,\"msg\":\"操作成功\"}}', 'other': ''}" ]
       }, {
         "name" : "getIntegral",
-        "uid" : "ebe1f25c75003131",
+        "uid" : "bbd9044f59656e17",
         "parentUid" : "d51a1b9e707f527c82d0db8c8cc0ba8a",
         "status" : "passed",
         "time" : {
-          "start" : 1612097231084,
-          "stop" : 1612097231561,
-          "duration" : 477
+          "start" : 1612753457481,
+          "stop" : 1612753457966,
+          "duration" : 485
         },
         "flaky" : false,
-        "newFailed" : false,
         "parameters" : [ "{'case_id': 'case_34', 'case_model': 'HEXIAOYU', 'case_name': 'getIntegral', 'case_run': 'yes', 'case_url': 'https://app.nicebooker.com/parental/app/v1/integral/getIntegral', 'case_method': 'post', 'case_params': 'getIntegral6', 'params_type': 'json', 'case_response_key': '', 'case_depend_key': 'sid', 'case_expect': '{\"state\":{\"code\":0,\"msg\":\"操作成功\"}}', 'other': ''}" ]
       } ],
       "uid" : "d51a1b9e707f527c82d0db8c8cc0ba8a"
@@ -522,16 +491,15 @@
       "name" : "post",
       "children" : [ {
         "name" : "getEvaluationStatus",
-        "uid" : "b2a07b4e63e7407a",
+        "uid" : "c73632ba840e7943",
         "parentUid" : "8787db34ec381a19a2e464bf74ace445",
         "status" : "passed",
         "time" : {
-          "start" : 1612097225523,
-          "stop" : 1612097226065,
-          "duration" : 542
+          "start" : 1612753451726,
+          "stop" : 1612753452194,
+          "duration" : 468
         },
         "flaky" : false,
-        "newFailed" : false,
         "parameters" : [ "{'case_id': 'case_22', 'case_model': 'HEXIAOYU', 'case_name': 'getEvaluationStatus', 'case_run': 'yes', 'case_url': 'https://app.nicebooker.com/parental/app/v1/evaluation/getEvaluationStatus', 'case_method': 'post', 'case_params': 'getEvaluationStatus', 'params_type': 'json', 'case_response_key': '', 'case_depend_key': 'sid', 'case_expect': '{\"state\":{\"code\":0,\"msg\":\"操作成功\"}}', 'other': ''}" ]
       } ],
       "uid" : "8787db34ec381a19a2e464bf74ace445"
@@ -539,16 +507,15 @@
     "uid" : "e595f72801bec7491e51a695904801d4"
   }, {
     "name" : "test_case[case25]",
-    "uid" : "b80b5a1153087d33",
+    "uid" : "2d22c2ed054f6dfb",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "failed",
     "time" : {
-      "start" : 1612097227560,
-      "stop" : 1612097228063,
-      "duration" : 503
+      "start" : 1612753453749,
+      "stop" : 1612753454244,
+      "duration" : 495
     },
     "flaky" : false,
-    "newFailed" : false,
     "parameters" : [ "{'case_id': 'case_26', 'case_model': 'HEXIAOYU', 'case_name': 'getRewardPoint', 'case_run': 'yes', 'case_url': 'https://app.nicebooker.com/parental/app/v1/integral/getRewardPoint', 'case_method': 'post', 'case_params': 'getRewardPoint2', 'params_type': 'json', 'case_response_key': '', 'case_depend_key': 'sid', 'case_expect': '{\"state\":{\"code\":0,\"msg\":\"操作成功\"}}', 'other': ''}" ]
   }, {
     "name" : "listTeacher",
@@ -556,16 +523,15 @@
       "name" : "post",
       "children" : [ {
         "name" : "listTeacher",
-        "uid" : "a568710e0e07d66e",
+        "uid" : "da223af68e5ae14a",
         "parentUid" : "bfa91cd72e29e13767c77fe3f42e4993",
         "status" : "passed",
         "time" : {
-          "start" : 1612097228535,
-          "stop" : 1612097229027,
-          "duration" : 492
+          "start" : 1612753454755,
+          "stop" : 1612753455278,
+          "duration" : 523
         },
         "flaky" : false,
-        "newFailed" : false,
         "parameters" : [ "{'case_id': 'case_28', 'case_model': 'HEXIAOYU', 'case_name': 'listTeacher', 'case_run': 'yes', 'case_url': 'https://app.nicebooker.com/parental/app/v1/teacher/listTeacher', 'case_method': 'post', 'case_params': 'listTeacher', 'params_type': 'json', 'case_response_key': '', 'case_depend_key': 'sid', 'case_expect': '{\"state\":{\"code\":0,\"msg\":\"操作成功\"}}', 'other': ''}" ]
       } ],
       "uid" : "bfa91cd72e29e13767c77fe3f42e4993"
@@ -573,55 +539,51 @@
     "uid" : "535b117a3398563d289d19e6d6090f61"
   }, {
     "name" : "test_case[case28]",
-    "uid" : "6b6df1ff5b8113a",
+    "uid" : "f6b072814b6739fa",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "failed",
     "time" : {
-      "start" : 1612097229027,
-      "stop" : 1612097229533,
-      "duration" : 506
+      "start" : 1612753455283,
+      "stop" : 1612753455797,
+      "duration" : 514
     },
     "flaky" : false,
-    "newFailed" : false,
     "parameters" : [ "{'case_id': 'case_29', 'case_model': 'HEXIAOYU', 'case_name': 'getRewardPoint', 'case_run': 'yes', 'case_url': 'https://app.nicebooker.com/parental/app/v1/integral/getRewardPoint', 'case_method': 'post', 'case_params': 'getRewardPoint3', 'params_type': 'json', 'case_response_key': '', 'case_depend_key': 'sid', 'case_expect': '{\"state\":{\"code\":0,\"msg\":\"操作成功\"}}', 'other': ''}" ]
   }, {
     "name" : "test_case[case30]",
-    "uid" : "5f2c3771a5d87bec",
+    "uid" : "e4354312785ef658",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "broken",
     "time" : {
-      "start" : 1612097230003,
-      "stop" : 1612097230054,
-      "duration" : 51
+      "start" : 1612753456340,
+      "stop" : 1612753456419,
+      "duration" : 79
     },
     "flaky" : false,
-    "newFailed" : false,
     "parameters" : [ "{'case_id': 'case_31', 'case_model': 'HEXIAOYU', 'case_name': 'getDetailInfo', 'case_run': 'yes', 'case_url': 'https://app.nicebooker.com/parental/app/v1/userbaby/getDetailInfo', 'case_method': 'post', 'case_params': 'getDetailInfo3:', 'params_type': 'json', 'case_response_key': '', 'case_depend_key': 'sid', 'case_expect': '{\"state\":{\"code\":0,\"msg\":\"操作成功\"}}', 'other': ''}" ]
   }, {
     "name" : "test_case[case31]",
-    "uid" : "ef6cd6ed155e7ade",
+    "uid" : "eeb35fea0b24765b",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "failed",
     "time" : {
-      "start" : 1612097230054,
-      "stop" : 1612097230559,
-      "duration" : 505
+      "start" : 1612753456436,
+      "stop" : 1612753456944,
+      "duration" : 508
     },
     "flaky" : false,
-    "newFailed" : false,
     "parameters" : [ "{'case_id': 'case_32', 'case_model': 'HEXIAOYU', 'case_name': 'getRewardPoint', 'case_run': 'yes', 'case_url': 'https://app.nicebooker.com/parental/app/v1/integral/getRewardPoint', 'case_method': 'post', 'case_params': 'getRewardPoint4', 'params_type': 'json', 'case_response_key': '', 'case_depend_key': 'sid', 'case_expect': '{\"state\":{\"code\":0,\"msg\":\"操作成功\"}}', 'other': ''}" ]
   }, {
     "name" : "test_case[case34]",
-    "uid" : "a813afdeefeec650",
+    "uid" : "bf8349b017e793b4",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "failed",
     "time" : {
-      "start" : 1612097231561,
-      "stop" : 1612097232041,
-      "duration" : 480
+      "start" : 1612753457972,
+      "stop" : 1612753458522,
+      "duration" : 550
     },
     "flaky" : false,
-    "newFailed" : false,
     "parameters" : [ "{'case_id': 'case_35', 'case_model': 'HEXIAOYU', 'case_name': 'getRewardPoint', 'case_run': 'yes', 'case_url': 'https://app.nicebooker.com/parental/app/v1/integral/getRewardPoint', 'case_method': 'post', 'case_params': 'getRewardPoint5', 'params_type': 'json', 'case_response_key': '', 'case_depend_key': 'sid', 'case_expect': '{\"state\":{\"code\":0,\"msg\":\"操作成功\"}}', 'other': ''}" ]
   }, {
     "name" : "checkSpecial",
@@ -629,16 +591,15 @@
       "name" : "post",
       "children" : [ {
         "name" : "checkSpecial",
-        "uid" : "8571de2a19ea5e96",
+        "uid" : "48c80d1879e233d8",
         "parentUid" : "381239eff307be0e831289a97fca7ede",
         "status" : "passed",
         "time" : {
-          "start" : 1612097233209,
-          "stop" : 1612097233711,
-          "duration" : 502
+          "start" : 1612753459642,
+          "stop" : 1612753460141,
+          "duration" : 499
         },
         "flaky" : false,
-        "newFailed" : false,
         "parameters" : [ "{'case_id': 'case_38', 'case_model': 'HEXIAOYU', 'case_name': 'checkSpecial', 'case_run': 'yes', 'case_url': 'https://app.nicebooker.com/parental/app/v1/course/checkSpecial', 'case_method': 'post', 'case_params': 'checkSpecial', 'params_type': 'json', 'case_response_key': '', 'case_depend_key': 'sid', 'case_expect': '{\"state\":{\"code\":0,\"msg\":\"操作成功\"}}', 'other': ''}" ]
       } ],
       "uid" : "381239eff307be0e831289a97fca7ede"
@@ -650,16 +611,15 @@
       "name" : "post",
       "children" : [ {
         "name" : "getUnSubscribe",
-        "uid" : "6d6e70c98e1d0f28",
+        "uid" : "f00649c918ca3511",
         "parentUid" : "d532d5b0e93ba90f759ea1648b6d45e3",
         "status" : "passed",
         "time" : {
-          "start" : 1612097233716,
-          "stop" : 1612097234172,
-          "duration" : 456
+          "start" : 1612753460152,
+          "stop" : 1612753460663,
+          "duration" : 511
         },
         "flaky" : false,
-        "newFailed" : false,
         "parameters" : [ "{'case_id': 'case_39', 'case_model': 'HEXIAOYU', 'case_name': 'getUnSubscribe', 'case_run': 'yes', 'case_url': 'https://app.nicebooker.com/parental/app/v1/common/getUnSubscribe', 'case_method': 'post', 'case_params': 'getUnSubscribe', 'params_type': 'json', 'case_response_key': '', 'case_depend_key': 'sid', 'case_expect': '{\"state\":{\"code\":0,\"msg\":\"操作成功\"}}', 'other': ''}" ]
       } ],
       "uid" : "d532d5b0e93ba90f759ea1648b6d45e3"
@@ -671,16 +631,15 @@
       "name" : "post",
       "children" : [ {
         "name" : "getCourseCatalogList",
-        "uid" : "c76be538d833cde8",
+        "uid" : "b90bb77b606c37d",
         "parentUid" : "711e4038043399e54aa81a38d5447d25",
         "status" : "passed",
         "time" : {
-          "start" : 1612097234182,
-          "stop" : 1612097234720,
-          "duration" : 538
+          "start" : 1612753460668,
+          "stop" : 1612753461204,
+          "duration" : 536
         },
         "flaky" : false,
-        "newFailed" : false,
         "parameters" : [ "{'case_id': 'case_40', 'case_model': 'HEXIAOYU', 'case_name': 'getCourseCatalogList', 'case_run': 'yes', 'case_url': 'https://app.nicebooker.com/parental/app/v1/course/getCourseCatalogList', 'case_method': 'post', 'case_params': 'getCourseCatalogList', 'params_type': 'json', 'case_response_key': '', 'case_depend_key': 'sid', 'case_expect': '{\"state\":{\"code\":0,\"msg\":\"操作成功\"}}', 'other': ''}" ]
       } ],
       "uid" : "711e4038043399e54aa81a38d5447d25"
@@ -692,16 +651,15 @@
       "name" : "post",
       "children" : [ {
         "name" : "getConfigDataByCampId",
-        "uid" : "d7bda54d4b2ce1ab",
+        "uid" : "271a6eee21e34b1f",
         "parentUid" : "a4305da0135f9ccc8af97f72db14d092",
         "status" : "passed",
         "time" : {
-          "start" : 1612097235246,
-          "stop" : 1612097235831,
-          "duration" : 585
+          "start" : 1612753461706,
+          "stop" : 1612753462247,
+          "duration" : 541
         },
         "flaky" : false,
-        "newFailed" : false,
         "parameters" : [ "{'case_id': 'case_42', 'case_model': 'HEXIAOYU', 'case_name': 'getConfigDataByCampId', 'case_run': 'yes', 'case_url': 'https://app.nicebooker.com/parental/app/v1/childCamp/getConfigDataByCampId', 'case_method': 'post', 'case_params': 'getConfigDataByCampId', 'params_type': 'json', 'case_response_key': '', 'case_depend_key': 'sid', 'case_expect': '{\"state\":{\"code\":0,\"msg\":\"操作成功\"}}', 'other': ''}" ]
       } ],
       "uid" : "a4305da0135f9ccc8af97f72db14d092"
@@ -713,20 +671,131 @@
       "name" : "post",
       "children" : [ {
         "name" : "getUserCourseList",
-        "uid" : "73143d3270128db5",
+        "uid" : "21de8b31e6db35cf",
         "parentUid" : "2a8c2518639251a9cb0deac6ba30095f",
         "status" : "passed",
         "time" : {
-          "start" : 1612097235831,
-          "stop" : 1612097236550,
-          "duration" : 719
+          "start" : 1612753462260,
+          "stop" : 1612753462965,
+          "duration" : 705
         },
         "flaky" : false,
-        "newFailed" : false,
         "parameters" : [ "{'case_id': 'case_43', 'case_model': 'HEXIAOYU', 'case_name': 'getUserCourseList', 'case_run': 'yes', 'case_url': 'https://app.nicebooker.com/parental/app/v1/childCamp/getUserCourseList', 'case_method': 'post', 'case_params': 'getUserCourseList', 'params_type': 'json', 'case_response_key': '', 'case_depend_key': 'sid', 'case_expect': '{\"state\":{\"code\":0,\"msg\":\"操作成功\"}}', 'other': ''}" ]
       } ],
       "uid" : "2a8c2518639251a9cb0deac6ba30095f"
     } ],
     "uid" : "d0bc3f62d2c1203e929310d003a4db5e"
+  }, {
+    "name" : "getClockInActivity",
+    "children" : [ {
+      "name" : "post",
+      "children" : [ {
+        "name" : "getClockInActivity",
+        "uid" : "1226e316e485ee77",
+        "parentUid" : "b00c168cf423eb85d705c179eb7ef962",
+        "status" : "passed",
+        "time" : {
+          "start" : 1612753462972,
+          "stop" : 1612753463487,
+          "duration" : 515
+        },
+        "flaky" : false,
+        "parameters" : [ "{'case_id': 'case_44', 'case_model': 'HEXIAOYU', 'case_name': 'getClockInActivity', 'case_run': 'yes', 'case_url': 'https://app.nicebooker.com/parental/app/v1/clockin/getClockInActivity', 'case_method': 'post', 'case_params': 'getClockInActivity', 'params_type': 'json', 'case_response_key': '', 'case_depend_key': 'sid', 'case_expect': '{\"state\":{\"code\":0,\"msg\":\"操作成功\"}}', 'other': ''}" ]
+      } ],
+      "uid" : "b00c168cf423eb85d705c179eb7ef962"
+    } ],
+    "uid" : "8d4cc7fb894d2c9da80541f04464cf11"
+  }, {
+    "name" : "搜索APP",
+    "children" : [ {
+      "name" : "GET",
+      "children" : [ {
+        "name" : "搜索APP",
+        "uid" : "4f49babbf91f405e",
+        "parentUid" : "88d929db79b7002fe4ff037a7a381e0e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1612753463499,
+          "stop" : 1612753463890,
+          "duration" : 391
+        },
+        "flaky" : false,
+        "parameters" : [ "{'case_id': 'case_1', 'case_model': 'SEARCHAPP', 'case_name': '搜索APP', 'case_run': 'yes', 'case_url': 'https://sj.qq.com/myapp/searchAjax.htm', 'case_method': 'GET', 'case_params': 'search1', 'params_type': 'json', 'case_response_key': '', 'case_depend_key': '', 'case_expect': '{\"success\":true}', 'other': ''}" ]
+      }, {
+        "name" : "搜索APP",
+        "uid" : "5ac838407befff19",
+        "parentUid" : "88d929db79b7002fe4ff037a7a381e0e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1612753463895,
+          "stop" : 1612753464226,
+          "duration" : 331
+        },
+        "flaky" : false,
+        "parameters" : [ "{'case_id': 'case_2', 'case_model': 'SEARCHAPP', 'case_name': '搜索APP', 'case_run': 'yes', 'case_url': 'https://sj.qq.com/myapp/searchAjax.htm', 'case_method': 'GET', 'case_params': 'search2', 'params_type': 'form', 'case_response_key': '', 'case_depend_key': '', 'case_expect': '{\"success\":true}', 'other': ''}" ]
+      }, {
+        "name" : "搜索APP",
+        "uid" : "daa7ff6c3f08bf5d",
+        "parentUid" : "88d929db79b7002fe4ff037a7a381e0e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1612753464236,
+          "stop" : 1612753464480,
+          "duration" : 244
+        },
+        "flaky" : false,
+        "parameters" : [ "{'case_id': 'case_3', 'case_model': 'SEARCHAPP', 'case_name': '搜索APP', 'case_run': 'yes', 'case_url': 'https://sj.qq.com/myapp/searchAjax.htm?kw=QQ', 'case_method': 'GET', 'case_params': '', 'params_type': '', 'case_response_key': '', 'case_depend_key': '', 'case_expect': '{\"success\":true}', 'other': ''}" ]
+      }, {
+        "name" : "搜索APP",
+        "uid" : "da98a62367f4b662",
+        "parentUid" : "88d929db79b7002fe4ff037a7a381e0e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1612753464485,
+          "stop" : 1612753464681,
+          "duration" : 196
+        },
+        "flaky" : false,
+        "parameters" : [ "{'case_id': 'case_4', 'case_model': 'SEARCHAPP', 'case_name': '搜索APP', 'case_run': 'yes', 'case_url': 'https://sj.qq.com/myapp/searchAjax.htm?kw=唯品会', 'case_method': 'GET', 'case_params': '', 'params_type': '', 'case_response_key': '', 'case_depend_key': '', 'case_expect': '{\"success\":true}', 'other': ''}" ]
+      }, {
+        "name" : "搜索APP",
+        "uid" : "483f026a7da5df83",
+        "parentUid" : "88d929db79b7002fe4ff037a7a381e0e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1612753464688,
+          "stop" : 1612753464957,
+          "duration" : 269
+        },
+        "flaky" : false,
+        "parameters" : [ "{'case_id': 'case_5', 'case_model': 'SEARCHAPP', 'case_name': '搜索APP', 'case_run': 'yes', 'case_url': 'https://sj.qq.com/myapp/searchAjax.htm?kw=美团', 'case_method': 'GET', 'case_params': '', 'params_type': '', 'case_response_key': '', 'case_depend_key': '', 'case_expect': '{\"success\":true}', 'other': ''}" ]
+      }, {
+        "name" : "搜索APP",
+        "uid" : "8afd824723553265",
+        "parentUid" : "88d929db79b7002fe4ff037a7a381e0e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1612753464962,
+          "stop" : 1612753465187,
+          "duration" : 225
+        },
+        "flaky" : false,
+        "parameters" : [ "{'case_id': 'case_6', 'case_model': 'SEARCHAPP', 'case_name': '搜索APP', 'case_run': 'yes', 'case_url': 'https://sj.qq.com/myapp/searchAjax.htm?kw=支付宝', 'case_method': 'GET', 'case_params': '', 'params_type': '', 'case_response_key': '', 'case_depend_key': '', 'case_expect': '{\"success\":true}', 'other': ''}" ]
+      }, {
+        "name" : "搜索APP",
+        "uid" : "cc064d82ad0aaae2",
+        "parentUid" : "88d929db79b7002fe4ff037a7a381e0e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1612753465195,
+          "stop" : 1612753465471,
+          "duration" : 276
+        },
+        "flaky" : false,
+        "parameters" : [ "{'case_id': 'case_7', 'case_model': 'SEARCHAPP', 'case_name': '搜索APP', 'case_run': 'yes', 'case_url': 'https://sj.qq.com/myapp/searchAjax.htm?kw=爱奇艺', 'case_method': 'GET', 'case_params': '', 'params_type': '', 'case_response_key': '', 'case_depend_key': '', 'case_expect': '{\"success\":true}', 'other': ''}" ]
+      } ],
+      "uid" : "88d929db79b7002fe4ff037a7a381e0e"
+    } ],
+    "uid" : "9bb0a40710e486213e10373b2d742658"
   } ]
 }

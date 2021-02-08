@@ -1,0 +1,64 @@
+{
+  "uid" : "f6b072814b6739fa",
+  "name" : "test_case[case28]",
+  "fullName" : "scripts.test_case.Test_case#test_case",
+  "historyId" : "e6b497f0a4007c8b0e6356c167ad6e48",
+  "time" : {
+    "start" : 1612753455283,
+    "stop" : 1612753455797,
+    "duration" : 514
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert {'state': {'c...msg': '操作成功'}} == {'state': {'c...msg': '请求成功'}}\n  Differing items:\n  {'state': {'code': 0, 'msg': '操作成功'}} != {'state': {'code': 0, 'msg': '请求成功'}}\n  Full diff:\n  - {'state': {'code': 0, 'msg': '请求成功'}}\n  ?                               ^^\n  + {'state': {'code': 0, 'msg': '操作成功'}}\n  ?                               ^^",
+  "statusTrace" : "self = <scripts.test_case.Test_case object at 0x000001D0E928F940>\ncase = {'case_depend_key': 'sid', 'case_expect': '{\"state\":{\"code\":0,\"msg\":\"操作成功\"}}', 'case_id': 'case_29', 'case_method': 'post', ...}\n\n    @pytest.mark.parametrize('case',GetData().get_request_data)\n    def test_case(self,case):\n        case_model = case['case_model']\n        case_params = case['case_params']\n        if case_params != '':\n            params = ReadYaml().get_yaml_param(case_model,case_params)# 读取yaml文件，获取请求参数\n            if case['case_depend_key'] != '':#判断参数是否有依赖数据\n                param = GetParam().getparam(case['case_depend_key'],params) #读取数据依赖数据库，更换请求数据\n                case['case_params'] = param #请求参数赋值\n            else: #没有依赖数据\n                case['case_params'] = params\n        response,assert_value = RequestHandler(case).get_response #获取到响应数据和断言数据\n        if case['case_response_key'] != '': #判断响应数据是否有被依赖\n            savevalue = SaveRunBeDependValue()\n            savevalue.savedependvalue(case['case_response_key'],response)#把依赖的数据实时保存到数据库\n        # 制作 allure 报告\n        \"\"\"  执行断言 \"\"\"\n>       assert assert_value[0] == assert_value[1]\nE       AssertionError: assert {'state': {'c...msg': '操作成功'}} == {'state': {'c...msg': '请求成功'}}\nE         Differing items:\nE         {'state': {'code': 0, 'msg': '操作成功'}} != {'state': {'code': 0, 'msg': '请求成功'}}\nE         Full diff:\nE         - {'state': {'code': 0, 'msg': '请求成功'}}\nE         ?                               ^^\nE         + {'state': {'code': 0, 'msg': '操作成功'}}\nE         ?                               ^^\n\nscripts\\test_case.py:49: AssertionError",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "scripts"
+  }, {
+    "name" : "suite",
+    "value" : "test_case"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_case"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-9O4PK0V"
+  }, {
+    "name" : "thread",
+    "value" : "10524-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "scripts.test_case"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case",
+    "value" : "{'case_id': 'case_29', 'case_model': 'HEXIAOYU', 'case_name': 'getRewardPoint', 'case_run': 'yes', 'case_url': 'https://app.nicebooker.com/parental/app/v1/integral/getRewardPoint', 'case_method': 'post', 'case_params': 'getRewardPoint3', 'params_type': 'json', 'case_response_key': '', 'case_depend_key': 'sid', 'case_expect': '{\"state\":{\"code\":0,\"msg\":\"操作成功\"}}', 'other': ''}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "f6b072814b6739fa.json",
+  "parameterValues" : [ "{'case_id': 'case_29', 'case_model': 'HEXIAOYU', 'case_name': 'getRewardPoint', 'case_run': 'yes', 'case_url': 'https://app.nicebooker.com/parental/app/v1/integral/getRewardPoint', 'case_method': 'post', 'case_params': 'getRewardPoint3', 'params_type': 'json', 'case_response_key': '', 'case_depend_key': 'sid', 'case_expect': '{\"state\":{\"code\":0,\"msg\":\"操作成功\"}}', 'other': ''}" ]
+}

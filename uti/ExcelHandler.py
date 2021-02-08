@@ -7,12 +7,19 @@
 import xlrd
 from settings import conf
 from openpyxl import load_workbook
+from uti.LoggerHandler import logger
+import os
 
 class ExcelHandler(object):
 
-    def get_excel_data(self):
+    def __init__(self):
+        self.dir = conf.CASE_PATH  # case文件夹
+        self.case_path = os.listdir(self.dir)  # 获取case文件夹下所有文件名，list输出
+        self.file_name_list = conf.file_name.split(',')  # 输入的文件名，逗号分隔，list输出
+
+    def get_excel_data(self,file):
         # 获取到book对象
-        book = xlrd.open_workbook(conf.TEST_CASE_PATH)
+        book = xlrd.open_workbook(file)
         # 获取sheet对象
         sheet = book.sheet_by_index(0)
         rows, cols = sheet.nrows, sheet.ncols
@@ -23,71 +30,35 @@ class ExcelHandler(object):
             l.append(dict(zip(title, sheet.row_values(i))))
         return l
 
-    def get_sheet_name(self):
-        '''
-        获取sheet名字
-        '''
-        sheets = load_workbook(conf.TEST_CASE_PATH).sheetnames
-        return sheets[0]
+    def get_all_excel_data(self):
+        '''获取所有excel数据'''
+        allexceldata = []
+        # 遍历所有输入文件名
+        for file_name in self.file_name_list:
+            file = file_name + '.xlsx'
+            if file in self.case_path:
+                file_path = os.path.join(self.dir,file)
+                exceldata = self.get_excel_data(file_path)
+                # print(exceldata)
+                allexceldata.extend(exceldata)
+            else:
+                logger().error('没有找到{}，请检查case文件夹及输入文件名,'.format(file))
+        return allexceldata
 
-    @property
-    def get_request_data(self):
-        '''
-        EXCEL表中判断是否执行
-        :return: 执行的数据集，以列表的形式
-        '''
-        request_data = []
-        excel_data = self.get_excel_data()
-        for i in range(len(excel_data)):
-            is_run = excel_data[i].get('case_run').upper()
-            if is_run == 'YES':
-                request_data.append(excel_data[i])
-        return request_data
-
-
-    # def dict_data(self, excelPath):
-    #     data = xlrd.open_workbook(excelPath)
-    #     table = data.sheet_by_index(0)
-    #     # 获取第一行作为key值
-    #     keys = table.row_values(0)
-    #     # 获取总行数
-    #     rowNum = table.nrows
-    #     # 获取总列数
-    #     colNum = table.ncols
-    #     if rowNum <= 1:
-    #         print("总行数小于1")
-    #     else:
-    #         r = []
-    #         j = 1
-    #         for i in list(range(rowNum - 1)):
-    #             s = {}
-    #             # 从第二行取对应values值
-    #             s['rowNum'] = i + 2
-    #             values = table.row_values(j)
-    #             # print(values)
-    #             for x in list(range(colNum)):
-    #                 s[keys[x]] = values[x]
-    #             r.append(s)
-    #             j += 1
-    #         return r
-    #
-    # def get_request_data(self):
+    # def get_sheet_name(self):
     #     '''
-    #     EXCEL表中判断是否执行
-    #     :return: 执行的数据集，以列表的形式
+    #     获取sheet名字
     #     '''
-    #     request_data = []
-    #     excel_data = self.dict_data(r'D:\InterfaceProject\data\接口测试示例.xlsx')
-    #     for i in range(len(excel_data)):
-    #         is_run = excel_data[i].get('case_run')
-    #         if is_run == 'yes':
-    #             # print(excel_data[i])
-    #             request_data.append(excel_data[i])
-    #     print(request_data)
-    #     return request_data
+    #     sheets = load_workbook(self.file_name_list).sheetnames
+    #     return sheets[0]
+
+    def table_name(self):
+        return self.file_name_list[0]
 
 
 if __name__ == '__main__':
     e = ExcelHandler()
-    print(e.get_request_data())
+    # e.get_all_excel_data()
+    print(e.table_name())
+    # print(e.get_request_data())
     # e.get_sheet_name()

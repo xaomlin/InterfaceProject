@@ -8,7 +8,7 @@ class SaveRunBeDependValue(object):
     """保存执行而且有被依赖的value"""
     def savedependvalue(self,depend_data_key,response):
         excelhandler = ExcelHandler()
-        table = excelhandler.get_sheet_name()
+        table = excelhandler.table_name()
         getvalue = GetValue()
         depend_value = getvalue.get_json_value_by_key(response, depend_data_key)
         for value in depend_value:

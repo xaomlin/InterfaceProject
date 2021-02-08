@@ -1,0 +1,83 @@
+{
+  "uid" : "21de8b31e6db35cf",
+  "name" : "getUserCourseList",
+  "fullName" : "scripts.test_case.Test_case#test_case",
+  "historyId" : "1f91d16def2d8787e5e0b30a54086a1e",
+  "time" : {
+    "start" : 1612753462260,
+    "stop" : 1612753462965,
+    "duration" : 705
+  },
+  "description" : "<font color=\"red\">请求URL：</font>https://app.nicebooker.com/parental/app/v1/childCamp/getUserCourseList<br /><font color=\"red\">期望值：</font>{\"state\":{\"code\":0,\"msg\":\"操作成功\"}}",
+  "descriptionHtml" : "<p><font color=\"red\">请求URL：</font>https://app.nicebooker.com/parental/app/v1/childCamp/getUserCourseList<br /><font color=\"red\">期望值：</font>{&quot;state&quot;:{&quot;code&quot;:0,&quot;msg&quot;:&quot;操作成功&quot;}}</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "<font color=\"red\">请求URL：</font>https://app.nicebooker.com/parental/app/v1/childCamp/getUserCourseList<br /><font color=\"red\">期望值：</font>{\"state\":{\"code\":0,\"msg\":\"操作成功\"}}",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "a8a1e8585f6bec92",
+      "name" : "log",
+      "source" : "a8a1e8585f6bec92.txt",
+      "type" : "text/plain",
+      "size" : 126
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "getUserCourseList"
+  }, {
+    "name" : "story",
+    "value" : "post"
+  }, {
+    "name" : "parentSuite",
+    "value" : "scripts"
+  }, {
+    "name" : "suite",
+    "value" : "test_case"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_case"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-9O4PK0V"
+  }, {
+    "name" : "thread",
+    "value" : "10524-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "scripts.test_case"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case",
+    "value" : "{'case_id': 'case_43', 'case_model': 'HEXIAOYU', 'case_name': 'getUserCourseList', 'case_run': 'yes', 'case_url': 'https://app.nicebooker.com/parental/app/v1/childCamp/getUserCourseList', 'case_method': 'post', 'case_params': 'getUserCourseList', 'params_type': 'json', 'case_response_key': '', 'case_depend_key': 'sid', 'case_expect': '{\"state\":{\"code\":0,\"msg\":\"操作成功\"}}', 'other': ''}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "21de8b31e6db35cf.json",
+  "parameterValues" : [ "{'case_id': 'case_43', 'case_model': 'HEXIAOYU', 'case_name': 'getUserCourseList', 'case_run': 'yes', 'case_url': 'https://app.nicebooker.com/parental/app/v1/childCamp/getUserCourseList', 'case_method': 'post', 'case_params': 'getUserCourseList', 'params_type': 'json', 'case_response_key': '', 'case_depend_key': 'sid', 'case_expect': '{\"state\":{\"code\":0,\"msg\":\"操作成功\"}}', 'other': ''}" ]
+}

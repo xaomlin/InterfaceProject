@@ -1,0 +1,83 @@
+{
+  "uid" : "9a89ab5a8c35f8d2",
+  "name" : "getIntegral",
+  "fullName" : "scripts.test_case.Test_case#test_case",
+  "historyId" : "5c93db21118296e204b48504e2ac94a2",
+  "time" : {
+    "start" : 1612753455807,
+    "stop" : 1612753456335,
+    "duration" : 528
+  },
+  "description" : "<font color=\"red\">请求URL：</font>https://app.nicebooker.com/parental/app/v1/integral/getIntegral<br /><font color=\"red\">期望值：</font>{\"state\":{\"code\":0,\"msg\":\"操作成功\"}}",
+  "descriptionHtml" : "<p><font color=\"red\">请求URL：</font>https://app.nicebooker.com/parental/app/v1/integral/getIntegral<br /><font color=\"red\">期望值：</font>{&quot;state&quot;:{&quot;code&quot;:0,&quot;msg&quot;:&quot;操作成功&quot;}}</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "<font color=\"red\">请求URL：</font>https://app.nicebooker.com/parental/app/v1/integral/getIntegral<br /><font color=\"red\">期望值：</font>{\"state\":{\"code\":0,\"msg\":\"操作成功\"}}",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "642299c42fb0255f",
+      "name" : "log",
+      "source" : "642299c42fb0255f.txt",
+      "type" : "text/plain",
+      "size" : 119
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "getIntegral"
+  }, {
+    "name" : "story",
+    "value" : "post"
+  }, {
+    "name" : "parentSuite",
+    "value" : "scripts"
+  }, {
+    "name" : "suite",
+    "value" : "test_case"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_case"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-9O4PK0V"
+  }, {
+    "name" : "thread",
+    "value" : "10524-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "scripts.test_case"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case",
+    "value" : "{'case_id': 'case_30', 'case_model': 'HEXIAOYU', 'case_name': 'getIntegral', 'case_run': 'yes', 'case_url': 'https://app.nicebooker.com/parental/app/v1/integral/getIntegral', 'case_method': 'post', 'case_params': 'getIntegral4', 'params_type': 'json', 'case_response_key': '', 'case_depend_key': 'sid', 'case_expect': '{\"state\":{\"code\":0,\"msg\":\"操作成功\"}}', 'other': ''}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9a89ab5a8c35f8d2.json",
+  "parameterValues" : [ "{'case_id': 'case_30', 'case_model': 'HEXIAOYU', 'case_name': 'getIntegral', 'case_run': 'yes', 'case_url': 'https://app.nicebooker.com/parental/app/v1/integral/getIntegral', 'case_method': 'post', 'case_params': 'getIntegral4', 'params_type': 'json', 'case_response_key': '', 'case_depend_key': 'sid', 'case_expect': '{\"state\":{\"code\":0,\"msg\":\"操作成功\"}}', 'other': ''}" ]
+}

@@ -13,7 +13,6 @@ from uti.ExcelHandler import ExcelHandler
 
 class RequestHandler(object):
 
-
     def __init__(self, case):
         self.case = case
         try:
