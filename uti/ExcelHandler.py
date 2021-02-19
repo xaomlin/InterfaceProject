@@ -30,6 +30,7 @@ class ExcelHandler(object):
             l.append(dict(zip(title, sheet.row_values(i))))
         return l
 
+    @property
     def get_all_excel_data(self):
         '''获取所有excel数据'''
         allexceldata = []

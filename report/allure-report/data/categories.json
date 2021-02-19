@@ -7,13 +7,13 @@
       "name" : "AssertionError: assert {'state': {'c...'msg': '操作功'}} == {'state': {'c...msg': '请求成功'}}\n  Differing items:\n  {'state': {'code': 0, 'msg': '操作功'}} != {'state': {'code': 0, 'msg': '请求成功'}}\n  Full diff:\n  - {'state': {'code': 0, 'msg': '请求成功'}}\n  ?                               ^^^\n  + {'state': {'code': 0, 'msg': '操作功'}}\n  ?                               ^^",
       "children" : [ {
         "name" : "test_case[case10]",
-        "uid" : "361a3e3ce370eacf",
+        "uid" : "c8dfabfd9ac378e3",
         "parentUid" : "b46640a70d12b6db15183eff06164955",
         "status" : "failed",
         "time" : {
-          "start" : 1612753445873,
-          "stop" : 1612753446392,
-          "duration" : 519
+          "start" : 1613723548937,
+          "stop" : 1613723549666,
+          "duration" : 729
         },
         "flaky" : false,
         "parameters" : [ "{'case_id': 'case_11', 'case_model': 'HEXIAOYU', 'case_name': 'getRewardPoint', 'case_run': 'yes', 'case_url': 'https://app.nicebooker.com/parental/app/v1/integral/getRewardPoint', 'case_method': 'post', 'case_params': 'getRewardPoint1', 'params_type': 'json', 'case_response_key': '', 'case_depend_key': 'sid', 'case_expect': '{\"state\":{\"code\":0,\"msg\":\"操作功\"}}', 'other': ''}" ]
@@ -23,49 +23,49 @@
       "name" : "AssertionError: assert {'state': {'c...msg': '操作成功'}} == {'state': {'c...msg': '请求成功'}}\n  Differing items:\n  {'state': {'code': 0, 'msg': '操作成功'}} != {'state': {'code': 0, 'msg': '请求成功'}}\n  Full diff:\n  - {'state': {'code': 0, 'msg': '请求成功'}}\n  ?                               ^^\n  + {'state': {'code': 0, 'msg': '操作成功'}}\n  ?                               ^^",
       "children" : [ {
         "name" : "test_case[case25]",
-        "uid" : "2d22c2ed054f6dfb",
+        "uid" : "86331c09f3d57a1f",
         "parentUid" : "54a952d2836ae441062f8b6d34c2f98d",
         "status" : "failed",
         "time" : {
-          "start" : 1612753453749,
-          "stop" : 1612753454244,
-          "duration" : 495
+          "start" : 1613723559580,
+          "stop" : 1613723560239,
+          "duration" : 659
         },
         "flaky" : false,
         "parameters" : [ "{'case_id': 'case_26', 'case_model': 'HEXIAOYU', 'case_name': 'getRewardPoint', 'case_run': 'yes', 'case_url': 'https://app.nicebooker.com/parental/app/v1/integral/getRewardPoint', 'case_method': 'post', 'case_params': 'getRewardPoint2', 'params_type': 'json', 'case_response_key': '', 'case_depend_key': 'sid', 'case_expect': '{\"state\":{\"code\":0,\"msg\":\"操作成功\"}}', 'other': ''}" ]
       }, {
         "name" : "test_case[case28]",
-        "uid" : "f6b072814b6739fa",
+        "uid" : "3e5c79b8644debc3",
         "parentUid" : "54a952d2836ae441062f8b6d34c2f98d",
         "status" : "failed",
         "time" : {
-          "start" : 1612753455283,
-          "stop" : 1612753455797,
-          "duration" : 514
+          "start" : 1613723561480,
+          "stop" : 1613723562056,
+          "duration" : 576
         },
         "flaky" : false,
         "parameters" : [ "{'case_id': 'case_29', 'case_model': 'HEXIAOYU', 'case_name': 'getRewardPoint', 'case_run': 'yes', 'case_url': 'https://app.nicebooker.com/parental/app/v1/integral/getRewardPoint', 'case_method': 'post', 'case_params': 'getRewardPoint3', 'params_type': 'json', 'case_response_key': '', 'case_depend_key': 'sid', 'case_expect': '{\"state\":{\"code\":0,\"msg\":\"操作成功\"}}', 'other': ''}" ]
       }, {
         "name" : "test_case[case31]",
-        "uid" : "eeb35fea0b24765b",
+        "uid" : "5ba42f7c82700f5d",
         "parentUid" : "54a952d2836ae441062f8b6d34c2f98d",
         "status" : "failed",
         "time" : {
-          "start" : 1612753456436,
-          "stop" : 1612753456944,
-          "duration" : 508
+          "start" : 1613723562825,
+          "stop" : 1613723563413,
+          "duration" : 588
         },
         "flaky" : false,
         "parameters" : [ "{'case_id': 'case_32', 'case_model': 'HEXIAOYU', 'case_name': 'getRewardPoint', 'case_run': 'yes', 'case_url': 'https://app.nicebooker.com/parental/app/v1/integral/getRewardPoint', 'case_method': 'post', 'case_params': 'getRewardPoint4', 'params_type': 'json', 'case_response_key': '', 'case_depend_key': 'sid', 'case_expect': '{\"state\":{\"code\":0,\"msg\":\"操作成功\"}}', 'other': ''}" ]
       }, {
         "name" : "test_case[case34]",
-        "uid" : "bf8349b017e793b4",
+        "uid" : "8dcd403d1cfcf7fc",
         "parentUid" : "54a952d2836ae441062f8b6d34c2f98d",
         "status" : "failed",
         "time" : {
-          "start" : 1612753457972,
-          "stop" : 1612753458522,
-          "duration" : 550
+          "start" : 1613723564631,
+          "stop" : 1613723565255,
+          "duration" : 624
         },
         "flaky" : false,
         "parameters" : [ "{'case_id': 'case_35', 'case_model': 'HEXIAOYU', 'case_name': 'getRewardPoint', 'case_run': 'yes', 'case_url': 'https://app.nicebooker.com/parental/app/v1/integral/getRewardPoint', 'case_method': 'post', 'case_params': 'getRewardPoint5', 'params_type': 'json', 'case_response_key': '', 'case_depend_key': 'sid', 'case_expect': '{\"state\":{\"code\":0,\"msg\":\"操作成功\"}}', 'other': ''}" ]
@@ -79,13 +79,13 @@
       "name" : "KeyError: 'getDetailInfo3:'",
       "children" : [ {
         "name" : "test_case[case30]",
-        "uid" : "e4354312785ef658",
+        "uid" : "d37ce0abaedc68bf",
         "parentUid" : "151605ab01a52912c02878594855ed37",
         "status" : "broken",
         "time" : {
-          "start" : 1612753456340,
-          "stop" : 1612753456419,
-          "duration" : 79
+          "start" : 1613723562729,
+          "stop" : 1613723562807,
+          "duration" : 78
         },
         "flaky" : false,
         "parameters" : [ "{'case_id': 'case_31', 'case_model': 'HEXIAOYU', 'case_name': 'getDetailInfo', 'case_run': 'yes', 'case_url': 'https://app.nicebooker.com/parental/app/v1/userbaby/getDetailInfo', 'case_method': 'post', 'case_params': 'getDetailInfo3:', 'params_type': 'json', 'case_response_key': '', 'case_depend_key': 'sid', 'case_expect': '{\"state\":{\"code\":0,\"msg\":\"操作成功\"}}', 'other': ''}" ]

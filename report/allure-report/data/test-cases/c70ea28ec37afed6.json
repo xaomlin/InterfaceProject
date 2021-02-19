@@ -1,0 +1,83 @@
+{
+  "uid" : "c70ea28ec37afed6",
+  "name" : "phoneLogin",
+  "fullName" : "scripts.test_case.Test_case#test_case",
+  "historyId" : "df9da671c07e6a8c0fdbf973b60e32eb",
+  "time" : {
+    "start" : 1613723547569,
+    "stop" : 1613723548208,
+    "duration" : 639
+  },
+  "description" : "<font color=\"red\">请求URL：</font>https://app.nicebooker.com/parental/app/v1/user/phoneLogin<br /><font color=\"red\">期望值：</font>{\"state\":{\"code\":0,\"msg\":\"操作成功\"}}",
+  "descriptionHtml" : "<p><font color=\"red\">请求URL：</font>https://app.nicebooker.com/parental/app/v1/user/phoneLogin<br /><font color=\"red\">期望值：</font>{&quot;state&quot;:{&quot;code&quot;:0,&quot;msg&quot;:&quot;操作成功&quot;}}</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "<font color=\"red\">请求URL：</font>https://app.nicebooker.com/parental/app/v1/user/phoneLogin<br /><font color=\"red\">期望值：</font>{\"state\":{\"code\":0,\"msg\":\"操作成功\"}}",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "b97f0d372eaeeec6",
+      "name" : "log",
+      "source" : "b97f0d372eaeeec6.txt",
+      "type" : "text/plain",
+      "size" : 114
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "phoneLogin"
+  }, {
+    "name" : "story",
+    "value" : "post"
+  }, {
+    "name" : "parentSuite",
+    "value" : "scripts"
+  }, {
+    "name" : "suite",
+    "value" : "test_case"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_case"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-9O4PK0V"
+  }, {
+    "name" : "thread",
+    "value" : "16468-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "scripts.test_case"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case",
+    "value" : "{'case_id': 'case_9', 'case_model': 'HEXIAOYU', 'case_name': 'phoneLogin', 'case_run': 'yes', 'case_url': 'https://app.nicebooker.com/parental/app/v1/user/phoneLogin', 'case_method': 'post', 'case_params': 'phoneLogin', 'params_type': 'json', 'case_response_key': 'sid', 'case_depend_key': '', 'case_expect': '{\"state\":{\"code\":0,\"msg\":\"操作成功\"}}', 'other': ''}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c70ea28ec37afed6.json",
+  "parameterValues" : [ "{'case_id': 'case_9', 'case_model': 'HEXIAOYU', 'case_name': 'phoneLogin', 'case_run': 'yes', 'case_url': 'https://app.nicebooker.com/parental/app/v1/user/phoneLogin', 'case_method': 'post', 'case_params': 'phoneLogin', 'params_type': 'json', 'case_response_key': 'sid', 'case_depend_key': '', 'case_expect': '{\"state\":{\"code\":0,\"msg\":\"操作成功\"}}', 'other': ''}" ]
+}

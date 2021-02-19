@@ -1,0 +1,60 @@
+{
+  "uid" : "6adc8d0d1dc4aabf",
+  "name" : "test_case[case46]",
+  "fullName" : "scripts.test_case.Test_case#test_case",
+  "historyId" : "7191d50fb4e922a7048368d1036df00b",
+  "time" : {
+    "start" : 1613723571877,
+    "stop" : 1613723571877,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "statusMessage" : "Skipped: <Skipped instance>",
+  "statusTrace" : "('G:\\\\InterfaceProject\\\\scripts\\\\test_case.py', 38, 'Skipped: <Skipped instance>')",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "scripts"
+  }, {
+    "name" : "suite",
+    "value" : "test_case"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_case"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-9O4PK0V"
+  }, {
+    "name" : "thread",
+    "value" : "16468-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "scripts.test_case"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case",
+    "value" : "{'case_id': 'case_3', 'case_model': 'SEARCHAPP', 'case_name': '搜索APP', 'case_run': 'aa', 'case_url': 'https://sj.qq.com/myapp/searchAjax.htm?kw=QQ', 'case_method': 'GET', 'case_params': '', 'params_type': '', 'case_response_key': '', 'case_depend_key': '', 'case_expect': '{\"success\":true}', 'other': ''}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6adc8d0d1dc4aabf.json",
+  "parameterValues" : [ "{'case_id': 'case_3', 'case_model': 'SEARCHAPP', 'case_name': '搜索APP', 'case_run': 'aa', 'case_url': 'https://sj.qq.com/myapp/searchAjax.htm?kw=QQ', 'case_method': 'GET', 'case_params': '', 'params_type': '', 'case_response_key': '', 'case_depend_key': '', 'case_expect': '{\"success\":true}', 'other': ''}" ]
+}

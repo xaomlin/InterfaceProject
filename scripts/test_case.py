@@ -29,10 +29,13 @@ class Test_case(object):
         run = NotRunBeDependCase()
         run.not_run_be_depend_case() # 执行有被依赖但是不执行的用例
 
-    @pytest.mark.parametrize('case',GetData().get_request_data)
+    @pytest.mark.parametrize('case',ExcelHandler().get_all_excel_data)
     def test_case(self,case):
         case_model = case['case_model']
         case_params = case['case_params']
+        case_run = case['case_run']
+        if case_run.upper() != 'YES':
+            pytest.skip('不执行')
         if case_params != '':
             params = ReadYaml().get_yaml_param(case_model,case_params)# 读取yaml文件，获取请求参数
             if case['case_depend_key'] != '':#判断参数是否有依赖数据

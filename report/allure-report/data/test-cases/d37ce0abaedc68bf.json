@@ -1,0 +1,64 @@
+{
+  "uid" : "d37ce0abaedc68bf",
+  "name" : "test_case[case30]",
+  "fullName" : "scripts.test_case.Test_case#test_case",
+  "historyId" : "91f7db7227a16998c6bc5fc2dbf816e1",
+  "time" : {
+    "start" : 1613723562729,
+    "stop" : 1613723562807,
+    "duration" : 78
+  },
+  "status" : "broken",
+  "statusMessage" : "KeyError: 'getDetailInfo3:'",
+  "statusTrace" : "self = <scripts.test_case.Test_case object at 0x000001DC61CAD048>\ncase = {'case_depend_key': 'sid', 'case_expect': '{\"state\":{\"code\":0,\"msg\":\"操作成功\"}}', 'case_id': 'case_31', 'case_method': 'post', ...}\n\n    @pytest.mark.parametrize('case',ExcelHandler().get_all_excel_data)\n    def test_case(self,case):\n        case_model = case['case_model']\n        case_params = case['case_params']\n        case_run = case['case_run']\n        if case_run.upper() != 'YES':\n            pytest.skip()\n        if case_params != '':\n>           params = ReadYaml().get_yaml_param(case_model,case_params)# 读取yaml文件，获取请求参数\n\nscripts\\test_case.py:40: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <uti.ReadYaml.ReadYaml object at 0x000001DC61CA8A90>, object = 'HEXIAOYU'\nkey = 'getDetailInfo3:'\n\n    def get_yaml_param(self,object,key):\n        # print(self.datas[object][key])\n>       return self.datas[object][key]\nE       KeyError: 'getDetailInfo3:'\n\nuti\\ReadYaml.py:26: KeyError",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "scripts"
+  }, {
+    "name" : "suite",
+    "value" : "test_case"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_case"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-9O4PK0V"
+  }, {
+    "name" : "thread",
+    "value" : "16468-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "scripts.test_case"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case",
+    "value" : "{'case_id': 'case_31', 'case_model': 'HEXIAOYU', 'case_name': 'getDetailInfo', 'case_run': 'yes', 'case_url': 'https://app.nicebooker.com/parental/app/v1/userbaby/getDetailInfo', 'case_method': 'post', 'case_params': 'getDetailInfo3:', 'params_type': 'json', 'case_response_key': '', 'case_depend_key': 'sid', 'case_expect': '{\"state\":{\"code\":0,\"msg\":\"操作成功\"}}', 'other': ''}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "d37ce0abaedc68bf.json",
+  "parameterValues" : [ "{'case_id': 'case_31', 'case_model': 'HEXIAOYU', 'case_name': 'getDetailInfo', 'case_run': 'yes', 'case_url': 'https://app.nicebooker.com/parental/app/v1/userbaby/getDetailInfo', 'case_method': 'post', 'case_params': 'getDetailInfo3:', 'params_type': 'json', 'case_response_key': '', 'case_depend_key': 'sid', 'case_expect': '{\"state\":{\"code\":0,\"msg\":\"操作成功\"}}', 'other': ''}" ]
+}

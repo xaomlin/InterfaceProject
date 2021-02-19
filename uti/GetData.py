@@ -19,7 +19,7 @@ class GetData(object):
         :return: 执行的数据集，以列表的形式
         '''
         request_data = []
-        excel_data = self.excelhandler.get_all_excel_data()
+        excel_data = self.excelhandler.get_all_excel_data
         for i in range(len(excel_data)):
             is_run = excel_data[i].get('case_run').upper()
             if is_run == 'YES':

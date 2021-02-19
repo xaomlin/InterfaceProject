@@ -1,0 +1,83 @@
+{
+  "uid" : "b35fb3c14024409a",
+  "name" : "listTeacher",
+  "fullName" : "scripts.test_case.Test_case#test_case",
+  "historyId" : "51898d54a76c5f06550a9c4d049b136b",
+  "time" : {
+    "start" : 1613723560858,
+    "stop" : 1613723561470,
+    "duration" : 612
+  },
+  "description" : "<font color=\"red\">请求URL：</font>https://app.nicebooker.com/parental/app/v1/teacher/listTeacher<br /><font color=\"red\">期望值：</font>{\"state\":{\"code\":0,\"msg\":\"操作成功\"}}",
+  "descriptionHtml" : "<p><font color=\"red\">请求URL：</font>https://app.nicebooker.com/parental/app/v1/teacher/listTeacher<br /><font color=\"red\">期望值：</font>{&quot;state&quot;:{&quot;code&quot;:0,&quot;msg&quot;:&quot;操作成功&quot;}}</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "<font color=\"red\">请求URL：</font>https://app.nicebooker.com/parental/app/v1/teacher/listTeacher<br /><font color=\"red\">期望值：</font>{\"state\":{\"code\":0,\"msg\":\"操作成功\"}}",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "f5c9ac2dd51e5682",
+      "name" : "log",
+      "source" : "f5c9ac2dd51e5682.txt",
+      "type" : "text/plain",
+      "size" : 118
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "listTeacher"
+  }, {
+    "name" : "story",
+    "value" : "post"
+  }, {
+    "name" : "parentSuite",
+    "value" : "scripts"
+  }, {
+    "name" : "suite",
+    "value" : "test_case"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_case"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-9O4PK0V"
+  }, {
+    "name" : "thread",
+    "value" : "16468-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "scripts.test_case"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case",
+    "value" : "{'case_id': 'case_28', 'case_model': 'HEXIAOYU', 'case_name': 'listTeacher', 'case_run': 'yes', 'case_url': 'https://app.nicebooker.com/parental/app/v1/teacher/listTeacher', 'case_method': 'post', 'case_params': 'listTeacher', 'params_type': 'json', 'case_response_key': '', 'case_depend_key': 'sid', 'case_expect': '{\"state\":{\"code\":0,\"msg\":\"操作成功\"}}', 'other': ''}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b35fb3c14024409a.json",
+  "parameterValues" : [ "{'case_id': 'case_28', 'case_model': 'HEXIAOYU', 'case_name': 'listTeacher', 'case_run': 'yes', 'case_url': 'https://app.nicebooker.com/parental/app/v1/teacher/listTeacher', 'case_method': 'post', 'case_params': 'listTeacher', 'params_type': 'json', 'case_response_key': '', 'case_depend_key': 'sid', 'case_expect': '{\"state\":{\"code\":0,\"msg\":\"操作成功\"}}', 'other': ''}" ]
+}
