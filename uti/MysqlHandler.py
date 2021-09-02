@@ -11,11 +11,7 @@ class MysqlHandler(object):
         self.db = pymysql.connect(host='101.201.120.188',port=3306,user="root",passwd="root",db="depend_data",charset='utf8')
         # 所有的查询，都在连接 con 的一个模块 cursor 上面运行的
         self.cursor = self.db.cursor()
-        # 执行一个查询
-        # self.cursor.execute("SELECT VERSION()")
-        # 取得上个查询的结果，是单个结果
-        # data = self.cursor.fetchone()
-        # print ("Database version : %s " % data)
+
 
     def create_table(self,table):
         '''

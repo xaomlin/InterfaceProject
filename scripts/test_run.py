@@ -10,13 +10,14 @@ from uti.NotRunBeDpendCase import NotRunBeDependCase
 from uti.SaveRunBeDependValue import SaveRunBeDependValue
 from uti.GetParam import GetParam
 from uti.ReadYaml import ReadYaml
-from uti.GetData import GetData
+
 '''
 1. 获取测试数据
 2. 发请求
 3. 生成测试用例报告
 4. 断言
 '''
+
 
 class Test_case(object):
 
@@ -25,28 +26,28 @@ class Test_case(object):
         excelhandler = ExcelHandler()
         table = excelhandler.table_name()
         mysql = MysqlHandler()
-        mysql.create_table(table) #创建依赖数据表
+        mysql.create_table(table)  # 创建依赖数据表
         run = NotRunBeDependCase()
-        run.not_run_be_depend_case() # 执行有被依赖但是不执行的用例
+        run.not_run_be_depend_case()  # 执行有被依赖但是不执行的用例
 
-    @pytest.mark.parametrize('case',ExcelHandler().get_all_excel_data)
-    def test_case(self,case):
+    @pytest.mark.parametrize('case', ExcelHandler().get_all_excel_data)
+    def test_case(self, case):
         case_model = case['case_model']
         case_params = case['case_params']
         case_run = case['case_run']
         if case_run.upper() != 'YES':
             pytest.skip('不执行')
         if case_params != '':
-            params = ReadYaml().get_yaml_param(case_model,case_params)# 读取yaml文件，获取请求参数
-            if case['case_depend_key'] != '':#判断参数是否有依赖数据
-                param = GetParam().getparam(case['case_depend_key'],params) #读取数据依赖数据库，更换请求数据
-                case['case_params'] = param #请求参数赋值
-            else: #没有依赖数据
+            params = ReadYaml().get_yaml_param(case_model, case_params)  # 读取yaml文件，获取请求参数
+            if case['case_depend_key'] != '':  # 判断参数是否有依赖数据
+                param = GetParam().getparam(case['case_depend_key'], params)  # 读取数据依赖数据库，更换请求数据
+                case['case_params'] = param  # 请求参数赋值
+            else:  # 没有依赖数据
                 case['case_params'] = params
-        response,assert_value = RequestHandler(case).get_response #获取到响应数据和断言数据
-        if case['case_response_key'] != '': #判断响应数据是否有被依赖
+        response, assert_value = RequestHandler(case).get_response  # 获取到响应数据和断言数据
+        if case['case_response_key'] != '':  # 判断响应数据是否有被依赖
             savevalue = SaveRunBeDependValue()
-            savevalue.savedependvalue(case['case_response_key'],response)#把依赖的数据实时保存到数据库
+            savevalue.savedependvalue(case['case_response_key'], response)  # 把依赖的数据实时保存到数据库
         # 制作 allure 报告
         """  执行断言 """
         assert assert_value[0] == assert_value[1]

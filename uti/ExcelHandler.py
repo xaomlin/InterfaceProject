@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 # @Project : InterfaceProject
 '''
-
 关于Excel表的操作
 '''
 import xlrd
@@ -10,6 +9,7 @@ from openpyxl import load_workbook
 from uti.LoggerHandler import logger
 import os
 
+
 class ExcelHandler(object):
 
     def __init__(self):
@@ -17,7 +17,8 @@ class ExcelHandler(object):
         self.case_path = os.listdir(self.dir)  # 获取case文件夹下所有文件名，list输出
         self.file_name_list = conf.file_name.split(',')  # 输入的文件名，逗号分隔，list输出
 
-    def get_excel_data(self,file):
+    @classmethod
+    def get_excel_data(cls, file) -> list:
         # 获取到book对象
         book = xlrd.open_workbook(file)
         # 获取sheet对象
@@ -31,27 +32,19 @@ class ExcelHandler(object):
         return l
 
     @property
-    def get_all_excel_data(self):
+    def get_all_excel_data(self) ->list:
         '''获取所有excel数据'''
         allexceldata = []
         # 遍历所有输入文件名
         for file_name in self.file_name_list:
             file = file_name + '.xlsx'
             if file in self.case_path:
-                file_path = os.path.join(self.dir,file)
+                file_path = os.path.join(self.dir, file)
                 exceldata = self.get_excel_data(file_path)
-                # print(exceldata)
                 allexceldata.extend(exceldata)
             else:
                 logger().error('没有找到{}，请检查case文件夹及输入文件名,'.format(file))
         return allexceldata
-
-    # def get_sheet_name(self):
-    #     '''
-    #     获取sheet名字
-    #     '''
-    #     sheets = load_workbook(self.file_name_list).sheetnames
-    #     return sheets[0]
 
     def table_name(self):
         return self.file_name_list[0]
@@ -59,7 +52,7 @@ class ExcelHandler(object):
 
 if __name__ == '__main__':
     e = ExcelHandler()
-    # e.get_all_excel_data()
+    print(e.get_all_excel_data)
     print(e.table_name())
     # print(e.get_request_data())
     # e.get_sheet_name()

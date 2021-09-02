@@ -5,9 +5,15 @@ from uti.MysqlHandler import MysqlHandler
 from uti.ExcelHandler import ExcelHandler
 
 import re
+
+
 class GetParam(object):
-    '''获取运行前的参数'''
-    def getparam(self,case_depend_key,param):
+
+    '''
+    获取运行前的参数
+    '''
+
+    def getparam(self, case_depend_key, param) ->str:
         excelhandler = ExcelHandler()
         table = excelhandler.table_name()
         mysql = MysqlHandler()
@@ -18,5 +24,6 @@ class GetParam(object):
         param = str(param)
         # print(pattern,repl,param)
         value = re.sub(pattern, repl, param, count=1, flags=re.IGNORECASE)
+        # 将json字符串解析成为JSON对象
         param = eval(value)
         return param
